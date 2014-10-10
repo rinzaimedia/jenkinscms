@@ -43,6 +43,8 @@ class Page extends CI_Controller {
         if($page != false)
         {
 
+            echo $page;
+
             //$query = $this->db->query("select * from pages where pageurl = '".$page."'");
 
             $results['pagedata'] = $this->page_model->getPage($page);
@@ -65,7 +67,7 @@ class Page extends CI_Controller {
         $results['user'] = $this->sites_model->getUser();
         //var_dump($results);// die();
 
-        var_dump($results['user']);die();
+        //var_dump($results['user']);die();
 
         $results['weather'] = json_decode($this->sites_model->getWeather($results['results'][0]['city'], $results['results'][0]['statecountry']), TRUE);
 
