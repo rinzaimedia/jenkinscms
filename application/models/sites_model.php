@@ -126,9 +126,9 @@ class Sites_model extends CI_Model {
 
     public function getUser()
     {
-        $url = "http://wmsapi/user/1";
+        //$url = "http://wmsapi/user/1";
 
-        return file_get_contents($url);
+        //return file_get_contents($url);
     }
 
     public function getMessages()
