@@ -47,7 +47,7 @@
       <file leaf-file-name="page.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="8" selection-start="2128" selection-end="2128" vertical-scroll-proportion="0.21985815" vertical-offset="867" max-vertical-offset="1410">
+            <state line="29" column="8" selection-start="968" selection-end="968" vertical-scroll-proportion="0.32624114" vertical-offset="297" max-vertical-offset="1410">
               <folding />
             </state>
           </provider>
@@ -403,7 +403,11 @@
       <created>1412919917530</created>
       <updated>1412919917530</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="changes to sites page">
+      <created>1412920018647</created>
+      <updated>1412920018647</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -805,7 +809,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="8" selection-start="2128" selection-end="2128" vertical-scroll-proportion="0.21985815" vertical-offset="867" max-vertical-offset="1410">
+        <state line="29" column="8" selection-start="968" selection-end="968" vertical-scroll-proportion="0.32624114" vertical-offset="297" max-vertical-offset="1410">
           <folding />
         </state>
       </provider>
