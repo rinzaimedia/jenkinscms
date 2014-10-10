@@ -22,7 +22,9 @@ class Page extends CI_Controller {
 
         if($page != false)
         {
-            var_dump($_SESSION);
+
+            $results['pagedata'] = $this->page_model->getPage($page);
+            //var_dump($_SESSION);
         }
 
         $this->load->view('includes/header');
@@ -43,7 +45,7 @@ class Page extends CI_Controller {
         if($page != false)
         {
 
-            echo $page;
+
 
             //$query = $this->db->query("select * from pages where pageurl = '".$page."'");
 
