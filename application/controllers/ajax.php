@@ -1,0 +1,84 @@
+<?php
+
+class Ajax extends CI_Controller
+{
+    public function updateCSS($data)
+    {
+        $css = array('css' => $data['css']);
+
+        $this -> db -> where('id', 1);
+        $this -> db -> update('settings', $css);
+
+        return true;
+    }
+
+    public function updatepage($data)
+    {
+
+        $data = $this->input->post();
+
+        $this->load->model('page_model');
+
+        $this->page_model->updatePage($data);
+    }
+
+    public function insertPage($data)
+    {
+
+    }
+
+    public function addSalesContent($data)
+    {
+
+        $data = $this->input->post();
+
+        $time = time();
+
+        move_uploaded_file($_FILES['salesimage']['tmp_name'], APPPATH."/assets/uploads/".$time."".$_FILES['salesimage']['type']);
+
+        //$data['image'] = APPPATH."../assets/uploads/".$time.".".$data['salesimage']['type'];
+
+        $this->load->model('sales_model');
+
+        $this->sales_model->addSalesContent($data);
+
+    }
+
+    public function deleteSalesContent()
+    {
+        $data = $this->input-post();
+
+        $this->load->model('sales_model');
+
+        $this->sales_model->deleteSalesContent($data);
+    }
+
+    public function updatesettings($data)
+    {
+
+        $data = $this->input->post();
+
+        $this->load->model('sites_model');
+
+        $this->sites_model->updateSiteSettings($data);
+
+        echo "Updated";
+
+    }
+
+    public function getmortgagerate($data)
+    {
+        $data = $this->input->post();
+    }
+
+    public function addToNewsletter($data)
+    {
+        $data = $this->input->post();
+
+        $this->load->model('sites_model');
+
+        $this->sites_model->addToNewsletter($data);
+
+        return true;
+    }
+}
