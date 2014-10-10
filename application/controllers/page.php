@@ -56,41 +56,30 @@ class Page extends CI_Controller {
 
         $this->load->model(array('page_model','sites_model', 'sales_model'));
 
+        $this->load->helper('url');
+
+        //$query = $this->db->query("select * from settings where id = '1'");
+
         $results['results'] = $this->sites_model->getSettings();
 
+        //$results['pages'] = $this->page_model->getPages();
 
-        $results['settings'] = $this->sites_model->getMainImages();
+        $results['sales'] = $this->sales_model->getSalesContent();
+
+        $results['links'] = $this->sites_model->getLinks();
+
+        $results['home'] = $this->sites_model->getHomeContent();
+
+        $results['rss'] = json_decode($this->sites_model->getRSS("http://feeds.feedburner.com/dailyrealestatenews"), TRUE);
+
+        $results['weather'] = json_decode($this->sites_model->getWeather($results['results'][0]['city'], $results['results'][0]['statecountry']), TRUE);
 
         if($page != false)
         {
 
-
-
-            //$query = $this->db->query("select * from pages where pageurl = '".$page."'");
-
             $results['pagedata'] = $this->page_model->getPage($page);
-            /*if(!empty($checkresult))
-            {
-                $results['pagedata'] = $checkresult;
-            }
-            else
-            {
-                $results['pagedata'] = '404 Not Found';
-            }*/
-
-
+            //var_dump($_SESSION);
         }
-
-        $results['pages'] = $this->page_model->getPages();
-
-        $results['sales'] = $this->sales_model->getSalesContent();
-
-        $results['user'] = $this->sites_model->getUser();
-        //var_dump($results);// die();
-
-        //var_dump($results['user']);die();
-
-        $results['weather'] = json_decode($this->sites_model->getWeather($results['results'][0]['city'], $results['results'][0]['statecountry']), TRUE);
 
         $this->load->view('includes/header', $results);
         $this->load->view('page', $results);
