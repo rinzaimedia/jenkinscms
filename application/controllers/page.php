@@ -62,7 +62,7 @@ class Page extends CI_Controller {
 
         $results['results'] = $this->sites_model->getSettings();
 
-        //$results['pages'] = $this->page_model->getPages();
+        $results['pages'] = $this->page_model->getPages();
 
         $results['sales'] = $this->sales_model->getSalesContent();
 
