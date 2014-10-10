@@ -27,9 +27,9 @@ class Page extends CI_Controller {
             //var_dump($_SESSION);
         }
 
-        $this->load->view('includes/header');
-        $this->load->view('welcome_message');
-        $this->load->view('includes/footer');
+        $this->load->view('includes/header', $results);
+        $this->load->view('page', $results);
+        $this->load->view('includes/footer', $results);
     }
 
     public function info($page=false)
