@@ -11,7 +11,7 @@
                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
                 Welcome to Jenkins Admin! This new layout will hopefully make site deployments that much faster. On a side note, Shu likes candy!
             </div>
-            <form class="form-horizontal" role="form">
+            <form class="form-horizontal" role="form" id="salesform">
 
                 <div class="form-group">
                     <div class="row">
@@ -31,6 +31,7 @@
                         <div class="col-sm-8">
                             <input type="file" id="image">
                             <p class="help-block">Upload PNG, JPG or GIF.</p>
+                            <input type="hidden" name="saledid" value="<?php echo $salesitem[0]['salesid'];?>" />
                         </div>
                     </div>
                 <div class="row">
@@ -44,4 +45,30 @@
         </form>
         </div>
     </div>
+<script>$("#salesform").submit(function(e) {
 
+        var url = "/ajax/updatesalescontent"; // the script where you handle the form input.
+
+        $.ajax({
+            type: "POST",
+            url: url,
+            data: $("#salesform").serialize(), // serializes the form's elements.
+            success: function(data)
+            {
+
+                $('#result').html('<div class="alert alert-success alert-dismissable"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Page updated. Everyone, Shu loves bacon!</div>');
+
+            },
+            error: function(data)
+            {
+                $('#result').html('<div class="alert alert-success alert-dismissable"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Page updated. Everyone, Shu loves bacon!</div>');
+
+                $('#error').html('<div class="alert alert-danger alert-dismissable"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Settings failed to update. Try again. On a side note, Shu loves explosions!</div>');
+
+            }
+        });
+
+        return false;
+        e.preventDefault();
+    });
+</script>
