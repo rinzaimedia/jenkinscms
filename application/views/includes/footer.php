@@ -167,7 +167,7 @@
             </a>
         <?php endif;?>
 
-        <div class="pull-right" style="font-size: 12px; top: 5px;">Page developed by Ironhead Services LLC</div>
+        <div class="pull-right" style="font-size: 12px; top: 15px;">Page developed by Ironhead Services LLC</div>
     </div>
 </div>
 
