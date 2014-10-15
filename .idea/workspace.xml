@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aa9b466-073b-4346-a2c4-4a0812afda2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/ajax.php" afterPath="$PROJECT_DIR$/application/controllers/ajax.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/page_model.php" afterPath="$PROJECT_DIR$/application/models/page_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/sales_model.php" afterPath="$PROJECT_DIR$/application/models/sales_model.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/salescontentitem.php" afterPath="$PROJECT_DIR$/application/views/admin/salescontentitem.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -27,15 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="welcome_message.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/welcome_message.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="35" selection-start="6658" selection-end="6658" vertical-scroll-proportion="-87.5" vertical-offset="0" max-vertical-offset="2625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="welcome.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -66,7 +58,7 @@
       <file leaf-file-name="salescontentitem.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/admin/salescontentitem.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="26" selection-start="2319" selection-end="2319" vertical-scroll-proportion="0.28368795" vertical-offset="435" max-vertical-offset="1245">
+            <state line="35" column="73" selection-start="2208" selection-end="2208" vertical-scroll-proportion="0.24822696" vertical-offset="420" max-vertical-offset="1245">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -78,10 +70,10 @@
       <file leaf-file-name="sales_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/sales_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="136" selection-start="1078" selection-end="1078" vertical-scroll-proportion="-15.75" vertical-offset="207" max-vertical-offset="720">
+            <state line="39" column="52" selection-start="994" selection-end="994" vertical-scroll-proportion="-11.375" vertical-offset="312" max-vertical-offset="765">
               <folding>
-                <marker date="1413335651000" expanded="true" signature="254:299" placeholder="select * fro..salescontent..." />
-                <marker date="1413335651000" expanded="true" signature="975:1037" placeholder="update sales..." />
+                <marker date="1413354771000" expanded="true" signature="254:299" placeholder="select * fro..salescontent..." />
+                <marker date="1413354771000" expanded="true" signature="975:1069" placeholder="update sales..." />
               </folding>
             </state>
           </provider>
@@ -90,7 +82,7 @@
       <file leaf-file-name="page.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/admin/page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="12" selection-start="560" selection-end="583" vertical-scroll-proportion="1.25" vertical-offset="165" max-vertical-offset="2820">
+            <state line="9" column="12" selection-start="560" selection-end="583" vertical-scroll-proportion="14.375" vertical-offset="480" max-vertical-offset="2820">
               <folding />
             </state>
           </provider>
@@ -108,7 +100,7 @@
       <file leaf-file-name="ajax.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="8" selection-start="602" selection-end="602" vertical-scroll-proportion="11.208333" vertical-offset="809" max-vertical-offset="1515">
+            <state line="46" column="32" selection-start="957" selection-end="957" vertical-scroll-proportion="-26.875" vertical-offset="45" max-vertical-offset="1515">
               <folding />
             </state>
           </provider>
@@ -117,9 +109,9 @@
       <file leaf-file-name="page_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/page_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="94" selection-start="1230" selection-end="1230" vertical-scroll-proportion="-19.833334" vertical-offset="229" max-vertical-offset="840">
+            <state line="42" column="72" selection-start="1116" selection-end="1116" vertical-scroll-proportion="-8.875" vertical-offset="417" max-vertical-offset="840">
               <folding>
-                <marker date="1400692494000" expanded="true" signature="197:234" placeholder="select * fro..pages..." />
+                <marker date="1413355480000" expanded="true" signature="197:234" placeholder="select * fro..pages..." />
               </folding>
             </state>
           </provider>
@@ -155,7 +147,6 @@
         <option value="$PROJECT_DIR$/application/views/admin/pages.php" />
         <option value="$PROJECT_DIR$/application/views/admin/addpage.php" />
         <option value="$PROJECT_DIR$/application/controllers/manage.php" />
-        <option value="$PROJECT_DIR$/application/models/page_model.php" />
         <option value="$PROJECT_DIR$/application/views/admin/addsalescontent.php" />
         <option value="$PROJECT_DIR$/application/views/admin/salescontentlist.php" />
         <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
@@ -167,9 +158,10 @@
         <option value="$PROJECT_DIR$/application/models/sites_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/page.php" />
         <option value="$PROJECT_DIR$/application/views/admin/footer.php" />
-        <option value="$PROJECT_DIR$/application/models/sales_model.php" />
         <option value="$PROJECT_DIR$/application/views/admin/page.php" />
         <option value="$PROJECT_DIR$/application/controllers/ajax.php" />
+        <option value="$PROJECT_DIR$/application/models/sales_model.php" />
+        <option value="$PROJECT_DIR$/application/models/page_model.php" />
         <option value="$PROJECT_DIR$/application/views/admin/salescontentitem.php" />
       </list>
     </option>
@@ -461,7 +453,11 @@
       <created>1413336464681</created>
       <updated>1413336464681</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="changes to sales content">
+      <created>1413336955315</created>
+      <updated>1413336955315</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -767,16 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/sales_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="136" selection-start="1078" selection-end="1078" vertical-scroll-proportion="-15.75" vertical-offset="207" max-vertical-offset="720">
-          <folding>
-            <marker date="1413335651000" expanded="true" signature="254:299" placeholder="select * fro..salescontent..." />
-            <marker date="1413335651000" expanded="true" signature="975:1037" placeholder="update sales..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/addsalescontent.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="7" selection-start="2250" selection-end="2273" vertical-scroll-proportion="-1.1666666" vertical-offset="662" max-vertical-offset="1215">
@@ -791,32 +777,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/page_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="94" selection-start="1230" selection-end="1230" vertical-scroll-proportion="-19.833334" vertical-offset="229" max-vertical-offset="840">
-          <folding>
-            <marker date="1400692494000" expanded="true" signature="197:234" placeholder="select * fro..pages..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="12" selection-start="560" selection-end="583" vertical-scroll-proportion="1.25" vertical-offset="165" max-vertical-offset="2820">
+        <state line="9" column="12" selection-start="560" selection-end="583" vertical-scroll-proportion="14.375" vertical-offset="480" max-vertical-offset="2820">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="8" selection-start="602" selection-end="602" vertical-scroll-proportion="11.208333" vertical-offset="809" max-vertical-offset="1515">
+        <state line="46" column="32" selection-start="957" selection-end="957" vertical-scroll-proportion="-26.875" vertical-offset="45" max-vertical-offset="1515">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/sales_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="52" selection-start="994" selection-end="994" vertical-scroll-proportion="-11.375" vertical-offset="312" max-vertical-offset="765">
+          <folding>
+            <marker date="1413354771000" expanded="true" signature="254:299" placeholder="select * fro..salescontent..." />
+            <marker date="1413354771000" expanded="true" signature="975:1069" placeholder="update sales..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/page_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="72" selection-start="1116" selection-end="1116" vertical-scroll-proportion="-8.875" vertical-offset="417" max-vertical-offset="840">
+          <folding>
+            <marker date="1413355480000" expanded="true" signature="197:234" placeholder="select * fro..pages..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/salescontentitem.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="26" selection-start="2319" selection-end="2319" vertical-scroll-proportion="0.28368795" vertical-offset="435" max-vertical-offset="1245">
+        <state line="35" column="73" selection-start="2208" selection-end="2208" vertical-scroll-proportion="0.24822696" vertical-offset="420" max-vertical-offset="1245">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />

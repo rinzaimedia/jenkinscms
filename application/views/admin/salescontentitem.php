@@ -33,7 +33,7 @@
                         <div class="col-sm-8">
 
                             <p class="help-block">Upload PNG, JPG or GIF.</p>
-                            <input type="hidden" name="saledid" id="saledid" value="<?php echo $salesitem[0]['salesid'];?>" />
+                            <input type="hidden" name="saledid" id="salesid" value="<?php echo $salesitem[0]['salesid'];?>" />
                         </div>
                     </div>
                 <div class="row">

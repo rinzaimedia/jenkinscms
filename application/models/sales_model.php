@@ -37,7 +37,10 @@ class Sales_Model extends CI_Model
 
     public function updateSalesContent($data)
     {
-        $this->db->simple_query("update salescontent set salestitle = '".$data['salestitle']."', salescontent = '".$data['salescontent']."' where salesid = '".$data['salesid']."'");
+        $this->db->simple_query("update salescontent
+                                set salestitle = '".$data['salestitle']."',
+                                salescontent = '".$data['salescontent']."'
+                                where salesid = '".$data['salesid']."'");
     }
 
 }
