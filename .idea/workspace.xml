@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aa9b466-073b-4346-a2c4-4a0812afda2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/page_model.php" afterPath="$PROJECT_DIR$/application/models/page_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/sales_model.php" afterPath="$PROJECT_DIR$/application/models/sales_model.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/salescontentitem.php" afterPath="$PROJECT_DIR$/application/views/admin/salescontentitem.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -58,7 +56,7 @@
       <file leaf-file-name="salescontentitem.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/admin/salescontentitem.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="73" selection-start="2208" selection-end="2208" vertical-scroll-proportion="0.24822696" vertical-offset="420" max-vertical-offset="1245">
+            <state line="35" column="60" selection-start="2195" selection-end="2195" vertical-scroll-proportion="0.4326241" vertical-offset="342" max-vertical-offset="1230">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -457,7 +455,11 @@
       <created>1413336955315</created>
       <updated>1413336955315</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="changes to sales content">
+      <created>1413355604374</created>
+      <updated>1413355604374</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -812,7 +814,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/salescontentitem.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="73" selection-start="2208" selection-end="2208" vertical-scroll-proportion="0.24822696" vertical-offset="420" max-vertical-offset="1245">
+        <state line="35" column="60" selection-start="2195" selection-end="2195" vertical-scroll-proportion="0.4326241" vertical-offset="342" max-vertical-offset="1230">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />

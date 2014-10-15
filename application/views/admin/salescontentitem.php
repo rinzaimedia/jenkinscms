@@ -33,7 +33,7 @@
                         <div class="col-sm-8">
 
                             <p class="help-block">Upload PNG, JPG or GIF.</p>
-                            <input type="hidden" name="saledid" id="salesid" value="<?php echo $salesitem[0]['salesid'];?>" />
+                            <input type="hidden" name="salesid" id="salesid" value="<?php echo $salesitem[0]['salesid'];?>" />
                         </div>
                     </div>
                 <div class="row">
@@ -64,7 +64,6 @@
             },
             error: function(data)
             {
-                $('#result').html('<div class="alert alert-success alert-dismissable"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Page updated. Everyone, Shu loves bacon!</div>');
 
                 $('#error').html('<div class="alert alert-danger alert-dismissable"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Settings failed to update. Try again. On a side note, Shu loves explosions!</div>');
 
