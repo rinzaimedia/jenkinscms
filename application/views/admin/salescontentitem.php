@@ -7,7 +7,8 @@
                 <li class="inactive"><i class="fa fa-font"></i> <a href="/manage/salescontent">Sales Content</a></li>
                 <li class="active"><i class="fa fa-pencil"></i> <?php echo $salesitem[0]['salestitle'];?></li>
             </ol>
-            <div id="result"></div><div id="error"></div>
+            <div id="result"></div>
+            <div id="error"></div>
             <div class="alert alert-success alert-dismissable">
                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
                 Welcome to Jenkins Admin! This new layout will hopefully make site deployments that much faster. On a side note, Shu likes candy!
@@ -32,7 +33,7 @@
                         <div class="col-sm-8">
 
                             <p class="help-block">Upload PNG, JPG or GIF.</p>
-                            <input type="hidden" name="saledid" value="<?php echo $salesitem[0]['salesid'];?>" />
+                            <input type="hidden" name="saledid" id="saledid" value="<?php echo $salesitem[0]['salesid'];?>" />
                         </div>
                     </div>
                 <div class="row">

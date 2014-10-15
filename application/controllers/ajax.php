@@ -44,7 +44,7 @@ class Ajax extends CI_Controller
 
     }
 
-    public function updateSalesContent($data)
+    public function updateSalesContent()
     {
 
         $data = $this->input->post();
@@ -58,7 +58,7 @@ class Ajax extends CI_Controller
 
     public function deleteSalesContent()
     {
-        $data = $this->input-post();
+        $data = $this->input->post();
 
         $this->load->model('sales_model');
 
