@@ -45,7 +45,8 @@
         </form>
         </div>
     </div>
-<script>$("#salesform").submit(function(e) {
+<script type="text/javascript">
+    $("#salesform").submit(function(e) {
 
         var url = "/ajax/updatesalescontent"; // the script where you handle the form input.
 
