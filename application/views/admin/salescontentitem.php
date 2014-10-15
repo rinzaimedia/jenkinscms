@@ -23,13 +23,13 @@
                     <div class="row">
                         <label class="col-sm-2 control-label">Content:</label>
                         <div class="col-sm-8">
-                            <input type="text" class="form-control" id="salescontent" name="content" placeholder="Content" value="<?php echo $salesitem[0]['salescontent'];?>" />
+                            <input type="text" class="form-control" id="salescontent" name="salescontent" placeholder="Content" value="<?php echo $salesitem[0]['salescontent'];?>" />
                         </div>
                     </div>
                     <div class="row">
                         <label class="col-sm-2 control-label">Image:</label>
                         <div class="col-sm-8">
-                            <input type="file" id="image">
+
                             <p class="help-block">Upload PNG, JPG or GIF.</p>
                             <input type="hidden" name="saledid" value="<?php echo $salesitem[0]['salesid'];?>" />
                         </div>

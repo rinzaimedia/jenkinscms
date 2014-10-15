@@ -65,7 +65,7 @@
       <file leaf-file-name="salescontentitem.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/admin/salescontentitem.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="30" selection-start="2678" selection-end="2678" vertical-scroll-proportion="0.28368795" vertical-offset="585" max-vertical-offset="1215">
+            <state line="25" column="104" selection-start="1686" selection-end="1686" vertical-scroll-proportion="0.35460994" vertical-offset="225" max-vertical-offset="1215">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -433,7 +433,11 @@
       <created>1413335852093</created>
       <updated>1413335852093</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="changes to sales content">
+      <created>1413336030362</created>
+      <updated>1413336030362</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -788,7 +792,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/salescontentitem.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="30" selection-start="2678" selection-end="2678" vertical-scroll-proportion="0.28368795" vertical-offset="585" max-vertical-offset="1215">
+        <state line="25" column="104" selection-start="1686" selection-end="1686" vertical-scroll-proportion="0.35460994" vertical-offset="225" max-vertical-offset="1215">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
