@@ -279,6 +279,8 @@
                             <select name="industry" class="form-control" id="industry">
                                 <option value="real-estate"<?php if($settings[0]['industry'] == 'real-estate' ){ echo ' selected="selected"'; }?> >Real Estate</option>
                                 <option value="mlm"<?php if($settings[0]['industry'] == 'mlm' ){ echo ' selected="selected"'; }?> >MLM</option>
+                                <option value="services"<?php if($settings[0]['industry'] == 'services' ){ echo ' selected="selected"'; }?> >Services</option>
+                                <option value="ecommerce"<?php if($settings[0]['industry'] == 'ecommerce' ){ echo ' selected="selected"'; }?> >eCommerce</option>
                             </select>
                         </div>
                     </div>
