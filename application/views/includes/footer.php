@@ -166,10 +166,8 @@
         <?php if($results[0]['linkedin'] != ''):?>
             </a>
         <?php endif;?>
-        <a href="http://validator.w3.org/check?uri=<?php echo base_url();?>&charset=%28detect+automatically%29&doctype=Inline&group=0">
-            <i class="fa fa-html5 fa-2x"></i>
-        </a>
-        <div class="pull-right" style="font-size: 12px;">Page rendered in <strong>{elapsed_time}</strong> seconds</div>
+
+        <div class="pull-right" style="font-size: 12px;">Page developed by Ironhead Services LLC</div>
     </div>
 </div>
 
