@@ -135,9 +135,9 @@
         <a href="#" rel="nofollow">Terms and Condition</a> | <a href="#" rel="nofollow">Privacy Policy</a>
         <?php if($results[0]['facebookpersonal'] != ''):?>
             <a href="<?php echo $results[0]['facebookpersonal'];?>">
-        <?php endif; ?>
+
                 <i class="fa fa-facebook-square fa-2x"></i>
-        <?php if($results[0]['facebookpersonal'] != ''):?>
+
             </a>
         <?php endif;?>
         <?php if($results[0]['facebookpage'] != ''):?>
@@ -147,23 +147,23 @@
         <?php endif;?>
         <?php if($results[0]['twitter'] != ''):?>
             <a href="<?php echo $results[0]['twitter'];?>">
-        <?php endif; ?>
+
                 <i class="fa fa-twitter-square fa-2x"></i>
-        <?php if($results[0]['twitter'] != ''):?>
+
             </a>
         <?php endif;?>
         <?php if($results[0]['googleplus'] != ''):?>
             <a href="<?php echo $results[0]['googleplus'];?>">
-        <?php endif; ?>
+       
                 <i class="fa fa-google-plus-square fa-2x"></i>
-        <?php if($results[0]['googleplus'] != ''):?>
+
             </a>
         <?php endif;?>
         <?php if($results[0]['linkedin'] != ''):?>
             <a href="<?php echo $results[0]['linkedin'];?>">
-        <?php endif; ?>
+
                 <i class="fa fa-linkedin-square fa-2x"></i>
-        <?php if($results[0]['linkedin'] != ''):?>
+
             </a>
         <?php endif;?>
 

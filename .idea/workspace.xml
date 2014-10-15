@@ -38,8 +38,10 @@
       <file leaf-file-name="footer.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/includes/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="169" column="62" selection-start="8249" selection-end="8249" vertical-scroll-proportion="2.2056737" vertical-offset="1602" max-vertical-offset="3660">
-              <folding />
+            <state line="156" column="7" selection-start="7573" selection-end="7573" vertical-scroll-proportion="0.3617021" vertical-offset="2187" max-vertical-offset="3660">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -504,7 +506,11 @@
       <created>1413356168963</created>
       <updated>1413356168963</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="changes to sales content">
+      <created>1413356268897</created>
+      <updated>1413356268897</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -864,8 +870,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/includes/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="169" column="62" selection-start="8249" selection-end="8249" vertical-scroll-proportion="2.2056737" vertical-offset="1602" max-vertical-offset="3660">
-          <folding />
+        <state line="156" column="7" selection-start="7573" selection-end="7573" vertical-scroll-proportion="0.3617021" vertical-offset="2187" max-vertical-offset="3660">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
