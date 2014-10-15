@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aa9b466-073b-4346-a2c4-4a0812afda2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/settings.php" afterPath="$PROJECT_DIR$/application/views/admin/settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/includes/footer.php" afterPath="$PROJECT_DIR$/application/views/includes/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jenkins.iws" />
@@ -31,6 +31,17 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="29" column="8" selection-start="910" selection-end="960" vertical-scroll-proportion="-5.75" vertical-offset="297" max-vertical-offset="810">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/includes/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="169" column="65" selection-start="8252" selection-end="8252" vertical-scroll-proportion="0.6099291" vertical-offset="2277" max-vertical-offset="3660">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="settings.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/admin/settings.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="281" column="149" selection-start="27428" selection-end="27428" vertical-scroll-proportion="0.3324937" vertical-offset="4083" max-vertical-offset="5880">
+            <state line="281" column="149" selection-start="27428" selection-end="27428" vertical-scroll-proportion="-2.64" vertical-offset="4083" max-vertical-offset="5880">
               <folding />
             </state>
           </provider>
@@ -113,17 +124,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page_model.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/page_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="72" selection-start="1116" selection-end="1116" vertical-scroll-proportion="-8.875" vertical-offset="417" max-vertical-offset="840">
-              <folding>
-                <marker date="1413355480000" expanded="true" signature="197:234" placeholder="select * fro..pages..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -158,7 +158,6 @@
         <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
         <option value="$PROJECT_DIR$/application/views/includes/header.php" />
         <option value="$PROJECT_DIR$/application/views/welcome_message.php" />
-        <option value="$PROJECT_DIR$/application/views/includes/footer.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/application/controllers/login.php" />
         <option value="$PROJECT_DIR$/application/models/sites_model.php" />
@@ -170,6 +169,7 @@
         <option value="$PROJECT_DIR$/application/models/page_model.php" />
         <option value="$PROJECT_DIR$/application/views/admin/salescontentitem.php" />
         <option value="$PROJECT_DIR$/application/views/admin/settings.php" />
+        <option value="$PROJECT_DIR$/application/views/includes/footer.php" />
       </list>
     </option>
   </component>
@@ -253,6 +253,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jenkins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jenkins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -472,7 +494,15 @@
       <created>1413355748962</created>
       <updated>1413355748962</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="changes to sales content">
+      <created>1413355996927</created>
+      <updated>1413355996927</updated>
+    </task>
+    <task id="LOCAL-00023" summary="changes to sales content">
+      <created>1413356111562</created>
+      <updated>1413356111562</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -691,13 +721,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="760" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/includes/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="71" selection-start="4414" selection-end="4414" vertical-scroll-proportion="0.0" vertical-offset="792" max-vertical-offset="3690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="36" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
@@ -815,7 +838,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="72" selection-start="1116" selection-end="1116" vertical-scroll-proportion="-8.875" vertical-offset="417" max-vertical-offset="840">
           <folding>
-            <marker date="1413355480000" expanded="true" signature="197:234" placeholder="select * fro..pages..." />
+            <marker date="1413355480000" expanded="true" signature="-1:-1" placeholder="select * fro..pages..." />
           </folding>
         </state>
       </provider>
@@ -832,8 +855,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/settings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="281" column="149" selection-start="27428" selection-end="27428" vertical-scroll-proportion="0.3324937" vertical-offset="4083" max-vertical-offset="5880">
+        <state line="281" column="149" selection-start="27428" selection-end="27428" vertical-scroll-proportion="-2.64" vertical-offset="4083" max-vertical-offset="5880">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/includes/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="169" column="65" selection-start="8252" selection-end="8252" vertical-scroll-proportion="0.6099291" vertical-offset="2277" max-vertical-offset="3660">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
