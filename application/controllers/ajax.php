@@ -44,12 +44,12 @@ class Ajax extends CI_Controller
 
     }
 
-    public function updatesalescontent($data)
+    public function updateSalesContent($data)
     {
 
         $data = $this->input->post();
 
-        $time = time();
+        //$time = time();
 
         $this->load->model('sales_model');
 
