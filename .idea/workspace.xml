@@ -55,9 +55,9 @@
       <file leaf-file-name="page_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/page_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="75" selection-start="994" selection-end="994" vertical-scroll-proportion="0.61422086" vertical-offset="209" max-vertical-offset="870">
+            <state line="41" column="74" selection-start="993" selection-end="993" vertical-scroll-proportion="0.61422086" vertical-offset="209" max-vertical-offset="870">
               <folding>
-                <marker date="1414561000000" expanded="true" signature="197:234" placeholder="select * fro..pages..." />
+                <marker date="1414561038000" expanded="true" signature="197:234" placeholder="select * fro..pages..." />
               </folding>
             </state>
           </provider>
@@ -886,9 +886,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/page_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="75" selection-start="994" selection-end="994" vertical-scroll-proportion="0.61422086" vertical-offset="209" max-vertical-offset="870">
+        <state line="41" column="74" selection-start="993" selection-end="993" vertical-scroll-proportion="0.61422086" vertical-offset="209" max-vertical-offset="870">
           <folding>
-            <marker date="1414561000000" expanded="true" signature="197:234" placeholder="select * fro..pages..." />
+            <marker date="1414561038000" expanded="true" signature="197:234" placeholder="select * fro..pages..." />
           </folding>
         </state>
       </provider>
