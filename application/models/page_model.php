@@ -39,7 +39,7 @@ class Page_Model extends CI_Model
         $this->db->simple_query("update pages
                                     set pagetitle = '".$data['pagetitle']."',
                                     pageurl = '".str_replace(" ", "-",$data['pageurl'])."',
-                                    pagecontent = '".str_replace("'", "\'",str_replace("\n", "<br />",$data['editor']))."',
+                                    pagecontent = '".preg_replace("/'/", "\&#39;",str_replace("\n", "<br />",$data['editor']))."',
                                     visible = '".$data['visible']."'
                                     where
                                     pageid = '".$data['pageid']."'");
