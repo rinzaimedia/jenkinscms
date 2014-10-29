@@ -12,7 +12,7 @@ class Ajax extends CI_Controller
         return true;
     }
 
-    public function updatepage($data)
+    public function updatePage()
     {
 
         $data = $this->input->post();
@@ -23,7 +23,7 @@ class Ajax extends CI_Controller
 
     }
 
-    public function insertPage($data)
+    public function insertPage()
     {
         $data = $this->input->post();
 

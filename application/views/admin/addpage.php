@@ -154,7 +154,7 @@
 
     $("#pagesform").submit(function(e) {
 
-        var url = "/ajax/updatepage"; // the script where you handle the form input.
+        var url = "/ajax/addpage"; // the script where you handle the form input.
 
         $.ajax({
             type: "POST",
