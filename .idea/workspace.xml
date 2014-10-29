@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aa9b466-073b-4346-a2c4-4a0812afda2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/addpage.php" afterPath="$PROJECT_DIR$/application/views/admin/addpage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/ajax.php" afterPath="$PROJECT_DIR$/application/controllers/ajax.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/page.php" afterPath="$PROJECT_DIR$/application/views/admin/page.php" />
     </list>
     <ignored path="jenkins.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,7 +89,7 @@
       <file leaf-file-name="page.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/admin/page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="41" selection-start="7948" selection-end="7948" vertical-scroll-proportion="-0.9515885" vertical-offset="2159" max-vertical-offset="2820">
+            <state line="142" column="7" selection-start="9611" selection-end="9611" vertical-scroll-proportion="0.9546142" vertical-offset="1499" max-vertical-offset="2835">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -150,10 +149,10 @@
         <option value="$PROJECT_DIR$/application/views/admin/settings.php" />
         <option value="$PROJECT_DIR$/application/views/includes/footer.php" />
         <option value="$PROJECT_DIR$/application/views/reactive/welcome_message.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/page.php" />
         <option value="$PROJECT_DIR$/application/models/page_model.php" />
         <option value="$PROJECT_DIR$/application/views/admin/addpage.php" />
         <option value="$PROJECT_DIR$/application/controllers/ajax.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/page.php" />
       </list>
     </option>
   </component>
@@ -887,7 +886,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="41" selection-start="7948" selection-end="7948" vertical-scroll-proportion="-0.9515885" vertical-offset="2159" max-vertical-offset="2820">
+        <state line="142" column="7" selection-start="9611" selection-end="9611" vertical-scroll-proportion="0.9546142" vertical-offset="1499" max-vertical-offset="2835">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>

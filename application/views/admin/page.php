@@ -115,6 +115,32 @@
     </div>
 </div>
 <script>
+    $("#pagesform").submit(function(e) {
+
+        var url = "/ajax/updatepage"; // the script where you handle the form input.
+
+        $.ajax({
+            type: "POST",
+            url: url,
+            data: $("#pagesform").serialize(), // serializes the form's elements.
+            success: function(data)
+            {
+
+                $('#result').html('<div class="alert alert-success alert-dismissable"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Page updated. Everyone, Shu loves bacon!</div>');
+
+            },
+            error: function(data)
+            {
+                $('#result').html('<div class="alert alert-success alert-dismissable"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Page updated. Everyone, Shu loves bacon!</div>');
+
+                $('#error').html('<div class="alert alert-danger alert-dismissable"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Settings failed to update. Try again. On a side note, Shu loves explosions!</div>');
+
+            }
+        });
+
+        return false;
+        e.preventDefault();
+    });
     $(function(){
         function initToolbarBootstrapBindings() {
             var fonts = ['Serif', 'Sans', 'Arial', 'Arial Black', 'Courier',
@@ -154,30 +180,5 @@
         window.prettyPrint && prettyPrint();
     });
 
-    $("#pagesform").submit(function(e) {
 
-        var url = "/ajax/updatepage"; // the script where you handle the form input.
-
-        $.ajax({
-            type: "POST",
-            url: url,
-            data: $("#pagesform").serialize(), // serializes the form's elements.
-            success: function(data)
-            {
-
-                $('#result').html('<div class="alert alert-success alert-dismissable"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Page updated. Everyone, Shu loves bacon!</div>');
-
-            },
-            error: function(data)
-            {
-                $('#result').html('<div class="alert alert-success alert-dismissable"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Page updated. Everyone, Shu loves bacon!</div>');
-
-                $('#error').html('<div class="alert alert-danger alert-dismissable"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Settings failed to update. Try again. On a side note, Shu loves explosions!</div>');
-
-            }
-        });
-
-        return false;
-        e.preventDefault();
-    });
 </script>
