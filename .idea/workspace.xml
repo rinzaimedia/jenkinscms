@@ -98,7 +98,7 @@
       <file leaf-file-name="page.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/admin/page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="115" selection-start="6938" selection-end="6938" vertical-scroll-proportion="0.48031497" vertical-offset="1015" max-vertical-offset="2850">
+            <state line="86" column="0" selection-start="6739" selection-end="6739" vertical-scroll-proportion="0.9527559" vertical-offset="685" max-vertical-offset="2865">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -973,7 +973,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="115" selection-start="6938" selection-end="6938" vertical-scroll-proportion="0.48031497" vertical-offset="1015" max-vertical-offset="2850">
+        <state line="86" column="0" selection-start="6739" selection-end="6739" vertical-scroll-proportion="0.9527559" vertical-offset="685" max-vertical-offset="2865">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>

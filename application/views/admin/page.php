@@ -85,6 +85,7 @@
                                 <input type="text" data-edit="inserttext" id="voiceBtn" x-webkit-speech="">
                             </div>
 
+
                             <textarea id="editor" name="editor" class="col-md-12">
                                 <?php echo html_entity_decode(str_replace("<br />", "\n", $page[0]['pagecontent']));?>
                             </textarea>
