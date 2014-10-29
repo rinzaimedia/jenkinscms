@@ -1,7 +1,7 @@
 <div id="page-wrapper">
     <div class="row">
         <div class="col-lg-12">
-            <h1><?php echo $page[0]['pagetitle']; ?> <small>Jenkins Page Editor</small></h1>
+            <h1><?php echo $page[0]['pagetitle']; ?> <small>JenkinsCMSPage Editor</small></h1>
             <ol class="breadcrumb">
                 <li class="inactive"><i class="fa fa-dashboard"></i> <a href="/manage/">Dashboard</a></li>
                 <li class="inactive"><i class="fa fa-edit"></i> <a href="/manage/pages">Edit Pages</a></li>
@@ -10,7 +10,7 @@
             <div id="result"></div>
             <div class="alert alert-success alert-dismissable">
                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                Welcome to Jenkins Admin! This new layout will hopefully make site deployments that much faster. On a side note, Shu likes candy!
+                Welcome to JenkinsCMS Admin! This new layout will hopefully make site deployments that much faster. On a side note, Shu likes candy!
             </div>
 
             <form class="form-horizontal" role="form" method="post" id="pagesform">

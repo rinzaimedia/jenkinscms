@@ -1,7 +1,7 @@
 <div id="page-wrapper">
     <div class="row">
         <div class="col-lg-12">
-            <h1>Settings <small>Jenkins Client Settings</small></h1>
+            <h1>Settings <small>JenkinsCMSClient Settings</small></h1>
             <ol class="breadcrumb">
                 <li class="inactive"><i class="fa fa-dashboard"></i> <a href="/manage/">Dashboard</a></li>
                 <li class="active"><i class="fa fa-bar-chart-o"></i> Settings</li>
@@ -9,14 +9,14 @@
             <div id="result"></div>
             <div class="alert alert-success alert-dismissable">
                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                Welcome to Jenkins Admin! This new layout will hopefully make site deployments that much faster. On a side note, Shu likes candy!
+                Welcome to JenkinsCMS Admin! This new layout will hopefully make site deployments that much faster. On a side note, Shu likes candy!
             </div>
         </div>
         <div class="col-lg-10">
             <form class="form-horizontal" role="form" method="post" id="settings-form">
                 <div class="row">
                     <div class="form-group" style="padding-left: 13px;">
-                        <label class="col-sm-2 control-label">Jenkins Version:</label>
+                        <label class="col-sm-2 control-label">JenkinsCMSVersion:</label>
                         <div class="col-sm-8">
                             <input type="text" class="form-control" value="<?php echo $settings[0]['version']; ?>" disabled="disabled" />
                         </div>
