@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Dashboard - Jenkins</title>
+    <title>Dashboard - JenkinsCMS Powered by Ironhead Services</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/assets/bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -43,7 +43,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/manage">Jenkins Admin</a>
+            <a class="navbar-brand" href="/manage">JenkinsCMS Admin</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
