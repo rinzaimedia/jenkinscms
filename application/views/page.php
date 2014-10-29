@@ -28,7 +28,7 @@
         <div class="row">
             <div class="col-md-8" style="text-align: justify;">
                 <h2><?php echo $pagedata[0]['pagetitle'];?></h2>
-                 <?php echo $pagedata[0]['pagecontent'];?>
+                 <?php echo html_entity_decode($pagedata[0]['pagecontent']);?>
             </div>
             <div class="col-md-4 align-right">
                 <h4><?php echo $results[0]['modaltext'];?></h4>

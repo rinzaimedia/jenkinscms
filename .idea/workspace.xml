@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aa9b466-073b-4346-a2c4-4a0812afda2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/page_model.php" afterPath="$PROJECT_DIR$/application/models/page_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/page.php" afterPath="$PROJECT_DIR$/application/views/page.php" />
     </list>
     <ignored path="jenkins.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,13 +52,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page_model.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="page_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/page_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="5" selection-start="701" selection-end="701" vertical-scroll-proportion="0.50075644" vertical-offset="209" max-vertical-offset="870">
+            <state line="36" column="5" selection-start="701" selection-end="701" vertical-scroll-proportion="-13.791667" vertical-offset="209" max-vertical-offset="870">
               <folding>
                 <marker date="1414561108000" expanded="true" signature="197:234" placeholder="select * fro..pages..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/reactive/page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="6" selection-start="895" selection-end="895" vertical-scroll-proportion="0.16692914" vertical-offset="239" max-vertical-offset="4050">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -131,7 +149,6 @@
         <option value="$PROJECT_DIR$/system/database/DB.php" />
         <option value="$PROJECT_DIR$/application/views/admin/header.php" />
         <option value="$PROJECT_DIR$/application/config/database.php" />
-        <option value="$PROJECT_DIR$/application/views/page.php" />
         <option value="$PROJECT_DIR$/application/views/admin/pages.php" />
         <option value="$PROJECT_DIR$/application/controllers/manage.php" />
         <option value="$PROJECT_DIR$/application/views/admin/addsalescontent.php" />
@@ -153,6 +170,7 @@
         <option value="$PROJECT_DIR$/application/controllers/ajax.php" />
         <option value="$PROJECT_DIR$/application/views/admin/page.php" />
         <option value="$PROJECT_DIR$/application/models/page_model.php" />
+        <option value="$PROJECT_DIR$/application/views/page.php" />
       </list>
     </option>
   </component>
@@ -737,11 +755,6 @@
         <state line="5" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="195" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="171" column="21" selection-start="9022" selection-end="9022" vertical-scroll-proportion="-106.875" vertical-offset="0" max-vertical-offset="4050" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="39" selection-start="1504" selection-end="1504" vertical-scroll-proportion="-10.666667" vertical-offset="374" max-vertical-offset="810" />
@@ -821,13 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/reactive/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="698">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/includes/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="174" column="0" selection-start="8020" selection-end="9286" vertical-scroll-proportion="0.024205748" vertical-offset="2594" max-vertical-offset="3660">
@@ -886,10 +892,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/page_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="5" selection-start="701" selection-end="701" vertical-scroll-proportion="0.50075644" vertical-offset="209" max-vertical-offset="870">
+        <state line="36" column="5" selection-start="701" selection-end="701" vertical-scroll-proportion="-13.791667" vertical-offset="209" max-vertical-offset="870">
           <folding>
             <marker date="1414561108000" expanded="true" signature="197:234" placeholder="select * fro..pages..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/reactive/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="698">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="6" selection-start="895" selection-end="895" vertical-scroll-proportion="0.16692914" vertical-offset="239" max-vertical-offset="4050">
+          <folding />
         </state>
       </provider>
     </entry>
