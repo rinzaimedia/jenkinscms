@@ -1,7 +1,7 @@
 <div id="page-wrapper">
     <div class="row">
         <div class="col-lg-12">
-            <h1>Add New Page <small>JenkinsCMSPage Editor</small></h1>
+            <h1>Add New Page <small>JenkinsCMS Page Editor</small></h1>
             <ol class="breadcrumb">
                 <li class="inactive"><i class="fa fa-dashboard"></i> <a href="/manage/">Dashboard</a></li>
                 <li class="inactive"><i class="fa fa-edit"></i> <a href="/manage/pages">Edit Pages</a></li>
