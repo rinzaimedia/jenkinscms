@@ -36,11 +36,13 @@ class Page_Model extends CI_Model
     public function updatePage($data)
     {
 
-        $this->db->simple_query("update pages set pagetitle = '".$data['pagetitle']."',
-                                 pageurl = '".str_replace(" ", "-",$data['pageurl'])."',
-                                 pagecontent = '".str_replace("\n", "<br />",$data['editor'])."',
-                                 visible = '".$data['visible']."'
-                                 where pageid = '".$data['pageid']."'");
+        $this->db->simple_query("update pages
+                                    set pagetitle = '".$data['pagetitle']."',
+                                    pageurl = '".str_replace(" ", "-",$data['pageurl'])."',
+                                    pagecontent = '".str_replace("\n", "<br />",$data['editor'])."',
+                                    visible = '".$data['visible']."'
+                                    where
+                                    pageid = '".$data['pageid']."'");
     }
 
     public function insertPage($data)

@@ -20,11 +20,16 @@ class Ajax extends CI_Controller
         $this->load->model('page_model');
 
         $this->page_model->updatePage($data);
+
     }
 
     public function insertPage($data)
     {
+        $data = $this->input->post();
 
+        $this->load->model('page_model');
+
+        $this->page_model->insertPage($data);
     }
 
     public function addSalesContent($data)

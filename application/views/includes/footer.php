@@ -154,7 +154,7 @@
         <?php endif;?>
         <?php if($results[0]['googleplus'] != ''):?>
             <a href="<?php echo $results[0]['googleplus'];?>">
-       
+
                 <i class="fa fa-google-plus-square fa-2x"></i>
 
             </a>
