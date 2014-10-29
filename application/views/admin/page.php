@@ -141,6 +141,7 @@
         return false;
         e.preventDefault();
     });
+
     $(function(){
         function initToolbarBootstrapBindings() {
             var fonts = ['Serif', 'Sans', 'Arial', 'Arial Black', 'Courier',
