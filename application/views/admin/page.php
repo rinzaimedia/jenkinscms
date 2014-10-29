@@ -87,7 +87,7 @@
 
 
                             <textarea id="editor" name="editor" class="col-md-12">
-                                <?php echo html_entity_decode(str_replace("<br />", "\n", $page[0]['pagecontent']));?>
+                                <?php echo str_replace("<br />", "\n",html_entity_decode( $page[0]['pagecontent']));?>
                             </textarea>
                         </div>
                         </div>
