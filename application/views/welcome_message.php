@@ -6,7 +6,11 @@
                         <div class="da-slide">
                             <h2><?php echo $salescontent['salestitle'];?></h2>
                             <p><i><?php echo $salescontent['salescontent'];?></i></p>
-                            <div class="da-img"><img src="/assets/business-plate/img/Responsive-Website-Design-Devices.png" alt="" class="img-circle" style="box-shadow: 0px 0px 15px darkorange;"/></div>
+                            <?php if($salescontent['salesimage'] != ''):?>
+                                <div class="da-img">
+                                    <img src="<?php echo $salescontent['salesimage'];?>" alt="" class="img-circle" style="box-shadow: 0px 0px 15px darkorange;"/>
+                                </div>
+                            <?php endif; ?>
                         </div>
                     <?php endforeach; ?>
 
