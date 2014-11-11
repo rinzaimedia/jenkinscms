@@ -54,6 +54,7 @@
                 <li<?php if($this->uri->segment(2) == 'pages'):?> class="active"<?php endif;?>><a href="/manage/pages"><i class="fa fa-edit"></i> Pages</a></li>
                 <li<?php if($this->uri->segment(2) == 'salescontent'):?> class="active"<?php endif;?>><a href="/manage/salescontent"><i class="fa fa-font"></i> Sales Content</a></li>
                 <li<?php if($this->uri->segment(2) == 'css'):?> class="active"<?php endif;?>><a href="/manage/css"><i class="fa fa-desktop"></i> Custom CSS</a></li>
+                <li<?php if($this->uri->segment(2) == 'workitems'):?> class="active"<?php endif;?>><a href="/manage/workitems"><i class="fa fa-suitcase"></i> Our Work</a></li>
                 <li><a href="bootstrap-grid.html"><i class="fa fa-wrench"></i> Bootstrap Grid</a></li>
                 <li><a href="blank-page.html"><i class="fa fa-file"></i> Blank Page</a></li>
                 <li class="dropdown">
