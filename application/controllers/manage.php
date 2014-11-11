@@ -6,7 +6,7 @@ class Manage extends CI_Controller {
     {
         $this->load->library('session');
 
-        if($this->session->userdata('loginid') != '')
+        if($this->session->userdata('loginid') == '')
         {
             redirect('/manage/login');
         }
@@ -138,7 +138,7 @@ class Manage extends CI_Controller {
     public function curl()
     {
         self::checkSession();
-        
+
         $this->load->model('login_model');
 
         $results['curl'] =  $this->login_model->checkLogin();
