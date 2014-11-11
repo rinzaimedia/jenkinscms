@@ -7,10 +7,15 @@ class Page_Model extends CI_Model
         parent::__construct();
     }
 
-    public function getPages()
+    public function getPages($visible = false)
     {
-        $query = $this -> db -> query("select * from pages where pageid !=''");
 
+        if($visible != false){
+            $query = $this -> db -> query("select * from pages where visible = '".$visible."' and pageid !=''");
+        }
+        else{
+            $query = $this -> db -> query("select * from pages where pageid !=''");
+        }
         $results = $query->result_array();
 
         return $results;
