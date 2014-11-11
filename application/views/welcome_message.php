@@ -8,7 +8,7 @@
                             <p><i><?php echo $salescontent['salescontent'];?></i></p>
                             <?php if($salescontent['salesimage'] != ''):?>
                                 <div class="da-img">
-                                    <img src="<?php echo $salescontent['salesimage'];?>" alt="" class="img-circle" style="max-width: 250px; box-shadow: 0px 0px 15px darkorange;"/>
+                                    <img src="<?php echo $salescontent['salesimage'];?>" alt="" class="img-circle" style="max-height: 250px; max-width: 250px; box-shadow: 0px 0px 15px darkorange;"/>
                                 </div>
                             <?php endif; ?>
                         </div>
