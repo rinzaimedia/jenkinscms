@@ -84,7 +84,7 @@ class Manage extends CI_Controller {
 
         if($id != false && $id != 'addworkitem')
         {
-            $results['workentry'] = $this->work_model->getWorkItem($id);
+            $results['workitem'] = $this->work_model->getWorkItem($id);
 
             $this->load->view('admin/workitem', $results);
 
@@ -95,7 +95,7 @@ class Manage extends CI_Controller {
         }
         else
         {
-            $results['workitem'] = $this->work_model->getWorkItems();
+            $results['workitem'] = $this->work_model->getWorkItem();
 
             $this->load->view('admin/workitems', $results);
         }
