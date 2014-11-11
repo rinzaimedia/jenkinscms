@@ -92,7 +92,7 @@
                         <label class="col-sm-2 control-label">Image:</label>
                         <div class="col-sm-8">
 
-                            <input type="text" class="form-control" id="workimage" name="workimage" placeholder="Content"  />&nbsp;<img src="<?php if(isset($workitem)): echo $workitem[0]['workimage']; endif;?>" width="100" />
+                            <input type="text" class="form-control" id="workimage" name="workimage" placeholder="Content" value="<?php if(isset($workitem)): echo $workitem[0]['workimage']; endif;?>" />&nbsp;<img src="<?php if(isset($workitem)): echo $workitem[0]['workimage']; endif;?>" width="100" />
                             <?php if(isset($workitem)):?><input type="hidden" name="workid" id="workid" value="<?php echo $workitem[0]['workid'];?>" /><?php endif;?>
                         </div>
                     </div>

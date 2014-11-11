@@ -46,10 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workitems.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="workitems.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/admin/workitems.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="202" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.31770045" vertical-offset="120" max-vertical-offset="960">
+            <state line="27" column="0" selection-start="1575" selection-end="1575" vertical-scroll-proportion="-11.875" vertical-offset="120" max-vertical-offset="960">
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -57,18 +57,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workitem.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="workitem.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/admin/workitem.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="1300" selection-end="1300" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="2745">
+            <state line="94" column="197" selection-start="7215" selection-end="7215" vertical-scroll-proportion="0.408472" vertical-offset="1140" max-vertical-offset="2745">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <marker date="1415688463000" expanded="true" signature="7573:7737" placeholder="..." />
-                <marker date="1415688463000" expanded="true" signature="7691:7704" placeholder="..." />
-                <marker date="1415688463000" expanded="true" signature="7869:8134" placeholder="..." />
-                <marker date="1415688463000" expanded="true" signature="7909:8112" placeholder="{...}" />
-                <marker date="1415688463000" expanded="true" signature="8017:8112" placeholder="{&quot;type&quot;: &quot;POST&quot;...}" />
+                <marker date="1415688605000" expanded="true" signature="7649:7813" placeholder="..." />
+                <marker date="1415688605000" expanded="true" signature="7767:7780" placeholder="..." />
+                <marker date="1415688605000" expanded="true" signature="7945:8210" placeholder="..." />
+                <marker date="1415688605000" expanded="true" signature="7985:8188" placeholder="{...}" />
+                <marker date="1415688605000" expanded="true" signature="8093:8188" placeholder="{&quot;type&quot;: &quot;POST&quot;...}" />
               </folding>
             </state>
           </provider>
@@ -104,7 +104,7 @@
       <file leaf-file-name="welcome_message.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/welcome_message.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="89" selection-start="5052" selection-end="5052" vertical-scroll-proportion="-10.625" vertical-offset="1275" max-vertical-offset="2505">
+            <state line="104" column="18" selection-start="5140" selection-end="5140" vertical-scroll-proportion="-11.875" vertical-offset="1275" max-vertical-offset="2505">
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
@@ -116,7 +116,7 @@
       <file leaf-file-name="work_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/work_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="124" selection-start="1300" selection-end="1300" vertical-scroll-proportion="-8.7" vertical-offset="255" max-vertical-offset="945">
+            <state line="46" column="124" selection-start="1300" selection-end="1300" vertical-scroll-proportion="-7.6" vertical-offset="310" max-vertical-offset="945">
               <folding>
                 <marker date="1415688335000" expanded="true" signature="246:285" placeholder="select * fro..ourwork..." />
                 <marker date="1415688335000" expanded="true" signature="577:678" placeholder="insert into ..." />
@@ -188,8 +188,8 @@
         <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
         <option value="$PROJECT_DIR$/application/views/welcome_message.php" />
         <option value="$PROJECT_DIR$/application/models/work_model.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/workitem.php" />
         <option value="$PROJECT_DIR$/application/views/admin/workitems.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/workitem.php" />
       </list>
     </option>
   </component>
@@ -724,7 +724,11 @@
       <created>1415688476782</created>
       <updated>1415688476782</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="changes to sales content">
+      <created>1415688505449</created>
+      <updated>1415688505450</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1062,9 +1066,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/workitems.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="1575" selection-end="1575" vertical-scroll-proportion="-11.875" vertical-offset="120" max-vertical-offset="960">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/welcome_message.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="89" selection-start="5052" selection-end="5052" vertical-scroll-proportion="-10.625" vertical-offset="1275" max-vertical-offset="2505">
+        <state line="104" column="18" selection-start="5140" selection-end="5140" vertical-scroll-proportion="-11.875" vertical-offset="1275" max-vertical-offset="2505">
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
@@ -1074,7 +1087,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/work_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="124" selection-start="1300" selection-end="1300" vertical-scroll-proportion="-8.7" vertical-offset="255" max-vertical-offset="945">
+        <state line="46" column="124" selection-start="1300" selection-end="1300" vertical-scroll-proportion="-7.6" vertical-offset="310" max-vertical-offset="945">
           <folding>
             <marker date="1415688335000" expanded="true" signature="246:285" placeholder="select * fro..ourwork..." />
             <marker date="1415688335000" expanded="true" signature="577:678" placeholder="insert into ..." />
@@ -1085,24 +1098,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/workitem.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="1300" selection-end="1300" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="2745">
+        <state line="94" column="197" selection-start="7215" selection-end="7215" vertical-scroll-proportion="0.408472" vertical-offset="1140" max-vertical-offset="2745">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1415688463000" expanded="true" signature="7573:7737" placeholder="..." />
-            <marker date="1415688463000" expanded="true" signature="7691:7704" placeholder="..." />
-            <marker date="1415688463000" expanded="true" signature="7869:8134" placeholder="..." />
-            <marker date="1415688463000" expanded="true" signature="7909:8112" placeholder="{...}" />
-            <marker date="1415688463000" expanded="true" signature="8017:8112" placeholder="{&quot;type&quot;: &quot;POST&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/workitems.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="202" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.31770045" vertical-offset="120" max-vertical-offset="960">
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <marker date="1415688605000" expanded="true" signature="7649:7813" placeholder="..." />
+            <marker date="1415688605000" expanded="true" signature="7767:7780" placeholder="..." />
+            <marker date="1415688605000" expanded="true" signature="7945:8210" placeholder="..." />
+            <marker date="1415688605000" expanded="true" signature="7985:8188" placeholder="{...}" />
+            <marker date="1415688605000" expanded="true" signature="8093:8188" placeholder="{&quot;type&quot;: &quot;POST&quot;...}" />
           </folding>
         </state>
       </provider>
