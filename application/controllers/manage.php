@@ -2,7 +2,7 @@
 
 class Manage extends CI_Controller {
 
-    public function _contruct()
+    public function checkSession()
     {
         $this->load->library('session');
 
@@ -14,6 +14,8 @@ class Manage extends CI_Controller {
     public function index()
     {
 
+        self::checkSession();
+
         $this->load->view('admin/header');
         $this->load->view('admin/welcome');
         $this->load->view('admin/footer');
@@ -21,6 +23,7 @@ class Manage extends CI_Controller {
     }
     public function settings()
     {
+        self::checkSession();
 
         $this->load->model('sites_model');
 
@@ -33,6 +36,8 @@ class Manage extends CI_Controller {
 
     public function pages($id = false)
     {
+        self::checkSession();
+
         $this->load->view('admin/header');
 
         $this->load->model('page_model');
@@ -57,6 +62,8 @@ class Manage extends CI_Controller {
 
     public function salescontent($id = false)
     {
+        self::checkSession();
+
         $this->load->view('admin/header');
 
         $this->load->model('sales_model');
@@ -87,6 +94,8 @@ class Manage extends CI_Controller {
 
     public function workitems($id = false)
     {
+        self::checkSession();
+
         $this->load->view('admin/header');
 
         $this->load->model('work_model');
@@ -115,6 +124,8 @@ class Manage extends CI_Controller {
 
     public function css()
     {
+        self::checkSession();
+
         $this->load->model('sites_model');
 
         $results['css'] = $this->sites_model->getCss();
@@ -126,6 +137,8 @@ class Manage extends CI_Controller {
 
     public function curl()
     {
+        self::checkSession();
+        
         $this->load->model('login_model');
 
         $results['curl'] =  $this->login_model->checkLogin();
