@@ -20,6 +20,7 @@ class Sites_model extends CI_Model {
         $values = array('sitename' => $data['sitename'], 'industry' => $data['industry'], 'address1' => $data['address1'],
                         'address2' => $data['address2'], 'city' => $data['city'], 'state-country' => $data['state-country'],
                         'zip' => $data['zip'], 'description' => $data['description'], 'email' => $data['email'],
+                        'quote' => $data['quote'],
                         'facebook-personal' => $data['facebook-personal'], 'facebook-page' => $data['facebook-page'],
                         'twitter' => $data['twitter'], 'google-plus' => $data['google-plus'], 'linkedin' => $data['linkedin'],
                         'phone' => $data['phone'], 'originalurl' => $data['originalurl'], 'css' => $data['css'],
