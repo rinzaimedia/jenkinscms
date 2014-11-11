@@ -66,9 +66,9 @@
                     <ul class="dropdown-menu">
                 <?php for($x = 0; $x < count($pages); $x++):?>
 
-                        <?php if($pages[$x]['visible'] != '1'):?>
+                        <?php if($pages[$x]['visible'] == '1'):?>
                         <li><a href="/static/<?php echo $pages[$x]['pageurl'];?>"><?php echo $pages[$x]['pagetitle'];?></a></li>
-                        <?php endif;?>
+                        <?php endif; ?>
 
                 <?php endfor; ?>
                     </ul>
