@@ -89,13 +89,13 @@ class Manage extends CI_Controller {
             $this->load->view('admin/workitem', $results);
 
         }
-        elseif($id == 'addentry')
+        elseif($id == 'addworkitem')
         {
             $this->load->view('admin/workitem');
         }
         else
         {
-            $results['workitem'] = $this->work_model->getWorkItem();
+            $results['workitems'] = $this->work_model->getWorkItem();
 
             $this->load->view('admin/workitems', $results);
         }
