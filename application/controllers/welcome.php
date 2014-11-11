@@ -27,7 +27,7 @@ class Welcome extends CI_Controller {
 
         $results['results'] = $this->sites_model->getSettings();
 
-        $results['pages'] = $this->page_model->getPages('1');
+        $results['pages'] = $this->page_model->getPages(1);
 
         $results['sales'] = $this->sales_model->getSalesContent();
 
