@@ -11,7 +11,7 @@ class Page_Model extends CI_Model
     {
 
         if($visible != false){
-            $query = $this -> db -> query("select * from pages where visible = '".$visible."' and pageid !=''");
+            $query = $this -> db -> query("select * from pages where visible = 1 and pageid !=''");
         }
         else{
             $query = $this -> db -> query("select * from pages where pageid !=''");
