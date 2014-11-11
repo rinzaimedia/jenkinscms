@@ -40,6 +40,7 @@ class Sales_Model extends CI_Model
         $this->db->simple_query("update salescontent
                                 set salestitle = '".$data['salestitle']."',
                                 salescontent = '".$data['salescontent']."'
+                                salesimage = '".$data['salesimage']."'
                                 where salesid = '".$data['salesid']."'");
     }
 
