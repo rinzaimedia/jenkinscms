@@ -173,12 +173,6 @@
                             <input type="text" class="form-control" name="description" placeholder="Description" id="description" value="<?php if($settings[0]['description'] != ''){ echo $settings[0]['description']; }?>" />
                         </div>
                     </div>
-                    <div class="form-group" style="padding-left: 13px;">
-                        <label class="col-sm-2 control-label">Quote:</label>
-                        <div class="col-sm-8">
-                            <input type="text" class="form-control" name="quote" placeholder="Quote" id="quote" value="<?php if($settings[0]['quote'] != ''){ echo $settings[0]['quote']; }?>" />
-                        </div>
-                    </div>
                     <div class="form-group">
                         <label class="col-sm-2 control-label">Home Content:</label>
                         <div class="col-sm-9">
