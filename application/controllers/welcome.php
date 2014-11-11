@@ -19,7 +19,7 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-        $this->load->model(array('page_model','sites_model', 'sales_model'));
+        $this->load->model(array('page_model','sites_model', 'sales_model', 'work_model'));
 
         $this->load->helper('url');
 
@@ -32,6 +32,8 @@ class Welcome extends CI_Controller {
         $results['sales'] = $this->sales_model->getSalesContent();
 
         $results['links'] = $this->sites_model->getLinks();
+
+        $results['workitems'] = $this->work_model->getWorkItem();
 
         $results['home'] = $this->sites_model->getHomeContent();
 
