@@ -2,6 +2,15 @@
 
 class Manage extends CI_Controller {
 
+    public function _contruct()
+    {
+        $this->load->library('session');
+
+        if($this->session->userdata('loginid') != '')
+        {
+            redirect('/manage/login');
+        }
+    }
     public function index()
     {
 
