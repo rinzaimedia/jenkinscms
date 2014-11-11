@@ -75,7 +75,7 @@
 
                             <textarea id="workentry" name="workentry" class="col-md-12">
                                 <?php
-                                if($workitem[0]['workentry'] != ''):
+                                if(isset($workitem)):
                                 echo str_replace("<br />", "\n", html_entity_decode($workitem[0]['workentry']));
                                 endif;?>
                             </textarea>
@@ -85,8 +85,8 @@
                         <label class="col-sm-2 control-label">Image:</label>
                         <div class="col-sm-8">
 
-                            <input type="text" class="form-control" id="workimage" name="workimage" placeholder="Content"  />&nbsp;<img src="<?php if($workitem[0]['workimage']): echo $workitem[0]['workimage']; endif;?>" width="100" />
-                            <?php if($workitem[0]['workid'] != ''):?><input type="hidden" name="workid" id="workid" value="<?php echo $workitem[0]['workid'];?>" /><?php endif;?>
+                            <input type="text" class="form-control" id="workimage" name="workimage" placeholder="Content"  />&nbsp;<img src="<?php if(isset($workitem)): echo $workitem[0]['workimage']; endif;?>" width="100" />
+                            <?php if(isset($workitem)):?><input type="hidden" name="workid" id="workid" value="<?php echo $workitem[0]['workid'];?>" /><?php endif;?>
                         </div>
                     </div>
                     <div class="row">
