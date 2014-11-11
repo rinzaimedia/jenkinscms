@@ -15,6 +15,8 @@
         </div>
 
     </div>
+    <?php if(is_array($workitems)): ?>
+
     <?php foreach($workitems as $workitem):?>
         <div class="row" style="padding: 3px;">
             <div class="col-lg-12">
@@ -23,6 +25,8 @@
             </div>
         </div>
     <?php endforeach; ?>
+
+    <?php endif; ?>
 </div>
 
 <script type="text/javascript">
