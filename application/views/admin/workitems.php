@@ -10,12 +10,12 @@
                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
                 Welcome to JenkinsCMS Admin! This new layout will hopefully make site deployments that much faster. On a side note, Shu likes candy!
             </div>
-            <a href="/manage/workitems/addworkitem"><button class="btn btn-primary">Add New Sales Content Item</button></a>
+            <a href="/manage/workitems/addworkitem"><button class="btn btn-primary">Add New Work Item</button></a>
             <hr />
         </div>
 
     </div>
-    <?php if(is_array($workitems)): ?>
+    <?php if(isset($workitems)): ?>
 
     <?php foreach($workitems as $workitem):?>
         <div class="row" style="padding: 3px;">
