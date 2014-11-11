@@ -20,7 +20,7 @@
                         <div class="col-sm-8">
 
                             <input type="text" class="form-control" id="worktitle" name="worktitle" placeholder="Title"  value="<?php if(isset($workitem)): echo $workitem[0]['worktitle']; endif;?>" />
-                            ]
+
                         </div>
                     </div>
                     <div class="row">
