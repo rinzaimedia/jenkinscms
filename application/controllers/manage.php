@@ -48,29 +48,57 @@ class Manage extends CI_Controller {
 
     public function salescontent($id = false)
     {
-       $this->load->view('admin/header');
+        $this->load->view('admin/header');
 
         $this->load->model('sales_model');
 
-       if($id != false && $id != 'addentry')
-       {
+        if($id != false && $id != 'addentry')
+        {
             $results['salesitem'] = $this->sales_model->getSalesContent($id);
 
             $this->load->view('admin/salescontentitem', $results);
 
-       }
-       elseif($id == 'addentry')
-       {
-           $this->load->view('admin/addsalescontent');
-       }
-       else
-       {
-           $results['salesitems'] = $this->sales_model->getSalesContent();
+        }
+        elseif($id == 'addentry')
+        {
+            $this->load->view('admin/addsalescontent');
+        }
+        else
+        {
+            $results['salesitems'] = $this->sales_model->getSalesContent();
 
-           $this->load->view('admin/salescontentlist', $results);
-       }
+            $this->load->view('admin/salescontentlist', $results);
+        }
 
-       $this->load->view('admin/footer');
+        $this->load->view('admin/footer');
+
+    }
+
+    public function workitems($id = false)
+    {
+        $this->load->view('admin/header');
+
+        $this->load->model('work_model');
+
+        if($id != false && $id != 'addworkitem')
+        {
+            $results['workentry'] = $this->work_model->getWorkItems($id);
+
+            $this->load->view('admin/workitem', $results);
+
+        }
+        elseif($id == 'addentry')
+        {
+            $this->load->view('admin/workitem');
+        }
+        else
+        {
+            $results['workitem'] = $this->work_model->getWorkItems();
+
+            $this->load->view('admin/workitems', $results);
+        }
+
+        $this->load->view('admin/footer');
 
     }
 

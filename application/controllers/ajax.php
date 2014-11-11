@@ -98,4 +98,37 @@ class Ajax extends CI_Controller
 
         return true;
     }
+
+    public function addWorkItem()
+    {
+        $data = $this -> input ->post();
+
+        $this -> load -> model('work_model');
+
+        $this -> work_model -> addWorkItem($data);
+
+        return true;
+    }
+
+    public function updateWorkItem()
+    {
+        $data = $this -> input ->post();
+
+        $this -> load -> model('work_model');
+
+        $this -> work_model -> updateWorkItem($data);
+
+        return true;
+    }
+
+    public function deleteWorkItem()
+    {
+        $data = $this -> input ->post();
+
+        $this -> load -> model('work_model');
+
+        $this -> work_model -> deleteWorkItem($data);
+
+        return true;
+    }
 }
