@@ -32,7 +32,7 @@
                         <label class="col-sm-2 control-label">Image:</label>
                         <div class="col-sm-8">
 
-                            <p class="help-block">Upload PNG, JPG or GIF.</p>
+                            <input type="text" class="form-control" id="salesimage" name="salesimage" placeholder="Content"  />&nbsp;<img src="<?php echo $salesitem[0]['salesimage'];?>" width="100" />
                             <input type="hidden" name="salesid" id="salesid" value="<?php echo $salesitem[0]['salesid'];?>" />
                         </div>
                     </div>
