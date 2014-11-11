@@ -11,6 +11,19 @@ class Manage extends CI_Controller {
             redirect('/manage/login');
         }
     }
+
+    public function login()
+    {
+
+        $this->load->view('admin/login');
+
+    }
+    public function logout()
+    {
+        $this->load->library('session');
+
+        $this->session->sess_destroy();
+    }
     public function index()
     {
 
@@ -21,6 +34,7 @@ class Manage extends CI_Controller {
         $this->load->view('admin/footer');
 
     }
+
     public function settings()
     {
         self::checkSession();
