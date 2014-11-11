@@ -100,27 +100,10 @@
 
             <div class="col-md-3">
                 <img src="<?php echo $workitem['workimage'];?>" class="" title="project one">
-                <h3><a class="hover-effect" href="#">Huge Work</a></h3>
+                <h3><a class="hover-effect" href="#"><?php echo $workitem['worktitle'];?></a></h3>
                 <p><?php echo $workitem['workentry'];?></p>
             </div>
-            <div class="col-md-3">
-                <img src="/assets/business-plate/img/bootstrap-templates-office2.png" class="" title="project one">
 
-                <h3><a class="hover-effect" href="#">Huge Work</a></h3>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.</p>
-            </div>
-            <div class="col-md-3">
-                <img src="/assets/business-plate/img/bootstrap-templates-office1.png" class="" title="project one">
-
-                <h3><a class="hover-effect" href="#">Huge Work</a></h3>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.</p>
-            </div>
-            <div class="col-md-3">
-                <img src="/assets/business-plate/img/bootstrap-templates-office4.png" class="" title="project one">
-
-                <h3><a class="hover-effect" href="#">Huge Work</a></h3>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.</p>
-            </div>
             <?php endforeach;
             endif;?>
         </div>

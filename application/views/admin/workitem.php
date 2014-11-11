@@ -15,7 +15,14 @@
             <form class="form-horizontal" role="form" method="post" id="workform">
 
                 <div class="form-group">
+                    <div class="row">
+                        <label class="col-sm-2 control-label">Title:</label>
+                        <div class="col-sm-8">
 
+                            <input type="text" class="form-control" id="worktitle" name="worktitle" placeholder="Title"  value="<?php if(isset($workitem)): echo $workitem[0]['worktitle']; endif;?>" />
+                            ]
+                        </div>
+                    </div>
                     <div class="row">
                         <label class="col-sm-1"></label>
                         <div class="col-sm-9">

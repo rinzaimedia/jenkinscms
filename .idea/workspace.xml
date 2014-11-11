@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aa9b466-073b-4346-a2c4-4a0812afda2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/welcome_message.php" afterPath="$PROJECT_DIR$/application/views/welcome_message.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/work_model.php" afterPath="$PROJECT_DIR$/application/models/work_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/workitem.php" afterPath="$PROJECT_DIR$/application/views/admin/workitem.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jenkins.iws" />
@@ -62,15 +63,15 @@
       <file leaf-file-name="workitem.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/admin/workitem.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="166" selection-start="6762" selection-end="6762" vertical-scroll-proportion="1.8333334" vertical-offset="1349" max-vertical-offset="2640">
+            <state line="21" column="200" selection-start="1299" selection-end="1299" vertical-scroll-proportion="-11.875" vertical-offset="30" max-vertical-offset="2745">
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <marker date="1415687588000" expanded="true" signature="7151:7315" placeholder="..." />
-                <marker date="1415687588000" expanded="true" signature="7269:7282" placeholder="..." />
-                <marker date="1415687588000" expanded="true" signature="7447:7712" placeholder="..." />
-                <marker date="1415687588000" expanded="true" signature="7487:7690" placeholder="{...}" />
-                <marker date="1415687588000" expanded="true" signature="7595:7690" placeholder="{&quot;type&quot;: &quot;POST&quot;...}" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <marker date="1415688291000" expanded="true" signature="7602:7766" placeholder="..." />
+                <marker date="1415688291000" expanded="true" signature="7720:7733" placeholder="..." />
+                <marker date="1415688291000" expanded="true" signature="7898:8163" placeholder="..." />
+                <marker date="1415688291000" expanded="true" signature="7938:8141" placeholder="{...}" />
+                <marker date="1415688291000" expanded="true" signature="8046:8141" placeholder="{&quot;type&quot;: &quot;POST&quot;...}" />
               </folding>
             </state>
           </provider>
@@ -103,10 +104,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome_message.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="welcome_message.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/welcome_message.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="55" selection-start="5090" selection-end="5090" vertical-scroll-proportion="0.408472" vertical-offset="1275" max-vertical-offset="2760">
+            <state line="102" column="89" selection-start="5052" selection-end="5052" vertical-scroll-proportion="-10.625" vertical-offset="1275" max-vertical-offset="2505">
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
@@ -115,14 +116,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="work_model.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="work_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/work_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="31" selection-start="141" selection-end="152" vertical-scroll-proportion="-2.7" vertical-offset="0" max-vertical-offset="930">
+            <state line="46" column="124" selection-start="1300" selection-end="1300" vertical-scroll-proportion="0.68503934" vertical-offset="255" max-vertical-offset="945">
               <folding>
-                <marker date="1415687760000" expanded="true" signature="246:285" placeholder="select * fro..ourwork..." />
-                <marker date="1415687760000" expanded="true" signature="577:678" placeholder="insert into ..." />
-                <marker date="1415687760000" expanded="true" signature="804:906" placeholder="update ourwo..." />
+                <marker date="1415688335000" expanded="true" signature="246:285" placeholder="select * fro..ourwork..." />
+                <marker date="1415688335000" expanded="true" signature="577:678" placeholder="insert into ..." />
+                <marker date="1415688335000" expanded="true" signature="804:980" placeholder="update ourwo..." />
               </folding>
             </state>
           </provider>
@@ -187,11 +188,11 @@
         <option value="$PROJECT_DIR$/application/controllers/ajax.php" />
         <option value="$PROJECT_DIR$/application/views/admin/header.php" />
         <option value="$PROJECT_DIR$/application/controllers/manage.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/workitem.php" />
-        <option value="$PROJECT_DIR$/application/models/work_model.php" />
         <option value="$PROJECT_DIR$/application/views/admin/workitems.php" />
         <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
         <option value="$PROJECT_DIR$/application/views/welcome_message.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/workitem.php" />
+        <option value="$PROJECT_DIR$/application/models/work_model.php" />
       </list>
     </option>
   </component>
@@ -714,7 +715,11 @@
       <created>1415687854195</created>
       <updated>1415687854195</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="changes to sales content">
+      <created>1415688122918</created>
+      <updated>1415688122918</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1038,21 +1043,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/workitem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="166" selection-start="6762" selection-end="6762" vertical-scroll-proportion="1.8333334" vertical-offset="1349" max-vertical-offset="2640">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1415687588000" expanded="true" signature="7151:7315" placeholder="..." />
-            <marker date="1415687588000" expanded="true" signature="7269:7282" placeholder="..." />
-            <marker date="1415687588000" expanded="true" signature="7447:7712" placeholder="..." />
-            <marker date="1415687588000" expanded="true" signature="7487:7690" placeholder="{...}" />
-            <marker date="1415687588000" expanded="true" signature="7595:7690" placeholder="{&quot;type&quot;: &quot;POST&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/workitems.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="64" selection-start="1112" selection-end="1112" vertical-scroll-proportion="-10.041667" vertical-offset="89" max-vertical-offset="960">
@@ -1070,17 +1060,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/work_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="31" selection-start="141" selection-end="152" vertical-scroll-proportion="-2.7" vertical-offset="0" max-vertical-offset="930">
-          <folding>
-            <marker date="1415687760000" expanded="true" signature="246:285" placeholder="select * fro..ourwork..." />
-            <marker date="1415687760000" expanded="true" signature="577:678" placeholder="insert into ..." />
-            <marker date="1415687760000" expanded="true" signature="804:906" placeholder="update ourwo..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="0" selection-start="1171" selection-end="1171" vertical-scroll-proportion="-15.041667" vertical-offset="179" max-vertical-offset="840">
@@ -1090,10 +1069,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/welcome_message.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="55" selection-start="5090" selection-end="5090" vertical-scroll-proportion="0.408472" vertical-offset="1275" max-vertical-offset="2760">
+        <state line="102" column="89" selection-start="5052" selection-end="5052" vertical-scroll-proportion="-10.625" vertical-offset="1275" max-vertical-offset="2505">
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/workitem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="200" selection-start="1299" selection-end="1299" vertical-scroll-proportion="-11.875" vertical-offset="30" max-vertical-offset="2745">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <marker date="1415688291000" expanded="true" signature="7602:7766" placeholder="..." />
+            <marker date="1415688291000" expanded="true" signature="7720:7733" placeholder="..." />
+            <marker date="1415688291000" expanded="true" signature="7898:8163" placeholder="..." />
+            <marker date="1415688291000" expanded="true" signature="7938:8141" placeholder="{...}" />
+            <marker date="1415688291000" expanded="true" signature="8046:8141" placeholder="{&quot;type&quot;: &quot;POST&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/work_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="124" selection-start="1300" selection-end="1300" vertical-scroll-proportion="0.68503934" vertical-offset="255" max-vertical-offset="945">
+          <folding>
+            <marker date="1415688335000" expanded="true" signature="246:285" placeholder="select * fro..ourwork..." />
+            <marker date="1415688335000" expanded="true" signature="577:678" placeholder="insert into ..." />
+            <marker date="1415688335000" expanded="true" signature="804:980" placeholder="update ourwo..." />
           </folding>
         </state>
       </provider>

@@ -37,13 +37,14 @@ class Work_model extends CI_Model{
 
         $this->db->simple_query("update ourwork
                                     set
+                                    worktitle = '".$data['worktitle']."',
                                     workimage = '".$data['workimage']."',
                                     workentry = '".$data['workentry']."'
                                     where workid = ".$data['workid']);
 
         }
         else{
-            $this->db->simple_query("insert into ourwork (workimage, workentry) values('".$data['workimage']."', '".$data['workentry']."')");
+            $this->db->simple_query("insert into ourwork (worktitle, workimage, workentry) values('".$data['worktitle']."', '".$data['workimage']."', '".$data['workentry']."')");
 
         }
 
