@@ -17,6 +17,12 @@ class Manage extends CI_Controller {
     public function login()
     {
 
+        $this->load->library('session');
+
+        $this->load->helper('url');
+
+
+
         $this->load->view('admin/login');
 
     }
