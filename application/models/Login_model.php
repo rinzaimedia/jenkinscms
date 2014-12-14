@@ -41,36 +41,43 @@ class Login_model extends CI_Model{
 
     public function login($data){
 
-        $this -> db -> simple_query("select * from users where username = '".$data['username']."' and password = '".self::Salted($data['password']."'"));
+        $query = $this -> db -> query("select * from users where username = '".$data['username']."' and password = '".self::Salted($data['password'], $data['password']."'"));
 
+        $results = $query->results_array();
+        if($results->username != '')
+        {
+
+            $this->session->set_userdata('authorized', 'yes');
+
+
+        }
     }
 
-    private function Salted($data){
+    private function Salted($password, $username){
 
         $this->load->library('session');
 
-        $query = $this -> db -> query("select password from users where username = '".$data['username']."'");
+        $query = $this -> db -> query("select password from users where username = '".$username."'");
 
         $results = $query->result_array();
 
         $getpass = $results['password'];
 
-        $hashed_password = crypt($data['password']);
+        $hashed_password = crypt($password);
 
         if($getpass == '' || $getpass == null){
 
-            $pass = crypt($data['password']);
+            $pass = crypt($password);
 
-            $this->db->simple_query("update users set password = '".$pass."' where username = '".$data['username']."'");
+            $this->db->simple_query("update users set password = '".$pass."' where username = '".$username."'");
 
 
             return $pass;
 
         }
 
-        elseif(hash_equals($results['password'], crypt($data['password'], $hashed_password))){
+        elseif(hash_equals($results['password'], crypt($password, $hashed_password))){
 
-            $this->session->set_userdata('authorized', 'yes');
 
 
             return $getpass;
@@ -82,6 +89,15 @@ class Login_model extends CI_Model{
 
         }
 
+
+
+    }
+
+    public function logout(){
+
+        $this->load->library('session');
+
+        $this->session->unset_userdata('authorized');
 
 
     }
