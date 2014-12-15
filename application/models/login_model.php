@@ -49,7 +49,7 @@ class Login_model extends CI_Model{
         $query = $this -> db -> query("select * from users where username = '".$data['username']."' and password = '".self::Salted($data['password'], $data['username'])."' and status = '1'");
 
             $results = $query->result_array();
-            foreach($results as $result){
+            foreach($query->result_array() as $result){
                 if($result->username != '')
                 {
 
@@ -78,11 +78,11 @@ class Login_model extends CI_Model{
 
         $this->session->set_userdata('userarray', $results);
 
-        foreach($results as $result){
+        foreach($query->result_array() as $result){
 
             $getpass = $result->password;
 
-            $this->session->set_userdata('result', $getpass);
+
 
             $hashed_password = crypt($password);
 
