@@ -50,6 +50,7 @@ class Login_model extends CI_Model{
 
             $results = $query->result_array();
             foreach($query->result_array() as $result){
+                $this->session->set_userdata('username', $result->username);
                 if($result->username != '')
                 {
 
