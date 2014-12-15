@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9aa9b466-073b-4346-a2c4-4a0812afda2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/ajax.php" afterPath="$PROJECT_DIR$/application/controllers/ajax.php" />
-    </list>
+    <list default="true" id="9aa9b466-073b-4346-a2c4-4a0812afda2c" name="Default" comment="" />
     <ignored path="jenkins.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,13 +32,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login_model.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="login_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/login_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="27" selection-start="413" selection-end="413" vertical-scroll-proportion="27.5" vertical-offset="825" max-vertical-offset="1740">
+            <state line="8" column="4" selection-start="125" selection-end="125" vertical-scroll-proportion="0.18154311" vertical-offset="0" max-vertical-offset="1815">
               <folding>
-                <marker date="1418607894000" expanded="true" signature="1450:1510" placeholder="select * fro..users..." />
-                <marker date="1418607894000" expanded="true" signature="1450:1488" placeholder="select * fro..users..." />
+                <marker date="1418608299000" expanded="true" signature="1532:1592" placeholder="select * fro..users..." />
+                <marker date="1418608299000" expanded="true" signature="1532:1570" placeholder="select * fro..users..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="work_model.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/work_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="4" selection-start="47" selection-end="119" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="945">
+              <folding>
+                <marker date="1415688335000" expanded="true" signature="246:285" placeholder="select * fro..ourwork..." />
               </folding>
             </state>
           </provider>
@@ -55,10 +64,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajax.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ajax.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="26" selection-start="2769" selection-end="2769" vertical-scroll-proportion="0.77744806" vertical-offset="1576" max-vertical-offset="2250">
+            <state line="137" column="0" selection-start="2697" selection-end="2697" vertical-scroll-proportion="-19.958334" vertical-offset="1576" max-vertical-offset="2250">
               <folding />
             </state>
           </provider>
@@ -170,8 +179,8 @@
         <option value="$PROJECT_DIR$/application/views/includes/header.php" />
         <option value="$PROJECT_DIR$/application/controllers/manage.php" />
         <option value="$PROJECT_DIR$/application/views/admin/login.php" />
-        <option value="$PROJECT_DIR$/application/models/login_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/ajax.php" />
+        <option value="$PROJECT_DIR$/application/models/login_model.php" />
       </list>
     </option>
   </component>
@@ -1029,11 +1038,6 @@
         <state line="27" column="0" selection-start="1575" selection-end="1575" vertical-scroll-proportion="-11.875" vertical-offset="120" max-vertical-offset="960" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/work_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="124" selection-start="1300" selection-end="1300" vertical-scroll-proportion="-7.6" vertical-offset="310" max-vertical-offset="945" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/settings.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="190" column="38" selection-start="19430" selection-end="19430" vertical-scroll-proportion="24.583334" vertical-offset="3440" max-vertical-offset="5970" />
@@ -1191,20 +1195,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/login_model.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="27" selection-start="413" selection-end="413" vertical-scroll-proportion="27.5" vertical-offset="825" max-vertical-offset="1740">
+        <state line="137" column="0" selection-start="2697" selection-end="2697" vertical-scroll-proportion="-19.958334" vertical-offset="1576" max-vertical-offset="2250">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/work_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="4" selection-start="47" selection-end="119" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="945">
           <folding>
-            <marker date="1418607894000" expanded="true" signature="1450:1510" placeholder="select * fro..users..." />
-            <marker date="1418607894000" expanded="true" signature="1450:1488" placeholder="select * fro..users..." />
+            <marker date="1415688335000" expanded="true" signature="246:285" placeholder="select * fro..ourwork..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/ajax.php">
+    <entry file="file://$PROJECT_DIR$/application/models/login_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="26" selection-start="2769" selection-end="2769" vertical-scroll-proportion="0.77744806" vertical-offset="1576" max-vertical-offset="2250">
-          <folding />
+        <state line="8" column="4" selection-start="125" selection-end="125" vertical-scroll-proportion="0.18154311" vertical-offset="0" max-vertical-offset="1815">
+          <folding>
+            <marker date="1418608299000" expanded="true" signature="1532:1592" placeholder="select * fro..users..." />
+            <marker date="1418608299000" expanded="true" signature="1532:1570" placeholder="select * fro..users..." />
+          </folding>
         </state>
       </provider>
     </entry>
