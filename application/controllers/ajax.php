@@ -134,9 +134,9 @@ class Ajax extends CI_Controller
 
     public function login()
     {
-        $data = $this -> input -> post();
+        $data = $this->input->post();
 
-        $this ->load->model('login_model');
+        $this->load->model('login_model');
 
         $this->login_model->login($data);
 
