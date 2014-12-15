@@ -57,6 +57,7 @@ class Login_model extends CI_Model{
                     $this->session->set_userdata('authorized', 'yes');
                     $this->session->set_userdata('name', $result['firstname']. " " .$result['lastname']);
                     $this->session->set_userdata('userlevel', $result['userlevel']);
+                    $this->session->set_userdata('user', $result['username']);
 
                     return "Successfully Logged In";
                 }
