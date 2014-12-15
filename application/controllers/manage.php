@@ -23,8 +23,8 @@ class Manage extends CI_Controller {
 
         //var_dump($this->session->userdata); die();
 
-        echo $this->session->userdata('authroized'); die();
-        if($this->session->userdata('authroized') == 'yes')
+        echo $this->session->userdata('authorized'); die();
+        if($this->session->userdata('authorized') == 'yes')
         {
             redirect('/manage/index');
         }
