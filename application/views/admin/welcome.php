@@ -16,7 +16,7 @@
 
     var timer=10;
     function timerRun(){
-        document.getElementById('message').innerHTML=timer;
+        
         if(timer<=0){
 
             document.getElementById('message').style.display='none';
