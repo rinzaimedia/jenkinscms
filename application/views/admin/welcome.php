@@ -19,7 +19,8 @@
 
         if(timer<=0){
 
-            document.getElementById('message').style.display='none';
+            //document.getElementById('message').style.display='none';
+            $("#message").fadeOut();
             return;
         }
         timer--;
