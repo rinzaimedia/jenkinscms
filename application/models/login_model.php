@@ -81,7 +81,9 @@ class Login_model extends CI_Model{
 
         foreach($query->result_array() as $result){
 
-            $getpass = $result['password'];
+            $getpass = $result->password;
+
+
 
             $hashed_password = crypt($password);
 
@@ -95,7 +97,7 @@ class Login_model extends CI_Model{
 
             }
 
-            elseif($result->password == crypt($password)){
+            elseif(hash_equals($result->password, crypt($password, $hashed_password))){
 
                 return $getpass;
 
