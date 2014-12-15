@@ -46,7 +46,7 @@
 
         console.log(arguments);
         return $.ajax({
-            url: 'sample.json', // path to the json file
+            data: '<?php echo $json;?>', // path to the json file
             dataType: 'json' // xml, json, script, or html
         });
     };
