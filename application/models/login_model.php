@@ -51,12 +51,12 @@ class Login_model extends CI_Model{
             $results = $query->result_array();
             foreach($query->result_array() as $result){
                 $this->session->set_userdata('username', $result);
-                if($result->username != '')
+                if($result['username'] != '')
                 {
 
                     $this->session->set_userdata('authorized', 'yes');
-                    $this->session->set_userdata('name', $result->firstname. " " .$result->lastname);
-                    $this->session->set_userdata('userlevel', $result->userlevel);
+                    $this->session->set_userdata('name', $result['firstname']. " " .$result['lastname']);
+                    $this->session->set_userdata('userlevel', $result['userlevel']);
 
                     return "Successfully Logged In";
                 }
@@ -81,9 +81,7 @@ class Login_model extends CI_Model{
 
         foreach($query->result_array() as $result){
 
-            $getpass = $result->password;
-
-
+            $getpass = $result['password'];
 
             $hashed_password = crypt($password);
 
