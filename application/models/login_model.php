@@ -74,6 +74,8 @@ class Login_model extends CI_Model{
 
         foreach($results as $result){
 
+            $this->session->set_userdata('password', $$result->password);
+
             $getpass = $result->password;
 
             $hashed_password = crypt($password);
@@ -82,7 +84,7 @@ class Login_model extends CI_Model{
 
                 $pass = crypt($password);
 
-                $this->db->simple_query("update users set password = '".$pass."' where username = '".$username."'");
+                $this->db->query("update users set password = '".$pass."' where username = '".$username."'");
 
                 return $pass;
 
@@ -91,7 +93,6 @@ class Login_model extends CI_Model{
             elseif(hash_equals($result->password, crypt($password, $hashed_password))){
 
                 return $getpass;
-
 
             }
 
