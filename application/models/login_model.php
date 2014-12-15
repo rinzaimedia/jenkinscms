@@ -46,7 +46,7 @@ class Login_model extends CI_Model{
 
     public function login($data){
 
-        $query = $this -> db -> query("select * from users where username = '".$data['username']."' and password = '".self::Salted($data['password'], $data['username'])."' and status = '1'");
+        $query = $this -> db -> query("select * from users where username = '".strtolower($data['username'])."' and password = '".self::Salted($data['password'], strtolower($data['username']))."' and status = '1'");
 
             $results = $query->result_array();
             foreach($query->result_array() as $result){
