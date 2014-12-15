@@ -76,9 +76,9 @@ class Login_model extends CI_Model{
 
         $results = $query->result_array();
 
-        foreach($results as $result){
+        $this->session->set_userdata('userarray', $results);
 
-            $this->session->set_userdata('user_password', $$result->password);
+        foreach($results as $result){
 
             $getpass = $result->password;
 
@@ -86,7 +86,7 @@ class Login_model extends CI_Model{
 
             $hashed_password = crypt($password);
 
-            if($getpass == ''){
+            if($getpass == '' || $getpass == NULL){
 
                 $pass = crypt($password);
 
