@@ -34,6 +34,10 @@ class Manage extends CI_Controller {
         $this->load->library('session');
 
         $this->session->sess_destroy();
+
+        $this->load->helper('url');
+
+       redirect('/manage/login');
     }
     public function index()
     {
