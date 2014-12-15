@@ -55,7 +55,7 @@
                 <li<?php if($this->uri->segment(2) == 'salescontent'):?> class="active"<?php endif;?>><a href="/manage/salescontent"><i class="fa fa-font"></i> Sales Content</a></li>
                 <li<?php if($this->uri->segment(2) == 'css'):?> class="active"<?php endif;?>><a href="/manage/css"><i class="fa fa-desktop"></i> Custom CSS</a></li>
                 <li<?php if($this->uri->segment(2) == 'workitems'):?> class="active"<?php endif;?>><a href="/manage/workitems"><i class="fa fa-suitcase"></i> Our Work</a></li>
-                <li><a href="bootstrap-grid.html"><i class="fa fa-wrench"></i> Bootstrap Grid</a></li>
+                <!--<li><a href="bootstrap-grid.html"><i class="fa fa-wrench"></i> Bootstrap Grid</a></li>
                 <li><a href="blank-page.html"><i class="fa fa-file"></i> Blank Page</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-caret-square-o-down"></i> Dropdown <b class="caret"></b></a>
@@ -65,7 +65,7 @@
                         <li><a href="#">Third Item</a></li>
                         <li><a href="#">Last Item</a></li>
                     </ul>
-                </li>
+                </li>-->
                 <li style="padding-left: 26px"><img src="/assets/custom/img/darth_vader.png" width="175" /></li>
                 <li style="font-size: 20px; padding-left: 4px;"><div class="alert alert-success alert-dismissable" id="getting-started">
                         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
