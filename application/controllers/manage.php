@@ -175,4 +175,22 @@ class Manage extends CI_Controller {
         var_dump($results);
     }
 
+    public function users()
+    {
+        self::checkSession();
+
+        $this->load->users_model;
+
+        if($this->session->userdata('userlevel') == 'admin' || $this->session->userdata('userlevel') != 'superadmin'){
+            redirect('/manage/index');
+        }
+        else{
+
+            $results['users'] = $this->users_model->getUsers();
+            $this->load->view('admin/header');
+            $this->load->view('admin/users', $results);
+            $this->load->view('admin/footer');
+        }
+    }
+
 }
