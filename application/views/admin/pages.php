@@ -20,3 +20,17 @@
         </div>
     </div>
 </div>
+<script>
+
+    var options = {
+        currentPage: 3,
+        totalPages: 10,
+        size:'small',
+        alignment:'center'
+    }
+
+    $('#example').bootstrapPaginator(options);
+
+
+
+</script>
