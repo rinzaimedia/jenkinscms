@@ -56,7 +56,7 @@
 <script>
     $("#loginform").submit(function(e) {
 
-        var url = "/ajax/login"; // the script where you handle the form input.
+        var url = "/ajax/trylogin"; // the script where you handle the form input.
 
         $.ajax({
             type: "POST",

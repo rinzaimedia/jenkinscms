@@ -132,7 +132,7 @@ class Ajax extends CI_Controller
         return true;
     }
 
-    public function login()
+    public function trylogin()
     {
         $data = $this->input->post();
 
