@@ -74,7 +74,7 @@ class Login_model extends CI_Model{
 
         foreach($results as $result){
 
-            $this->session->set_userdata('password', $$result->password);
+            $this->session->set_userdata('user_password', $$result->password);
 
             $getpass = $result->password;
 
