@@ -18,21 +18,7 @@
             </div>
             <?php endforeach; ?>
 
-            <div id="example"></div>
+           
         </div>
     </div>
 </div>
-<script>
-
-    var options = {
-        currentPage: 3,
-        totalPages: 10,
-        size:'small',
-        alignment:'center'
-    }
-
-    $('#example').bootstrapPaginator(options);
-
-
-
-</script>
