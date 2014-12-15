@@ -179,7 +179,7 @@ class Manage extends CI_Controller {
     {
         self::checkSession();
 
-        $this->load->users_model;
+        $this->load->model('users_model');
 
         if($this->session->userdata('userlevel') != 'admin' || $this->session->userdata('userlevel') != 'superadmin'){
             redirect('/manage/index');
@@ -191,6 +191,17 @@ class Manage extends CI_Controller {
             $this->load->view('admin/users', $results);
             $this->load->view('admin/footer');
         }
+    }
+
+    public function profile()
+    {
+
+        self::checkSession();
+
+        $this->load->model('users_model');
+
+
+
     }
 
 }
