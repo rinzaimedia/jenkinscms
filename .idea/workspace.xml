@@ -55,7 +55,7 @@
       <file leaf-file-name="login_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/login_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="55" selection-start="3021" selection-end="3021" vertical-scroll-proportion="0.84114975" vertical-offset="989" max-vertical-offset="1965">
+            <state line="76" column="63" selection-start="2492" selection-end="2492" vertical-scroll-proportion="0.18305598" vertical-offset="1019" max-vertical-offset="1980">
               <folding />
             </state>
           </provider>
@@ -1217,7 +1217,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/login_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="55" selection-start="3021" selection-end="3021" vertical-scroll-proportion="0.84114975" vertical-offset="989" max-vertical-offset="1965">
+        <state line="76" column="63" selection-start="2492" selection-end="2492" vertical-scroll-proportion="0.18305598" vertical-offset="1019" max-vertical-offset="1980">
           <folding />
         </state>
       </provider>
