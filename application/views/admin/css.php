@@ -6,7 +6,7 @@
                 <li class="inactive"><i class="fa fa-dashboard"></i> <a href="/manage/">Dashboard</a></li>
                 <li class="active"><i class="fa fa-desktop"></i> CSS</li>
             </ol>
-            <div class="alert alert-success alert-dismissable">
+            <div class="alert alert-success alert-dismissable" id="message">
                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
                 Welcome to JenkinsCMS Admin! This new layout will hopefully make site deployments that much faster. On a side note, Shu likes candy!
             </div>

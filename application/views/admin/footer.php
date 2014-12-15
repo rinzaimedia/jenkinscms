@@ -6,5 +6,23 @@
     &copy; <?php echo date('Y'); ?> Ironhead Services LLC | JenkinsCMS
 </footer>
 </div>
+<script>
+
+    var timer=10;
+    function timerRun(){
+
+        if(timer<=0){
+
+            //document.getElementById('message').style.display='none';
+            $("#message").fadeOut();
+            return;
+        }
+        timer--;
+        setTimeout(timerRun,1000);
+        console.log(timer);
+    }
+    timerRun();
+
+</script>
 </body>
 </html>
