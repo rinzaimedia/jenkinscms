@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9aa9b466-073b-4346-a2c4-4a0812afda2c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/login.php" afterPath="$PROJECT_DIR$/application/views/admin/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/manage.php" afterPath="$PROJECT_DIR$/application/controllers/manage.php" />
     </list>
     <ignored path="jenkins.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,7 +46,7 @@
       <file leaf-file-name="login.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/admin/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="49" selection-start="1543" selection-end="1543" vertical-scroll-proportion="0.13615733" vertical-offset="435" max-vertical-offset="1380">
+            <state line="35" column="44" selection-start="1538" selection-end="1538" vertical-scroll-proportion="0.13615733" vertical-offset="435" max-vertical-offset="1380">
               <folding />
             </state>
           </provider>
@@ -1215,7 +1214,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="49" selection-start="1543" selection-end="1543" vertical-scroll-proportion="0.13615733" vertical-offset="435" max-vertical-offset="1380">
+        <state line="35" column="44" selection-start="1538" selection-end="1538" vertical-scroll-proportion="0.13615733" vertical-offset="435" max-vertical-offset="1380">
           <folding />
         </state>
       </provider>
