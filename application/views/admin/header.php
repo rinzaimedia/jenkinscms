@@ -16,7 +16,7 @@
 
     <!-- Add custom CSS here -->
     <link href="/assets/admin/css/sb-admin.css" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/font-awesome-4.0.3/css/font-awesome.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Page Specific CSS -->
     <link rel="stylesheet" href="http://cdn.oesmith.co.uk/morris-0.4.3.min.css">
 
