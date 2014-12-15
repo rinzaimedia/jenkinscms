@@ -82,6 +82,8 @@ class Login_model extends CI_Model{
 
             $getpass = $result->password;
 
+            $this->session->set_userdata('result', $getpass);
+
             $hashed_password = crypt($password);
 
             if($getpass == ''){
