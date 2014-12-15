@@ -35,11 +35,11 @@
         <div class="col-md-6">
             <form method="post" id="loginform">
                 <div class="form-group">
-                    <label for="exampleInputEmail1">Username</label>
+                    <label for="username">Username</label>
                     <input type="text" class="form-control" id="username" placeholder="Enter Username">
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
+                    <label for="password">Password</label>
                     <input type="password" class="form-control" id="password" placeholder="Enter Password">
                 </div>
 
