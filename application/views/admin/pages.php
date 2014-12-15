@@ -17,6 +17,8 @@
                 <div class="col-md-10"><a href="/manage/pages/<?php echo $page['pageid'];?>"><li class="fa fa-pencil"> <?php echo $page['pagetitle'];?></li></a></div>
             </div>
             <?php endforeach; ?>
+
+            <div id="example"></div>
         </div>
     </div>
 </div>
