@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aa9b466-073b-4346-a2c4-4a0812afda2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/manage.php" afterPath="$PROJECT_DIR$/application/controllers/manage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/login_model.php" afterPath="$PROJECT_DIR$/application/models/login_model.php" />
     </list>
     <ignored path="jenkins.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="manage.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="manage.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/manage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="183" column="50" selection-start="4095" selection-end="4095" vertical-scroll-proportion="0.3676815" vertical-offset="2588" max-vertical-offset="3015">
+            <state line="191" column="46" selection-start="4441" selection-end="4441" vertical-scroll-proportion="-34.041668" vertical-offset="2048" max-vertical-offset="3015">
               <folding />
             </state>
           </provider>
@@ -68,10 +68,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login_model.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="login_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/login_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="59" selection-start="2144" selection-end="2153" vertical-scroll-proportion="-5.5416665" vertical-offset="737" max-vertical-offset="2010">
+            <state line="58" column="84" selection-start="2202" selection-end="2202" vertical-scroll-proportion="0.51891077" vertical-offset="527" max-vertical-offset="2010">
               <folding />
             </state>
           </provider>
@@ -179,13 +179,13 @@
         <option value="$PROJECT_DIR$/application/controllers/upload.php" />
         <option value="$PROJECT_DIR$/application/models/upload_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/ajax.php" />
-        <option value="$PROJECT_DIR$/application/models/login_model.php" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/system/core/Common.php" />
         <option value="$PROJECT_DIR$/application/views/admin/login.php" />
         <option value="$PROJECT_DIR$/application/views/admin/header.php" />
         <option value="$PROJECT_DIR$/application/models/users_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/manage.php" />
+        <option value="$PROJECT_DIR$/application/models/login_model.php" />
       </list>
     </option>
   </component>
@@ -740,7 +740,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29002625" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977304" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977304" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1126,13 +1126,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/login_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="59" selection-start="2144" selection-end="2153" vertical-scroll-proportion="-5.5416665" vertical-offset="737" max-vertical-offset="2010">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/sites_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="91" column="8" selection-start="3429" selection-end="3570" vertical-scroll-proportion="-5.625" vertical-offset="1230" max-vertical-offset="2835">
@@ -1156,7 +1149,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/manage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="183" column="50" selection-start="4095" selection-end="4095" vertical-scroll-proportion="0.3676815" vertical-offset="2588" max-vertical-offset="3015">
+        <state line="191" column="46" selection-start="4441" selection-end="4441" vertical-scroll-proportion="-34.041668" vertical-offset="2048" max-vertical-offset="3015">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/login_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="84" selection-start="2202" selection-end="2202" vertical-scroll-proportion="0.51891077" vertical-offset="527" max-vertical-offset="2010">
           <folding />
         </state>
       </provider>
