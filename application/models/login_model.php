@@ -48,7 +48,7 @@ class Login_model extends CI_Model{
 
         $query = $this -> db -> query("select * from users where username = '".$data['username']."' and password = '".self::Salted($data['password'], $data['username'])."' and status = '1'");
 
-        $results = $query->results_array();
+        $results = $query->result_array();
         if($results->username != '')
         {
 
