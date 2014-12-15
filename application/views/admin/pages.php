@@ -48,23 +48,23 @@
         return $.ajax({
             data: '<?php echo $json;?>', // path to the json file
             dataType: 'json' // xml, json, script, or html
-        });
+                  });
     };
 
     var renderer = function (r, c, item) {
         switch(c)
         {
             case 0:
-                return item.sr;
+                return item.pagetitle;
 
             case 1:
-                return item.name;
+                return item.pagetitle;
 
             case 2:
-                return item.location;
+                return item.pagecontent;
 
             default:
-                return item.language;
+                return item.pageid;
         }
     };
 
