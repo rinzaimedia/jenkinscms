@@ -16,14 +16,15 @@
 
     var timer=10;
     function timerRun(){
-        
+
         if(timer<=0){
 
             document.getElementById('message').style.display='none';
             return;
         }
         timer--;
-        setTimeout(timerRun,1000)
+        setTimeout(timerRun,1000);
+        console.log(timer);
     }
 
 </script>
