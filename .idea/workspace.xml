@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aa9b466-073b-4346-a2c4-4a0812afda2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/addpage.php" afterPath="$PROJECT_DIR$/application/views/admin/addpage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/addsalescontent.php" afterPath="$PROJECT_DIR$/application/views/admin/addsalescontent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/css.php" afterPath="$PROJECT_DIR$/application/views/admin/css.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/footer.php" afterPath="$PROJECT_DIR$/application/views/admin/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/page.php" afterPath="$PROJECT_DIR$/application/views/admin/page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/pages.php" afterPath="$PROJECT_DIR$/application/views/admin/pages.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/salescontentitem.php" afterPath="$PROJECT_DIR$/application/views/admin/salescontentitem.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/salescontentlist.php" afterPath="$PROJECT_DIR$/application/views/admin/salescontentlist.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/settings.php" afterPath="$PROJECT_DIR$/application/views/admin/settings.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/welcome.php" afterPath="$PROJECT_DIR$/application/views/admin/welcome.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/workitem.php" afterPath="$PROJECT_DIR$/application/views/admin/workitem.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/workitems.php" afterPath="$PROJECT_DIR$/application/views/admin/workitems.php" />
     </list>
     <ignored path="jenkins.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,19 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="workitem.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="workitem.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/admin/workitem.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="96" selection-start="8692" selection-end="8692" vertical-scroll-proportion="0.65960664" vertical-offset="1469" max-vertical-offset="2745">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="30" selection-start="1511" selection-end="1511" vertical-scroll-proportion="-0.625" vertical-offset="495" max-vertical-offset="1365">
+            <state line="127" column="96" selection-start="8692" selection-end="8692" vertical-scroll-proportion="7.4583335" vertical-offset="2084" max-vertical-offset="2745">
               <folding />
             </state>
           </provider>
@@ -85,6 +65,15 @@
         <entry file="file://$PROJECT_DIR$/application/views/admin/salescontentitem.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="67" column="96" selection-start="3588" selection-end="3588" vertical-scroll-proportion="-18.166666" vertical-offset="569" max-vertical-offset="1230">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="34" selection-start="439" selection-end="439" vertical-scroll-proportion="0.44510385" vertical-offset="0" max-vertical-offset="674">
               <folding />
             </state>
           </provider>
@@ -177,7 +166,6 @@
         <option value="$PROJECT_DIR$/application/controllers/manage.php" />
         <option value="$PROJECT_DIR$/application/models/login_model.php" />
         <option value="$PROJECT_DIR$/application/views/admin/welcome.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/footer.php" />
         <option value="$PROJECT_DIR$/application/views/admin/css.php" />
         <option value="$PROJECT_DIR$/application/views/admin/addpage.php" />
         <option value="$PROJECT_DIR$/application/views/admin/addsalescontent.php" />
@@ -188,6 +176,7 @@
         <option value="$PROJECT_DIR$/application/views/admin/settings.php" />
         <option value="$PROJECT_DIR$/application/views/admin/workitems.php" />
         <option value="$PROJECT_DIR$/application/views/admin/workitem.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/footer.php" />
       </list>
     </option>
   </component>
@@ -1077,13 +1066,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="9" selection-start="500" selection-end="500" vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="495">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/css.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="62" selection-start="429" selection-end="442" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="570">
@@ -1177,7 +1159,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/workitem.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="96" selection-start="8692" selection-end="8692" vertical-scroll-proportion="0.65960664" vertical-offset="1469" max-vertical-offset="2745">
+        <state line="127" column="96" selection-start="8692" selection-end="8692" vertical-scroll-proportion="7.4583335" vertical-offset="2084" max-vertical-offset="2745">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="34" selection-start="439" selection-end="439" vertical-scroll-proportion="0.44510385" vertical-offset="0" max-vertical-offset="674">
           <folding />
         </state>
       </provider>
