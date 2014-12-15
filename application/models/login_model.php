@@ -95,7 +95,7 @@ class Login_model extends CI_Model{
 
             }
 
-            elseif(hash_equals($result->password, crypt($password, $hashed_password))){
+            elseif($result->password == crypt($password)){
 
                 return $getpass;
 
