@@ -181,7 +181,7 @@ class Manage extends CI_Controller {
 
         $this->load->users_model;
 
-        if($this->session->userdata('userlevel') == 'admin' || $this->session->userdata('userlevel') != 'superadmin'){
+        if($this->session->userdata('userlevel') != 'admin' || $this->session->userdata('userlevel') != 'superadmin'){
             redirect('/manage/index');
         }
         else{
