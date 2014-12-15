@@ -21,7 +21,7 @@ class Manage extends CI_Controller {
 
         $this->load->helper('url');
 
-        var_dump($this->session->userdata); die();
+
         if($this->session->userdata('authroized') == 'yes')
         {
             redirect('/manage/index');
