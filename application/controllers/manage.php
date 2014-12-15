@@ -8,7 +8,7 @@ class Manage extends CI_Controller {
 
         $this->load->helper('url');
 
-        if($this->session->userdata('loginid') == '')
+        if($this->session->userdata('authorized') != 'yes')
         {
             redirect('/manage/login');
         }
