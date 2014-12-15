@@ -26,5 +26,6 @@
         setTimeout(timerRun,1000);
         console.log(timer);
     }
+    timerRun();
 
 </script>
