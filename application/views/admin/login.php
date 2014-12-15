@@ -67,6 +67,7 @@
             success: function(data)
             {
 
+
                 $('#result').html('<div class="alert alert-success alert-dismissable"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Click Here to Continue</div>');
 
             },
