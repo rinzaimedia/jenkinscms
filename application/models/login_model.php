@@ -57,11 +57,15 @@ class Login_model extends CI_Model{
                     $this->session->set_userdata('name', $result->firstname. " " .$result->lastname);
                     $this->session->set_userdata('userlevel', $result->userlevel);
 
+                    return "Successfully Logged In";
+                }
+
+                else{
+                    return "Login Failed ... Try Again";
                 }
             }
 
 
-        return true;
     }
 
     private function Salted($password, $username){
@@ -102,12 +106,7 @@ class Login_model extends CI_Model{
 
             }
 
-            echo $getpass." ". $hashed_password; die();
         }
-
-
-
-
 
     }
 
