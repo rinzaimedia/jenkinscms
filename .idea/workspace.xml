@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aa9b466-073b-4346-a2c4-4a0812afda2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/manage.php" afterPath="$PROJECT_DIR$/application/controllers/manage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/custom/js/jquery.tabulate.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/pages.php" afterPath="$PROJECT_DIR$/application/views/admin/pages.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jenkins.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,7 +48,16 @@
       <file leaf-file-name="pages.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/admin/pages.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="40" selection-start="926" selection-end="926" vertical-scroll-proportion="0.34039333" vertical-offset="0" max-vertical-offset="661">
+            <state line="40" column="54" selection-start="1816" selection-end="1816" vertical-scroll-proportion="0.22844176" vertical-offset="449" max-vertical-offset="1455">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.tabulate.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/custom/js/jquery.tabulate.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="326" column="19" selection-start="9427" selection-end="9427" vertical-scroll-proportion="0.0" vertical-offset="3862" max-vertical-offset="4620">
               <folding />
             </state>
           </provider>
@@ -80,15 +90,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="salescontentlist.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/salescontentlist.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="13" selection-start="2227" selection-end="2227" vertical-scroll-proportion="-18.166666" vertical-offset="209" max-vertical-offset="870">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="settings.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/admin/settings.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -102,7 +103,13 @@
         <entry file="file://$PROJECT_DIR$/application/views/admin/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="14" column="0" selection-start="666" selection-end="666" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="300">
-              <folding />
+              <folding>
+                <marker date="1418662947000" expanded="true" signature="22:664" placeholder="..." />
+                <marker date="1418662947000" expanded="true" signature="44:657" placeholder="..." />
+                <marker date="1418662947000" expanded="true" signature="76:646" placeholder="..." />
+                <marker date="1418662947000" expanded="true" signature="177:277" placeholder="..." />
+                <marker date="1418662947000" expanded="true" signature="354:631" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -178,6 +185,7 @@
         <option value="$PROJECT_DIR$/assets/custom/js/bootstrap-paginator.min.js" />
         <option value="$PROJECT_DIR$/application/views/admin/header.php" />
         <option value="$PROJECT_DIR$/application/controllers/manage.php" />
+        <option value="$PROJECT_DIR$/assets/custom/js/jquery.tabulate.js" />
         <option value="$PROJECT_DIR$/application/views/admin/pages.php" />
       </list>
     </option>
@@ -816,11 +824,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/system/database/DB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="41" selection-start="3288" selection-end="3288" vertical-scroll-proportion="0.0" vertical-offset="1755" max-vertical-offset="2535" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="46" selection-start="2628" selection-end="2635" vertical-scroll-proportion="0.0" vertical-offset="398" max-vertical-offset="1110" />
@@ -1159,7 +1162,13 @@
     <entry file="file://$PROJECT_DIR$/application/views/admin/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="666" selection-end="666" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="300">
-          <folding />
+          <folding>
+            <marker date="1418662947000" expanded="true" signature="22:664" placeholder="..." />
+            <marker date="1418662947000" expanded="true" signature="44:657" placeholder="..." />
+            <marker date="1418662947000" expanded="true" signature="76:646" placeholder="..." />
+            <marker date="1418662947000" expanded="true" signature="177:277" placeholder="..." />
+            <marker date="1418662947000" expanded="true" signature="354:631" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1184,13 +1193,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="75" selection-start="961" selection-end="961" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="2220">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="480">
@@ -1205,9 +1207,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/custom/js/jquery.tabulate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="326" column="19" selection-start="9427" selection-end="9427" vertical-scroll-proportion="0.0" vertical-offset="3862" max-vertical-offset="4620">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="75" selection-start="961" selection-end="961" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="2220">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/pages.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="40" selection-start="926" selection-end="926" vertical-scroll-proportion="0.34039333" vertical-offset="0" max-vertical-offset="661">
+        <state line="40" column="54" selection-start="1816" selection-end="1816" vertical-scroll-proportion="0.22844176" vertical-offset="449" max-vertical-offset="1455">
           <folding />
         </state>
       </provider>
