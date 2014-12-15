@@ -53,5 +53,32 @@
         &copy; <?php echo date('Y'); ?> Ironhead Services LLC | JenkinsCMS
     </footer>
 </div>
+<script>
+    $("#loginform").submit(function(e) {
+
+        var url = "/ajax/login"; // the script where you handle the form input.
+
+        $.ajax({
+            type: "POST",
+            url: url,
+            data: $("#loginform").serialize(), // serializes the form's elements.
+            success: function(data)
+            {
+
+                $('#result').html('<div class="alert alert-success alert-dismissable"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Click Here to Continue</div>');
+
+            },
+            error: function(data)
+            {
+
+                $('#error').html('<div class="alert alert-danger alert-dismissable"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Login Failed</div>');
+
+            }
+        });
+
+        return false;
+        e.preventDefault();
+    });
+</script>
 </body>
 </html>

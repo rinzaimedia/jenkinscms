@@ -41,16 +41,19 @@ class Login_model extends CI_Model{
 
     public function login($data){
 
-        $query = $this -> db -> query("select * from users where username = '".$data['username']."' and password = '".self::Salted($data['password'], $data['password']."'"));
+        $query = $this -> db -> query("select * from users where username = '".$data['username']."' and password = '".self::Salted($data['password'], $data['password']."' and status = '1'"));
 
         $results = $query->results_array();
         if($results->username != '')
         {
 
             $this->session->set_userdata('authorized', 'yes');
-
+            $this->session->set_userdata('name', $results->firstname. " " .$results->lastname);
+            $this->session->set_userdata('userlevel', $results->userlevel);
 
         }
+
+        return true;
     }
 
     private function Salted($password, $username){
@@ -100,6 +103,9 @@ class Login_model extends CI_Model{
         $this->session->unset_userdata('authorized');
 
 
+        return true;
     }
+
+
 
 }
