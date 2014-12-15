@@ -33,7 +33,7 @@
 <div id="page-wrapper">
     <div class="row">
         <div id="error"></div>
-        <div id="result"><?=var_dump($this->session);?></div>
+        <div id="result"></div>
         <div class="col-md-6">
             <form method="post" id="loginform">
                 <div class="form-group">
