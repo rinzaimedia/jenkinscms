@@ -23,13 +23,15 @@ class Manage extends CI_Controller {
 
         //var_dump($this->session->userdata); die();
 
-        echo $this->session->userdata('authorized'); die();
+
         if($this->session->userdata('authorized') == 'yes')
         {
             redirect('/manage/index');
         }
 
-        $this->load->view('admin/login');
+        $session = $this->session->userdata('authorized');
+
+        $this->load->view('admin/login', $session);
 
     }
     public function logout()
