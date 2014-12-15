@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aa9b466-073b-4346-a2c4-4a0812afda2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/login_model.php" afterPath="$PROJECT_DIR$/application/models/login_model.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/manage.php" afterPath="$PROJECT_DIR$/application/controllers/manage.php" />
     </list>
     <ignored path="jenkins.iws" />
@@ -26,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="manage.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="manage.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/manage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="474" selection-end="474" vertical-scroll-proportion="-12.5" vertical-offset="45" max-vertical-offset="2700">
+            <state line="23" column="7" selection-start="481" selection-end="524" vertical-scroll-proportion="0.44510385" vertical-offset="45" max-vertical-offset="2700">
               <folding />
             </state>
           </provider>
@@ -62,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login_model.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="login_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/login_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="61" selection-start="2743" selection-end="2743" vertical-scroll-proportion="0.24659607" vertical-offset="1097" max-vertical-offset="1995">
+            <state line="84" column="61" selection-start="2743" selection-end="2743" vertical-scroll-proportion="-6.7916665" vertical-offset="1097" max-vertical-offset="1995">
               <folding />
             </state>
           </provider>
@@ -177,8 +176,8 @@
         <option value="$PROJECT_DIR$/application/models/upload_model.php" />
         <option value="$PROJECT_DIR$/application/views/admin/login.php" />
         <option value="$PROJECT_DIR$/application/controllers/ajax.php" />
-        <option value="$PROJECT_DIR$/application/controllers/manage.php" />
         <option value="$PROJECT_DIR$/application/models/login_model.php" />
+        <option value="$PROJECT_DIR$/application/controllers/manage.php" />
       </list>
     </option>
   </component>
@@ -1185,6 +1184,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="35" selection-start="769" selection-end="769" vertical-scroll-proportion="-8.75" vertical-offset="135" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/login_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="61" selection-start="2743" selection-end="2743" vertical-scroll-proportion="-6.7916665" vertical-offset="1097" max-vertical-offset="1995">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="73" column="33" selection-start="2955" selection-end="2955" vertical-scroll-proportion="-16.291666" vertical-offset="704" max-vertical-offset="1380">
@@ -1199,23 +1212,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="35" selection-start="769" selection-end="769" vertical-scroll-proportion="-8.75" vertical-offset="135" max-vertical-offset="840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/manage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="474" selection-end="474" vertical-scroll-proportion="-12.5" vertical-offset="45" max-vertical-offset="2700">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/login_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="61" selection-start="2743" selection-end="2743" vertical-scroll-proportion="0.24659607" vertical-offset="1097" max-vertical-offset="1995">
+        <state line="23" column="7" selection-start="481" selection-end="524" vertical-scroll-proportion="0.44510385" vertical-offset="45" max-vertical-offset="2700">
           <folding />
         </state>
       </provider>
