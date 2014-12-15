@@ -49,14 +49,17 @@ class Login_model extends CI_Model{
         $query = $this -> db -> query("select * from users where username = '".$data['username']."' and password = '".self::Salted($data['password'], $data['username'])."' and status = '1'");
 
         $results = $query->result_array();
-        if($results->username != '')
-        {
+            foreach($results as $result){
+                if($result->username != '')
+                {
 
-            $this->session->set_userdata('authorized', 'yes');
-            $this->session->set_userdata('name', $results->firstname. " " .$results->lastname);
-            $this->session->set_userdata('userlevel', $results->userlevel);
+                    $this->session->set_userdata('authorized', 'yes');
+                    $this->session->set_userdata('name', $result->firstname. " " .$result->lastname);
+                    $this->session->set_userdata('userlevel', $result->userlevel);
 
-        }
+                }
+            }
+
 
         return true;
     }
@@ -71,7 +74,7 @@ class Login_model extends CI_Model{
 
         foreach($results as $result){
 
-            $getpass = $result['password'];
+            $getpass = $result->password;
 
             $hashed_password = crypt($password);
 
@@ -81,12 +84,11 @@ class Login_model extends CI_Model{
 
                 $this->db->simple_query("update users set password = '".$pass."' where username = '".$username."'");
 
-
                 return $pass;
 
             }
 
-            elseif(hash_equals($result['password'], crypt($password, $hashed_password))){
+            elseif(hash_equals($result->password, crypt($password, $hashed_password))){
 
 
 
@@ -95,7 +97,7 @@ class Login_model extends CI_Model{
 
             else{
 
-                return '';
+                return false;
 
             }
         }
