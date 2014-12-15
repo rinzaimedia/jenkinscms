@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aa9b466-073b-4346-a2c4-4a0812afda2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/pages.php" afterPath="$PROJECT_DIR$/application/views/admin/pages.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/header.php" afterPath="$PROJECT_DIR$/application/views/admin/header.php" />
     </list>
     <ignored path="jenkins.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,19 +34,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pages.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pages.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/admin/pages.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="36" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.45385778" vertical-offset="0" max-vertical-offset="661">
+            <state line="20" column="36" selection-start="1189" selection-end="1189" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/admin/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="44" selection-start="1148" selection-end="1148" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="2220">
+            <state line="20" column="33" selection-start="919" selection-end="919" vertical-scroll-proportion="0.45385778" vertical-offset="0" max-vertical-offset="2235">
               <folding />
             </state>
           </provider>
@@ -176,8 +176,8 @@
         <option value="$PROJECT_DIR$/application/views/admin/workitem.php" />
         <option value="$PROJECT_DIR$/application/views/admin/footer.php" />
         <option value="$PROJECT_DIR$/assets/custom/js/bootstrap-paginator.min.js" />
-        <option value="$PROJECT_DIR$/application/views/admin/header.php" />
         <option value="$PROJECT_DIR$/application/views/admin/pages.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/header.php" />
       </list>
     </option>
   </component>
@@ -1179,16 +1179,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/header.php">
+    <entry file="file://$PROJECT_DIR$/application/views/admin/pages.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="44" selection-start="1148" selection-end="1148" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="2220">
+        <state line="20" column="36" selection-start="1189" selection-end="1189" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="645">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/pages.php">
+    <entry file="file://$PROJECT_DIR$/application/views/admin/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="36" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.45385778" vertical-offset="0" max-vertical-offset="661">
+        <state line="20" column="33" selection-start="919" selection-end="919" vertical-scroll-proportion="0.45385778" vertical-offset="0" max-vertical-offset="2235">
           <folding />
         </state>
       </provider>

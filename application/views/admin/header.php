@@ -18,7 +18,8 @@
     <link href="/assets/admin/css/sb-admin.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Page Specific CSS -->
-    <link rel="stylesheet" href="http://cdn.oesmith.co.uk/morris-0.4.3.min.css">
+    <link rel="stylesheet" href="//cdn.oesmith.co.uk/morris-0.4.3.min.css">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
 
     <script src="/assets/business-plate/js/jquery-1.8.2.min.js"></script>
     <script src="/assets/bootstrap/js/bootstrap.js"></script>
