@@ -78,7 +78,7 @@ class Login_model extends CI_Model{
 
             $hashed_password = crypt($password);
 
-            if($getpass == '' || $getpass == null){
+            if($getpass == ''){
 
                 $pass = crypt($password);
 
@@ -90,9 +90,9 @@ class Login_model extends CI_Model{
 
             elseif(hash_equals($result->password, crypt($password, $hashed_password))){
 
-
-
                 return $getpass;
+
+
             }
 
             else{
@@ -100,6 +100,8 @@ class Login_model extends CI_Model{
                 return false;
 
             }
+
+            echo $getpass." ". $hashed_password; die();
         }
 
 
