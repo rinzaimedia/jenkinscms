@@ -33,7 +33,7 @@
 <div id="page-wrapper">
     <div class="row">
         <div class="col-md-6">
-            <form>
+            <form method="post" id="loginform">
                 <div class="form-group">
                     <label for="exampleInputEmail1">Username</label>
                     <input type="text" class="form-control" id="username" placeholder="Enter Username">
