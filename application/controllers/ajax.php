@@ -136,9 +136,9 @@ class Ajax extends CI_Controller
     {
         $data = $this -> input -> post();
 
-        $this -> load -> model('Login_model');
+        $this -> load -> model('login_model');
 
-        $this -> Login_model -> login($data);
+        $this -> login_model -> login($data);
 
         return true;
     }
