@@ -33,8 +33,7 @@
 <div id="page-wrapper">
     <div class="row">
         <div id="error"></div>
-        <div id="result"></div>
-        <div class="col-md-6">
+        <div class="col-md-6" id="result">
             <form method="post" id="loginform">
                 <div class="form-group">
                     <label for="username">Username</label>
@@ -68,7 +67,7 @@
             {
 
 
-                $('#result').html('<div class="alert alert-success alert-dismissable"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> <i class="fa fa-spinner fa-spin"></i><a href="/manage/index">Click Here to Continue</a></div>');
+                $('#result').html('<div class="alert alert-success alert-dismissable"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> <i class="fa fa-spinner fa-spin"></i> <a href="/manage/index">Click Here to Continue</a></div>');
 
             },
             error: function(data)
