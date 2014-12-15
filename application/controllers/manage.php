@@ -29,9 +29,9 @@ class Manage extends CI_Controller {
             redirect('/manage/index');
         }
 
-        $session = $this->session->userdata('authorized');
 
-        $this->load->view('admin/login', $session);
+
+        $this->load->view('admin/login');
 
     }
     public function logout()
