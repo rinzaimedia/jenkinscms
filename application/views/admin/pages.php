@@ -12,13 +12,15 @@
             </div>
             <a href="/manage/pages/addpage"><button class="btn btn-primary">Add New Page</button></a>
             <hr />
-            <?php foreach($pages as $page):?>
-            <div class="row">
-                <div class="col-md-10"><a href="/manage/pages/<?php echo $page['pageid'];?>"><li class="fa fa-pencil"> <?php echo $page['pagetitle'];?></li></a></div>
+            <div id="pages">
+                <?php var_dump($json);?>
+                <?php foreach($pages as $page):?>
+                <div class="row">
+                    <div class="col-md-10"><a href="/manage/pages/<?php echo $page['pageid'];?>"><li class="fa fa-pencil"> <?php echo $page['pagetitle'];?></li></a></div>
+                </div>
+                <?php endforeach; ?>
             </div>
-            <?php endforeach; ?>
 
-           
         </div>
     </div>
 </div>

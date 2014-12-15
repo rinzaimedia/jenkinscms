@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aa9b466-073b-4346-a2c4-4a0812afda2c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/manage.php" afterPath="$PROJECT_DIR$/application/controllers/manage.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/pages.php" afterPath="$PROJECT_DIR$/application/views/admin/pages.php" />
     </list>
     <ignored path="jenkins.iws" />
@@ -34,10 +35,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="manage.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/manage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="78" column="27" selection-start="1678" selection-end="1678" vertical-scroll-proportion="-9.375" vertical-offset="945" max-vertical-offset="3225">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="pages.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/admin/pages.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="11" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.45385778" vertical-offset="0" max-vertical-offset="661">
+            <state line="15" column="40" selection-start="926" selection-end="926" vertical-scroll-proportion="0.34039333" vertical-offset="0" max-vertical-offset="661">
               <folding />
             </state>
           </provider>
@@ -47,15 +57,6 @@
         <entry file="file://$PROJECT_DIR$/application/views/admin/header.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="20" column="75" selection-start="961" selection-end="961" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="2220">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="salescontentitem.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/salescontentitem.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="96" selection-start="3588" selection-end="3588" vertical-scroll-proportion="-18.166666" vertical-offset="569" max-vertical-offset="1230">
               <folding />
             </state>
           </provider>
@@ -162,7 +163,6 @@
         <option value="$PROJECT_DIR$/system/core/Common.php" />
         <option value="$PROJECT_DIR$/application/views/admin/login.php" />
         <option value="$PROJECT_DIR$/application/models/users_model.php" />
-        <option value="$PROJECT_DIR$/application/controllers/manage.php" />
         <option value="$PROJECT_DIR$/application/models/login_model.php" />
         <option value="$PROJECT_DIR$/application/views/admin/welcome.php" />
         <option value="$PROJECT_DIR$/application/views/admin/css.php" />
@@ -177,6 +177,7 @@
         <option value="$PROJECT_DIR$/application/views/admin/footer.php" />
         <option value="$PROJECT_DIR$/assets/custom/js/bootstrap-paginator.min.js" />
         <option value="$PROJECT_DIR$/application/views/admin/header.php" />
+        <option value="$PROJECT_DIR$/application/controllers/manage.php" />
         <option value="$PROJECT_DIR$/application/views/admin/pages.php" />
       </list>
     </option>
@@ -421,6 +422,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jenkins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jenkins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1060,13 +1079,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/manage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="202" column="0" selection-start="4580" selection-end="4580" vertical-scroll-proportion="-23.083334" vertical-offset="2476" max-vertical-offset="3180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/login_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="78" selection-start="2281" selection-end="2281" vertical-scroll-proportion="-14.916667" vertical-offset="527" max-vertical-offset="2025">
@@ -1186,9 +1198,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/manage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="27" selection-start="1678" selection-end="1678" vertical-scroll-proportion="-9.375" vertical-offset="945" max-vertical-offset="3225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/pages.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="11" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.45385778" vertical-offset="0" max-vertical-offset="661">
+        <state line="15" column="40" selection-start="926" selection-end="926" vertical-scroll-proportion="0.34039333" vertical-offset="0" max-vertical-offset="661">
           <folding />
         </state>
       </provider>

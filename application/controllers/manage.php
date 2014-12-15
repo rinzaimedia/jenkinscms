@@ -75,6 +75,9 @@ class Manage extends CI_Controller {
         if($id == false && $id != 'addpage')
         {
             $result['pages'] = $this->page_model->getPages();
+
+            $result['json'] = json_encode($result['pages']);
+
             $this->load->view('admin/pages', $result);
         }
         elseif($id == 'addpage')
