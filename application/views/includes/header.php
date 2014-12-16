@@ -84,7 +84,7 @@
             <div class="col-sm-3 col-xs-3"><a href="/"><i class="fa fa-home fa-2x"></i><span>Home</span></a></div>
             <div class="col-sm-3 col-xs-3">
                 <?php if($results[0]['phone'] != ''):?>
-                    <li><i class="fa fa-phone fa-2x"></i><span><?php echo $results[0]['phone'];?></span>
+                    <a href="tel:<?php echo $results[0]['phone'];?>"><i class="fa fa-phone fa-2x"></i><span><?php echo $results[0]['phone'];?></span></a>
                 <?php endif; ?>
             </div>
         </div>
