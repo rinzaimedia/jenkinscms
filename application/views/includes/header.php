@@ -81,13 +81,13 @@
             </ul>
         </div>
         <div class="row-fluid hidden-md hidden-lg">
-            <div class="col-sm-2 col-xs-2"><a href="/"><i class="fa fa-home fa-2x"></i></a></div>
-            <div class="col-sm-2 col-xs-2">
+            <div class="col-sm-3 col-xs-2"><a href="/"><i class="fa fa-home fa-2x"></i></a></div>
+            <div class="col-sm-3 col-xs-2">
                 <?php if($results[0]['phone'] != ''):?>
                     <a href="tel:<?php echo $results[0]['phone'];?>"><i class="fa fa-phone fa-2x"></i></a>
                 <?php endif; ?>
             </div>
-            <div class="col-sm-2 col-xs-2"><a href="mailto:<?php echo $results[0]['email'];?>"><i class="fa fa-envelope"></i></a></div>
+            <div class="col-sm-3 col-xs-2"><a href="mailto:<?php echo $results[0]['email'];?>"><i class="fa fa-envelope-o fa-2x"></i></a></div>
         </div>
     </div>
 </div>
