@@ -50,7 +50,7 @@
 <body>
 <div class="top">
     <div class="container">
-        <div class="row-fluid">
+        <div class="row-fluid hidden-sm hidden-xs">
             <ul class="phone-mail">
                 <li><a href="/"><i class="fa fa-home"></i><span>Home</span></a></li>
                 <?php if($results[0]['phone'] != ''):?>
@@ -79,6 +79,9 @@
                 <li class="devider">&nbsp;</li>
                 <li><a href="/manage" class="login-btn">Login</a></li>
             </ul>
+        </div>
+        <div class="row-fluid hidden-md hidden-lg">
+            <div class="col-sm-3 col-xs-3"><a href="/"><i class="fa fa-home fa-2x"></i><span>Home</span></a></div>
         </div>
     </div>
 </div>
