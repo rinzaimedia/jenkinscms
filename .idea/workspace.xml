@@ -55,8 +55,11 @@
       <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/includes/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="67" selection-start="4262" selection-end="4262" vertical-scroll-proportion="0.90922844" vertical-offset="689" max-vertical-offset="1470">
-              <folding />
+            <state line="86" column="127" selection-start="4342" selection-end="4342" vertical-scroll-proportion="0.90922844" vertical-offset="689" max-vertical-offset="1470">
+              <folding>
+                <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1223,8 +1226,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/includes/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="67" selection-start="4262" selection-end="4262" vertical-scroll-proportion="0.90922844" vertical-offset="689" max-vertical-offset="1470">
-          <folding />
+        <state line="86" column="127" selection-start="4342" selection-end="4342" vertical-scroll-proportion="0.90922844" vertical-offset="689" max-vertical-offset="1470">
+          <folding>
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
