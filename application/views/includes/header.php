@@ -82,6 +82,11 @@
         </div>
         <div class="row-fluid hidden-md hidden-lg">
             <div class="col-sm-3 col-xs-3"><a href="/"><i class="fa fa-home fa-2x"></i><span>Home</span></a></div>
+            <div class="col-sm-3 col-xs-3">
+                <?php if($results[0]['phone'] != ''):?>
+                    <li><i class="fa fa-phone fa-2x"></i><span><?php echo $results[0]['phone'];?></span>
+                <?php endif; ?>
+            </div>
         </div>
     </div>
 </div>
