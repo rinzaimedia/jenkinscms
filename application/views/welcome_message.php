@@ -5,7 +5,7 @@
                     <?php foreach($sales as $salescontent):?>
                         <div class="da-slide">
                             <h2><?php echo $salescontent['salestitle'];?></h2>
-                            <p><i><?php echo $salescontent['salescontent'];?></i></p>
+                            <p class="hidden-sm hidden-xs"><i><?php echo $salescontent['salescontent'];?></i></p>
                             <?php if($salescontent['salesimage'] != ''):?>
                                 <div class="da-img">
                                     <img src="<?php echo $salescontent['salesimage'];?>" alt="" class="img-circle" style="max-height: 300px; max-width: 250px; box-shadow: 0px 0px 15px darkorange;"/>
