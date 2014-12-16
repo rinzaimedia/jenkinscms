@@ -55,7 +55,7 @@
       <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/includes/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="42" selection-start="4378" selection-end="4378" vertical-scroll-proportion="0.9319213" vertical-offset="719" max-vertical-offset="1485">
+            <state line="89" column="53" selection-start="4413" selection-end="4413" vertical-scroll-proportion="0.9319213" vertical-offset="719" max-vertical-offset="1485">
               <folding />
             </state>
           </provider>
@@ -1223,7 +1223,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/includes/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="42" selection-start="4378" selection-end="4378" vertical-scroll-proportion="0.9319213" vertical-offset="719" max-vertical-offset="1485">
+        <state line="89" column="53" selection-start="4413" selection-end="4413" vertical-scroll-proportion="0.9319213" vertical-offset="719" max-vertical-offset="1485">
           <folding />
         </state>
       </provider>
