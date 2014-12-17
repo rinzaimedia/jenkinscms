@@ -1,26 +1,42 @@
 <?php if($results[0]['showscroller'] == 1):?>
-<div class="bannerSection">
-    <?php if($pagedata[0]['showscroller'] == 1):?>
-    <div class="slider-inner">
-        <div id="da-slider" class="da-slider">
-            <?php foreach($sales as $salescontent):?>
-            <div class="da-slide">
-                <h2><?php echo $salescontent['salestitle'];?></h2>
-                <p><i><?php echo $salescontent['salescontent'];?></i></p>
-                <div class="da-img"><img src="/assets/business-plate/img/Responsive-Website-Design-Devices.png" alt="" /></div>
-            </div>
-            <?php endforeach; ?>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="min-height: 450px;">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <?php $count = 0;?>
+            <?php for($i = 0; $i < count($sales); $i++):?>
 
-            <nav class="da-arrows">
-                <span class="da-arrows-prev"></span>
-                <span class="da-arrows-next"></span>
-            </nav>
-        </div><!--/da-slider-->
-    </div><!--/slider-->
-    <?php endif;?>
-    <!--=== End Slider ===-->
+                <li data-target="#carousel-example-generic" data-slide-to="<?php echo $i;?>" <?php if($i == 0){ echo 'class="active"';}?>></li>
+            <?php endfor; ?>
+            <?php $count++;?>
+        </ol>
 
-</div>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+
+            <?php for($i = 0; $i < count($sales); $i++):?>
+                <div class="item <?php if($i == 0){ echo 'active';}?> text-center">
+                    <div class="carousel-caption"><?php echo $sales[$i]['salestitle'];?>
+                        <p class="hidden-sm hidden-xs"><i><?php echo $sales[$i]['salescontent'];?></i></p>
+                    </div>
+
+                    <?php if($sales[$i]['salesimage'] != ''):?>
+                        <img src="<?php echo $sales[$i]['salesimage'];?>" class="img-responsive center-block" alt="" style="max-height: 450px;" />
+
+                    <?php endif; ?>
+                </div>
+            <?php endfor; ?>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
 <?php endif; ?>
 <!-- highlightSection -->
 <div class="highlightSection">
