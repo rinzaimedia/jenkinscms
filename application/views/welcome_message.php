@@ -1,5 +1,6 @@
 <?php if($results[0]['showscroller'] == 1):?>
     <div class="bannerSection">
+    <div class="slider-inner">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -14,18 +15,28 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <?php foreach($sales as $salescontent):?>
+                    <div class="da-slide">
+                        <h2 class="hidden-sm hidden-xs"><?php echo $salescontent['salestitle'];?></h2>
+                        <p class="hidden-sm hidden-xs"><i><?php echo $salescontent['salescontent'];?></i></p>
+                        <?php if($salescontent['salesimage'] != ''):?>
+                            <div class="da-img">
+                                <img src="<?php echo $salescontent['salesimage'];?>" alt="" class="img-circle" style="max-height: 300px; max-width: 250px; box-shadow: 0px 0px 15px darkorange;"/>
+                            </div>
+                        <?php endif; ?>
+                    </div>
+                <?php endforeach; ?>
+                <?php foreach($sales as $salescontent):?>
                     <div class="item">
                         <div class="item hidden-sm hidden-xs"><?php echo $salescontent['salestitle'];?>
                             <p class="hidden-sm hidden-xs"><i><?php echo $salescontent['salescontent'];?></i></p>
                         </div>
 
                         <?php if($salescontent['salesimage'] != ''):?>
-                                <img src="<?php echo $salescontent['salesimage'];?>" alt="" />
+                            <img src="<?php echo $salescontent['salesimage'];?>" alt="" />
 
                         <?php endif; ?>
                     </div>
                 <?php endforeach; ?>
-
             </div>
 
             <!-- Controls -->
@@ -38,7 +49,8 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-
+        </div>
+            
     </div>
 <?php endif; ?>
 <!-- highlightSection -->
