@@ -1,5 +1,5 @@
 <?php if($results[0]['showscroller'] == 1):?>
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="min-height: 300px;">
+    <div id="carousel-example-generic" class="carousel slide text-center" data-ride="carousel" style="min-height: 300px; max-width: 768px;">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <?php $count = 0;?>
