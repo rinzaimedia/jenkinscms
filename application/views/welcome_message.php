@@ -13,18 +13,18 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
 
-            <?php foreach($sales as $salescontent):?>
-                <div class="item active">
-                    <div class="carousel-caption"><?php echo $salescontent['salestitle'];?>
-                        <p class="hidden-sm hidden-xs"><i><?php echo $salescontent['salescontent'];?></i></p>
+            <?php for($i = 0; $i < count($sales); $i++):?>
+                <div class="item <?php if($count == 0){ echo 'class="active"';}?>">
+                    <div class="carousel-caption"><?php echo $sales[$i]['salestitle'];?>
+                        <p class="hidden-sm hidden-xs"><i><?php echo $sales[$i]['salescontent'];?></i></p>
                     </div>
 
-                    <?php if($salescontent['salesimage'] != ''):?>
-                        <img src="<?php echo $salescontent['salesimage'];?>" alt="" style="max-height: 300px;" />
+                    <?php if($sales[$i]['salesimage'] != ''):?>
+                        <img src="<?php echo $sales[$i]['salesimage'];?>" alt="" style="max-height: 300px;" />
 
                     <?php endif; ?>
                 </div>
-            <?php endforeach; ?>
+            <?php endfor; ?>
         </div>
 
         <!-- Controls -->
