@@ -21,7 +21,7 @@
                     </div>
 
                     <?php if($sales[$i]['salesimage'] != ''):?>
-                        <img src="<?php echo $sales[$i]['salesimage'];?>" alt="" style="max-height: 300px;" />
+                        <img src="<?php echo $sales[$i]['salesimage'];?>" class="text-center" alt="" style="max-height: 300px;" />
 
                     <?php endif; ?>
                 </div>
