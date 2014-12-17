@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aa9b466-073b-4346-a2c4-4a0812afda2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/admin/css/sb-admin.css" afterPath="$PROJECT_DIR$/assets/admin/css/sb-admin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/includes/footer.php" afterPath="$PROJECT_DIR$/application/views/includes/footer.php" />
     </list>
     <ignored path="jenkins.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,10 +52,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="footer.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/includes/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="134" column="39" selection-start="6621" selection-end="6621" vertical-scroll-proportion="-50.0" vertical-offset="810" max-vertical-offset="4305">
+            <state line="278" column="6" selection-start="11358" selection-end="11358" vertical-scroll-proportion="0.67391306" vertical-offset="3891" max-vertical-offset="4350">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
@@ -144,10 +144,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sb-admin.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="sb-admin.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/admin/css/sb-admin.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="129" column="29" selection-start="2543" selection-end="2543" vertical-scroll-proportion="0.68470585" vertical-offset="1644" max-vertical-offset="2550">
+            <state line="129" column="37" selection-start="2551" selection-end="2551" vertical-scroll-proportion="-11.192307" vertical-offset="1644" max-vertical-offset="2550">
               <folding />
             </state>
           </provider>
@@ -215,10 +215,10 @@
         <option value="$PROJECT_DIR$/application/views/admin/pages.php" />
         <option value="$PROJECT_DIR$/application/views/includes/header.php" />
         <option value="$PROJECT_DIR$/application/views/welcome_message.php" />
-        <option value="$PROJECT_DIR$/application/views/includes/footer.php" />
         <option value="$PROJECT_DIR$/application/views/page.php" />
         <option value="$PROJECT_DIR$/assets/custom/css/business-plate.css" />
         <option value="$PROJECT_DIR$/assets/admin/css/sb-admin.css" />
+        <option value="$PROJECT_DIR$/application/views/includes/footer.php" />
       </list>
     </option>
   </component>
@@ -1210,16 +1210,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/includes/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="39" selection-start="6621" selection-end="6621" vertical-scroll-proportion="-50.0" vertical-offset="810" max-vertical-offset="4305">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/pages.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="35" selection-start="1432" selection-end="1432" vertical-scroll-proportion="-9.375" vertical-offset="165" max-vertical-offset="1455">
@@ -1246,8 +1236,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/admin/css/sb-admin.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="29" selection-start="2543" selection-end="2543" vertical-scroll-proportion="0.68470585" vertical-offset="1644" max-vertical-offset="2550">
+        <state line="129" column="37" selection-start="2551" selection-end="2551" vertical-scroll-proportion="-11.192307" vertical-offset="1644" max-vertical-offset="2550">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/includes/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="278" column="6" selection-start="11358" selection-end="11358" vertical-scroll-proportion="0.67391306" vertical-offset="3891" max-vertical-offset="4350">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

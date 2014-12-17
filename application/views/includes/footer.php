@@ -274,6 +274,9 @@
         App.initSliders();
         Index.initParallaxSlider();
     });
+    $('.carousel').carousel({
+        interval: 2000
+    })
 </script>
 
 
