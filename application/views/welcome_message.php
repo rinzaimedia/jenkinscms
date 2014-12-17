@@ -8,24 +8,24 @@
 
                 <li data-target="#carousel-example-generic" data-slide-to="<?php echo $i;?>" <?php if($count == $i){ echo 'class="active"';}?>></li>
                 <?php endfor; ?>
-                <?php $count ++;?>
+                <?php $count++;?>
             </ol>
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img src="..." alt="...">
-                    <div class="carousel-caption">
-                        ...
+                <?php foreach($sales as $salescontent):?>
+                    <div class="item">
+                        <div class="item hidden-sm hidden-xs"><?php echo $salescontent['salestitle'];?>
+                            <p class="hidden-sm hidden-xs"><i><?php echo $salescontent['salescontent'];?></i></p>
+                        </div>
+
+                        <?php if($salescontent['salesimage'] != ''):?>
+                                <img src="<?php echo $salescontent['salesimage'];?>" alt="" />
+
+                        <?php endif; ?>
                     </div>
-                </div>
-                <div class="item">
-                    <img src="..." alt="...">
-                    <div class="carousel-caption">
-                        ...
-                    </div>
-                </div>
-                ...
+                <?php endforeach; ?>
+
             </div>
 
             <!-- Controls -->
@@ -38,27 +38,7 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-            <div class="slider-inner">
-                <div id="da-slider" class="da-slider">
-                    <?php foreach($sales as $salescontent):?>
-                        <div class="da-slide">
-                            <h2 class="hidden-sm hidden-xs"><?php echo $salescontent['salestitle'];?></h2>
-                            <p class="hidden-sm hidden-xs"><i><?php echo $salescontent['salescontent'];?></i></p>
-                            <?php if($salescontent['salesimage'] != ''):?>
-                                <div class="da-img">
-                                    <img src="<?php echo $salescontent['salesimage'];?>" alt="" class="img-circle" style="max-height: 300px; max-width: 250px; box-shadow: 0px 0px 15px darkorange;"/>
-                                </div>
-                            <?php endif; ?>
-                        </div>
-                    <?php endforeach; ?>
 
-                    <nav class="da-arrows">
-                        <span class="da-arrows-prev" id="page"></span>
-                        <span class="da-arrows-next"></span>
-                    </nav>
-                </div><!--/da-slider-->
-            </div><!--/slider-->
-        <!--=== End Slider ===-->
     </div>
 <?php endif; ?>
 <!-- highlightSection -->
