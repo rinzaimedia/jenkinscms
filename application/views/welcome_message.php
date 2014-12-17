@@ -1,6 +1,7 @@
 <?php if($results[0]['showscroller'] == 1):?>
     <div class="bannerSection">
     <div class="slider-inner">
+        <div id="da-slider" class="da-slider">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -48,6 +49,7 @@
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
+        </div>
         </div>
         </div>
             
