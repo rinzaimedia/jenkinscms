@@ -17,6 +17,11 @@ class Welcome extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
+
+    public function __construct()
+    {
+        date_default_timezone_set('America/Los_Angeles');
+    }
 	public function index()
 	{
         $this->load->model(array('page_model','sites_model', 'sales_model', 'work_model'));
