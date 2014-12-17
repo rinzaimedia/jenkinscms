@@ -1,10 +1,45 @@
 <?php if($results[0]['showscroller'] == 1):?>
     <div class="bannerSection">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="..." alt="...">
+                    <div class="carousel-caption">
+                        ...
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="..." alt="...">
+                    <div class="carousel-caption">
+                        ...
+                    </div>
+                </div>
+                ...
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
             <div class="slider-inner">
                 <div id="da-slider" class="da-slider">
                     <?php foreach($sales as $salescontent):?>
                         <div class="da-slide">
-                            <h2><?php echo $salescontent['salestitle'];?></h2>
+                            <h2 class="hidden-sm hidden-xs"><?php echo $salescontent['salestitle'];?></h2>
                             <p class="hidden-sm hidden-xs"><i><?php echo $salescontent['salescontent'];?></i></p>
                             <?php if($salescontent['salesimage'] != ''):?>
                                 <div class="da-img">
