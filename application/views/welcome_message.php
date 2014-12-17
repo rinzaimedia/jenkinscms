@@ -14,7 +14,7 @@
         <div class="carousel-inner" role="listbox">
 
             <?php for($i = 0; $i < count($sales); $i++):?>
-                <div class="item <?php if($i == 0){ echo 'class="active"';}?>">
+                <div class="item <?php if($i == 0){ echo 'active';}?>">
                     <div class="carousel-caption"><?php echo $sales[$i]['salestitle'];?>
                         <p class="hidden-sm hidden-xs"><i><?php echo $sales[$i]['salescontent'];?></i></p>
                     </div>
