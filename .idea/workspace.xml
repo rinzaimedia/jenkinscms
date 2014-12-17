@@ -91,10 +91,9 @@
       <file leaf-file-name="welcome_message.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/welcome_message.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="16" selection-start="259" selection-end="259" vertical-scroll-proportion="0.113464445" vertical-offset="0" max-vertical-offset="3045">
+            <state line="7" column="106" selection-start="413" selection-end="413" vertical-scroll-proportion="0.15885022" vertical-offset="0" max-vertical-offset="3045">
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <marker date="1418776647000" expanded="true" signature="43:8413" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -1220,10 +1219,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/welcome_message.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="16" selection-start="259" selection-end="259" vertical-scroll-proportion="0.113464445" vertical-offset="0" max-vertical-offset="3045">
+        <state line="7" column="106" selection-start="413" selection-end="413" vertical-scroll-proportion="0.15885022" vertical-offset="0" max-vertical-offset="3045">
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <marker date="1418776647000" expanded="true" signature="43:8413" placeholder="..." />
           </folding>
         </state>
       </provider>

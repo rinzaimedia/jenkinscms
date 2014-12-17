@@ -3,9 +3,9 @@
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
-                
+
                 <?php for($i = 0; $i < count($sales); $i++):?>
-                <li data-target="#carousel-example-generic" data-slide-to="<?php echo $i;?>"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="<?php echo $i;?>" class="active"></li>
                 <?php endfor; ?>
             </ol>
 
