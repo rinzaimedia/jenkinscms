@@ -39,7 +39,7 @@
         </a>
     </div>
 
-
+</div>
 
 <?php endif; ?>
 <!-- highlightSection -->
