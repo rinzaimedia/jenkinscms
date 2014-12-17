@@ -131,8 +131,10 @@
 <!-- footerBottomSection -->
 <div class="footerBottomSection">
     <div class="container" style="font-size: 18px;">
-        &copy; <?php echo date('Y'); ?> <?php echo $results[0]['sitename'];?> | All Rights Reserved.
+
+        <div class="col-lg-4 col-md-4 hidden-sm hidden-xs">&copy; <?php echo date('Y'); ?> <?php echo $results[0]['sitename'];?> | All Rights Reserved.
         <a href="#" rel="nofollow">Terms and Condition</a> | <a href="#" rel="nofollow">Privacy Policy</a>
+
         <?php if($results[0]['facebookpersonal'] != ''):?>
             <a href="<?php echo $results[0]['facebookpersonal'];?>">
 
@@ -167,8 +169,49 @@
             </a>
         <?php endif;?>
 
-        <div class="pull-right" style="font-size: 12px; top: 15px;">Page developed by Ironhead Services LLC</div>
+        <div class="pull-right" style="font-size: 12px; top: 15px;">Site developed by <a href="http://ironheadservices.com">Ironhead Services LLC</a></div>
+        </div>
+        <div class="hidden-lg hidden-md col-sm-12 col-xs-12">&copy; <?php echo date('Y'); ?> <?php echo $results[0]['sitename'];?></div>
+        <div class="hidden-lg hidden-md col-sm-12 col-xs-12"><?php if($results[0]['facebookpersonal'] != ''):?>
+                <a href="<?php echo $results[0]['facebookpersonal'];?>">
+
+                    <i class="fa fa-facebook-square fa-2x"></i>
+
+                </a>
+            <?php endif;?>
+            <?php if($results[0]['facebookpage'] != ''):?>
+                <a href="<?php echo $results[0]['facebookpage'];?>">
+                    <i class="fa fa-facebook-square fa-2x"></i>
+                </a>
+            <?php endif;?>
+            <?php if($results[0]['twitter'] != ''):?>
+                <a href="<?php echo $results[0]['twitter'];?>">
+
+                    <i class="fa fa-twitter-square fa-2x"></i>
+
+                </a>
+            <?php endif;?>
+            <?php if($results[0]['googleplus'] != ''):?>
+                <a href="<?php echo $results[0]['googleplus'];?>">
+
+                    <i class="fa fa-google-plus-square fa-2x"></i>
+
+                </a>
+            <?php endif;?>
+            <?php if($results[0]['linkedin'] != ''):?>
+                <a href="<?php echo $results[0]['linkedin'];?>">
+
+                    <i class="fa fa-linkedin-square fa-2x"></i>
+
+                </a>
+            <?php endif;?>
+        </div>
+        <div class="hidden-lg hidden-md col-sm-12 col-xs-12">
+            Powered by <a href="http://ironheadservices.com">Ironhead Services LLC</a>
+        </div>
+
     </div>
+
 </div>
 
 
