@@ -132,7 +132,7 @@
 <div class="footerBottomSection">
     <div class="container" style="font-size: 18px;">
 
-        <div class="col-lg-4 col-md-4 hidden-sm hidden-xs">&copy; <?php echo date('Y'); ?> <?php echo $results[0]['sitename'];?> | All Rights Reserved.
+        <div class="col-lg-12 col-md-12 hidden-sm hidden-xs">&copy; <?php echo date('Y'); ?> <?php echo $results[0]['sitename'];?> | All Rights Reserved.
         <a href="#" rel="nofollow">Terms and Condition</a> | <a href="#" rel="nofollow">Privacy Policy</a>
 
         <?php if($results[0]['facebookpersonal'] != ''):?>

@@ -55,7 +55,7 @@
       <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/includes/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="53" selection-start="4413" selection-end="4413" vertical-scroll-proportion="-21.291666" vertical-offset="824" max-vertical-offset="1485">
+            <state line="19" column="49" selection-start="919" selection-end="919" vertical-scroll-proportion="16.24" vertical-offset="1097" max-vertical-offset="1485">
               <folding />
             </state>
           </provider>
@@ -64,7 +64,7 @@
       <file leaf-file-name="footer.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/includes/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="209" column="19" selection-start="9588" selection-end="9588" vertical-scroll-proportion="0.6376812" vertical-offset="2871" max-vertical-offset="4305">
+            <state line="134" column="39" selection-start="6621" selection-end="6621" vertical-scroll-proportion="0.3115942" vertical-offset="1881" max-vertical-offset="4305">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
@@ -1175,13 +1175,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="53" selection-start="4413" selection-end="4413" vertical-scroll-proportion="-21.291666" vertical-offset="824" max-vertical-offset="1485">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/custom/css/business-plate.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="185" column="1" selection-start="3042" selection-end="3042" vertical-scroll-proportion="0.47031963" vertical-offset="2569" max-vertical-offset="3990">
@@ -1227,9 +1220,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="49" selection-start="919" selection-end="919" vertical-scroll-proportion="16.24" vertical-offset="1097" max-vertical-offset="1485">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/includes/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="209" column="19" selection-start="9588" selection-end="9588" vertical-scroll-proportion="0.6376812" vertical-offset="2871" max-vertical-offset="4305">
+        <state line="134" column="39" selection-start="6621" selection-end="6621" vertical-scroll-proportion="0.3115942" vertical-offset="1881" max-vertical-offset="4305">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
