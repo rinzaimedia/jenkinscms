@@ -70,10 +70,10 @@
                     Conditions: <?php echo $weather['weather'][0]['main']; ?> / <?php echo ucwords($weather['weather'][0]['description']); ?>
                 </p>
                 <p>
-                    Sunrise: <?php echo date('h:iA', $weather['sys']['sunrise']); ?>
+                    Sunrise: <?php echo date('h:iAP', $weather['sys']['sunrise']); ?>
                 </p>
                 <p>
-                    Sunset: <?php echo date('h:iA', $weather['sys']['sunset']); ?>
+                    Sunset: <?php echo date('h:iAP', $weather['sys']['sunset']); ?>
                 </p>
             </div>
             <div class="col-md-3">
