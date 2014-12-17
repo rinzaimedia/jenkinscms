@@ -5,8 +5,8 @@
             <ol class="carousel-indicators">
 
                 <?php for($i = 0; $i < count($sales); $i++):?>
-                    <?php $data = $attr('data-slide-to'); ?>
-                <li data-target="#carousel-example-generic" data-slide-to="<?php echo $i;?>" <?php if($data == $i){ echo 'class="active"';}?>></li>
+
+                <li data-target="#carousel-example-generic" data-slide-to="<?php echo $i;?>" ></li>
                 <?php endfor; ?>
             </ol>
 
