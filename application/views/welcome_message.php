@@ -5,7 +5,7 @@
             <?php $count = 0;?>
             <?php for($i = 0; $i < count($sales); $i++):?>
 
-                <li data-target="#carousel-example-generic" data-slide-to="<?php echo $i;?>" <?php if($count == $i){ echo 'class="active"';}?>></li>
+                <li data-target="#carousel-example-generic" data-slide-to="<?php echo $i;?>" <?php if($count == 0){ echo 'class="active"';}?>></li>
             <?php endfor; ?>
             <?php $count++;?>
         </ol>
@@ -14,8 +14,8 @@
         <div class="carousel-inner" role="listbox">
 
             <?php foreach($sales as $salescontent):?>
-                <div class="item">
-                    <div class="carousel-caption hidden-sm hidden-xs"><?php echo $salescontent['salestitle'];?>
+                <div class="item active">
+                    <div class="carousel-caption"><?php echo $salescontent['salestitle'];?>
                         <p class="hidden-sm hidden-xs"><i><?php echo $salescontent['salescontent'];?></i></p>
                     </div>
 
