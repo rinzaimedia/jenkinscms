@@ -12,19 +12,19 @@
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="<?php echo $sales[0]['salesimage'];?>" alt="...">
-                <div class="carousel-caption">
-                    ...
+
+            <?php foreach($sales as $salescontent):?>
+                <div class="item">
+                    <div class="carousel-caption hidden-sm hidden-xs"><?php echo $salescontent['salestitle'];?>
+                        <p class="hidden-sm hidden-xs"><i><?php echo $salescontent['salescontent'];?></i></p>
+                    </div>
+
+                    <?php if($salescontent['salesimage'] != ''):?>
+                        <img src="<?php echo $salescontent['salesimage'];?>" alt="" style="max-height: 300px;" />
+
+                    <?php endif; ?>
                 </div>
-            </div>
-            <div class="item">
-                <img src="<?php echo $sales[1]['salesimage'];?>" alt="">
-                <div class="carousel-caption">
-                    ...
-                </div>
-            </div>
-            ...
+            <?php endforeach; ?>
         </div>
 
         <!-- Controls -->
@@ -38,7 +38,7 @@
         </a>
     </div>
 
-        
+
 
 <?php endif; ?>
 <!-- highlightSection -->
