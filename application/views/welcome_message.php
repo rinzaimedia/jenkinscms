@@ -1,6 +1,6 @@
 <?php if($results[0]['showscroller'] == 1):?>
 
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="min-height: 300px; max-width: 768px;">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="min-height: 300px;">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <?php $count = 0;?>
@@ -21,7 +21,7 @@
                     </div>
 
                     <?php if($sales[$i]['salesimage'] != ''):?>
-                        <img src="<?php echo $sales[$i]['salesimage'];?>" class="img-responsive" alt="" style="max-height: 300px;" />
+                        <img src="<?php echo $sales[$i]['salesimage'];?>" class="img-responsive center-block" alt="" style="max-height: 300px;" />
 
                     <?php endif; ?>
                 </div>
