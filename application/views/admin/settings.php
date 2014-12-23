@@ -307,6 +307,16 @@
                             </select>
                         </div>
                     </div>
+                    <div class="form-group" style="padding-left: 13px;">
+                        <label class="col-sm-2 control-label">Timezone:</label>
+                        <div class="col-sm-8">
+                            <select name="timezone" class="form-control" id="timezone">
+                                <?php foreach ($cities as $city):?>
+                                    <option>here</option>
+                                <?php endforeach; ?>
+                            </select>
+                        </div>
+                    </div>
                     <div id="error"></div>
                     <div class="row">
                         <div class="col-sm-3" style="align: right;">

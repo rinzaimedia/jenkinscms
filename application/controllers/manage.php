@@ -58,6 +58,34 @@ class Manage extends CI_Controller {
 
         $results['settings'] = $this->sites_model->getSettings();
 
+        $timezones = DateTimeZone::listAbbreviations();
+
+        $cities = array();
+        foreach( $timezones as $key => $zones )
+        {
+            foreach( $zones as $id => $zone )
+            {
+                /**
+                 * Only get timezones explicitely not part of "Others".
+                 * @see http://www.php.net/manual/en/timezones.others.php
+                 */
+                if ( preg_match( '/^(America|Antartica|Arctic|Asia|Atlantic|Europe|Indian|Pacific)\//', $zone['timezone_id'] )
+                    && $zone['timezone_id']) {
+                    $cities[$zone['timezone_id']][] = $key;
+                }
+            }
+        }
+
+        // For each city, have a comma separated list of all possible timezones for that city.
+        foreach( $cities as $key => $value )
+            $cities[$key] = join( ', ', $value);
+
+        // Only keep one city (the first and also most important) for each set of possibilities.
+        $cities = array_unique( $cities );
+
+        // Sort by area/city name.
+        $results['cities'] = ksort( $cities );
+
         $this->load->view('admin/header');
         $this->load->view('admin/settings', $results);
         $this->load->view('admin/footer');

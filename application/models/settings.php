@@ -24,7 +24,8 @@ class Sites_model extends CI_Model {
                         'facebook-personal' => $data['facebook-personal'], 'facebook-page' => $data['facebook-page'],
                         'twitter' => $data['twitter'], 'google-plus' => $data['google-plus'], 'linkedin' => $data['linkedin'],
                         'phone' => $data['phone'], 'originalurl' => $data['originalurl'], 'css' => $data['css'],
-                        'name' => $data['name'], 'modaltext' => $data['modaltext'], 'showscroller' => $data['showscroller']);
+                        'name' => $data['name'], 'modaltext' => $data['modaltext'], 'showscroller' => $data['showscroller'],
+                        'timezone' => $data['timezone']);
         $where = "id = 1";
 
         $this -> db -> update_string('settings', $values, $where);
