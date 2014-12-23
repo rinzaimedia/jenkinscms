@@ -78,7 +78,7 @@ class Manage extends CI_Controller {
 
         // For each city, have a comma separated list of all possible timezones for that city.
         foreach( $cities as $key => $value )
-            $cities[$key] = join( ', ', $value);
+            $cities[$key] = $key;
 
         // Only keep one city (the first and also most important) for each set of possibilities.
         $results['cities'] = array_unique( $cities );

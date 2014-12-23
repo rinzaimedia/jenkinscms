@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aa9b466-073b-4346-a2c4-4a0812afda2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/settings.php" afterPath="$PROJECT_DIR$/application/views/admin/settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/manage.php" afterPath="$PROJECT_DIR$/application/controllers/manage.php" />
     </list>
     <ignored path="jenkins.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,19 +54,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manage.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="manage.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/manage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="48" selection-start="2311" selection-end="2311" vertical-scroll-proportion="-11.5" vertical-offset="1014" max-vertical-offset="3645">
+            <state line="85" column="34" selection-start="2247" selection-end="2247" vertical-scroll-proportion="0.38724035" vertical-offset="1014" max-vertical-offset="3645">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="settings.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/admin/settings.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="314" column="68" selection-start="29963" selection-end="29963" vertical-scroll-proportion="0.44326776" vertical-offset="4417" max-vertical-offset="6000">
+            <state line="314" column="68" selection-start="29963" selection-end="29963" vertical-scroll-proportion="-12.208333" vertical-offset="4417" max-vertical-offset="6000">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -197,8 +197,8 @@
         <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
         <option value="$PROJECT_DIR$/application/views/includes/footer.php" />
         <option value="$PROJECT_DIR$/application/models/settings.php" />
-        <option value="$PROJECT_DIR$/application/controllers/manage.php" />
         <option value="$PROJECT_DIR$/application/views/admin/settings.php" />
+        <option value="$PROJECT_DIR$/application/controllers/manage.php" />
       </list>
     </option>
   </component>
@@ -1139,16 +1139,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/manage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="48" selection-start="2311" selection-end="2311" vertical-scroll-proportion="-11.5" vertical-offset="1014" max-vertical-offset="3645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/settings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="314" column="68" selection-start="29963" selection-end="29963" vertical-scroll-proportion="0.44326776" vertical-offset="4417" max-vertical-offset="6000">
+        <state line="314" column="68" selection-start="29963" selection-end="29963" vertical-scroll-proportion="-12.208333" vertical-offset="4417" max-vertical-offset="6000">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -1166,6 +1159,13 @@
             <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#0;n#div#1;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/manage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="34" selection-start="2247" selection-end="2247" vertical-scroll-proportion="0.38724035" vertical-offset="1014" max-vertical-offset="3645">
+          <folding />
         </state>
       </provider>
     </entry>
