@@ -81,10 +81,10 @@ class Manage extends CI_Controller {
             $cities[$key] = join( ', ', $value);
 
         // Only keep one city (the first and also most important) for each set of possibilities.
-        $cities = array_unique( $cities );
+        $results['cities'] = array_unique( $cities );
 
         // Sort by area/city name.
-        $results['cities'] = ksort( $cities );
+        //$results['cities'] = ksort( $cities );
 
         $this->load->view('admin/header');
         $this->load->view('admin/settings', $results);
