@@ -81,7 +81,7 @@ class Manage extends CI_Controller {
             $cities[$key] = $key;
 
         // Only keep one city (the first and also most important) for each set of possibilities.
-        $results['cities'] = ksort(array_unique( $cities ));
+        $results['cities'] = array_unique( $cities );
 
         // Sort by area/city name.
         //$results['cities'] = ksort( $cities );

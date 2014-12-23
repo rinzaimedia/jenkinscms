@@ -312,7 +312,7 @@
                         <div class="col-sm-8">
                             <select name="timezone" class="form-control" id="timezone">
                                 <?php foreach ($cities as $city):?>
-                                    <option><?php echo $city;?></option>
+                                    <option value="<?php echo $city; ?>"><?php echo $city;?></option>
                                 <?php endforeach; ?>
                             </select>
                         </div>
