@@ -57,7 +57,7 @@
       <file leaf-file-name="manage.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/manage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="34" selection-start="2247" selection-end="2247" vertical-scroll-proportion="0.38724035" vertical-offset="1014" max-vertical-offset="3645">
+            <state line="83" column="59" selection-start="2217" selection-end="2217" vertical-scroll-proportion="0.34272996" vertical-offset="1014" max-vertical-offset="3645">
               <folding />
             </state>
           </provider>
@@ -1164,7 +1164,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/manage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="34" selection-start="2247" selection-end="2247" vertical-scroll-proportion="0.38724035" vertical-offset="1014" max-vertical-offset="3645">
+        <state line="83" column="59" selection-start="2217" selection-end="2217" vertical-scroll-proportion="0.34272996" vertical-offset="1014" max-vertical-offset="3645">
           <folding />
         </state>
       </provider>
