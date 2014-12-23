@@ -309,7 +309,7 @@
                     </div>
                     <div class="form-group" style="padding-left: 13px;">
                         <label class="col-sm-2 control-label">Timezone:</label>
-                        <div class="col-sm-8">
+                        <div class="col-sm-8"><?php var_dump($cities);?>
                             <select name="timezone" class="form-control" id="timezone">
                                 <?php foreach ($cities as $city):?>
                                     <option>here</option>
