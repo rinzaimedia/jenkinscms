@@ -21,7 +21,7 @@ class Sites_model extends CI_Model {
     public function updateSiteSettings($data)
     {
 
-        $values = array(
+       /* $values = array(
                         'sitename' => $data['sitename'],
                         'industry' => $data['industry'],
                         'address1' => $data['address1'],
@@ -42,7 +42,7 @@ class Sites_model extends CI_Model {
                         'name' => $data['name'],
                         'modaltext' => $data['modaltext'],
                         'showscroller' => $data['showscroller']
-                        );
+                        );*/
 
         //$where = "id = 1"; //
 
@@ -55,8 +55,8 @@ class Sites_model extends CI_Model {
         }
         else
         {
-            $zillow = "";
-            $twilio = "";
+            $zillow = "zillowapi = ''";
+            $twilio = "twilioapi = ''";
         }
         $this->db->simple_query("update settings
                         set
