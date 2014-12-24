@@ -12,7 +12,7 @@
                 Welcome to JenkinsCMS Admin! This new layout will hopefully make site deployments that much faster. On a side note, Shu likes candy!
             </div>
         </div>
-    <form method="post" id="salesform" class="form-horizontal">
+    <form method="post" id="salesform" class="form-horizontal" enctype="multipart/form-data">
         <div class="form-group">
             <div class="row">
                 <label class="col-sm-2 control-label">Title:</label>
@@ -52,7 +52,7 @@
         $.ajax({
             type: "POST",
             url: url,
-            fileElementId: 'salesimage',
+            fileElementId: 'userfile',
             data: $("#salesform").serialize(), // serializes the form's elements.
             success: function(data)
             {

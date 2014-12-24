@@ -45,7 +45,7 @@ class Sales_Model extends CI_Model
             $error = array('error' => $this->upload->display_errors());
             //$this->load->view('upload', $error);
 
-            var_dump($error);
+            //var_dump($error);
 
         } else {
             $file = $this->upload->data();
@@ -56,6 +56,8 @@ class Sales_Model extends CI_Model
 
         $this->db->simple_query("insert into salescontent (salestitle, salescontent, salesimage)
         values('".$data['salestitle']."', '".$data['salescontent']."', '".$_FILES[$file_element_name]."')");
+
+        return $error;
     }
 
     public function deleteSalesContent($data)
