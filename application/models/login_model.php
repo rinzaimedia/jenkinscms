@@ -52,6 +52,8 @@ class Login_model extends CI_Model{
 
         //$message = '';
 
+        $message = "select * from users where username = '".strtolower($data['username'])."' and password = '".$this->Salted($data['password'], strtolower($data['username']))."' and status = '1'";
+
             foreach($query->result() as $result){
 
                 if($result->username != '')
