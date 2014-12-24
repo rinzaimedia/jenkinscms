@@ -5,16 +5,19 @@ class Welcome extends CI_Controller {
 
     public function __construct()
     {
-        date_default_timezone_set('America/Los_Angeles');
-    }
-	public function index()
-	{
+
         $this->load->model('page_model');
         $this->load->model('sites_model');
         $this->load->model('sales_model');
         $this->load->model('work_model');
 
         $this->load->helper('url');
+        
+        date_default_timezone_set('America/Los_Angeles');
+    }
+	public function index()
+	{
+
 
         $results['results'] = $this->sites_model->getSettings();
 
