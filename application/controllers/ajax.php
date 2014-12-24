@@ -76,11 +76,11 @@ class Ajax extends CI_Controller
         }
 
 
-        $salesdata = $this->input->post();
+        //$salesdata = $this->input->post();
 
-        $this->load->model('sales_model');
+        //$this->load->model('sales_model');
 
-        $this->sales_model->addSalesContent($salesdata, $image = false);
+        //$this->sales_model->addSalesContent($salesdata, $image = false);
 
 
         @unlink($_FILES[$file_element_name]);
