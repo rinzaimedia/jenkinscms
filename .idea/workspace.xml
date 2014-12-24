@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aa9b466-073b-4346-a2c4-4a0812afda2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/ajax.php" afterPath="$PROJECT_DIR$/application/controllers/ajax.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/sales_model.php" afterPath="$PROJECT_DIR$/application/models/sales_model.php" />
     </list>
     <ignored path="jenkins.iws" />
@@ -92,9 +91,9 @@
       <file leaf-file-name="sales_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/sales_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="42" selection-start="704" selection-end="704" vertical-scroll-proportion="0.2833828" vertical-offset="304" max-vertical-offset="1020">
+            <state line="38" column="28" selection-start="901" selection-end="901" vertical-scroll-proportion="0.35014838" vertical-offset="334" max-vertical-offset="1020">
               <folding>
-                <marker date="1419458747000" expanded="true" signature="254:299" placeholder="select * fro..salescontent..." />
+                <marker date="1419458891000" expanded="true" signature="254:299" placeholder="select * fro..salescontent..." />
               </folding>
             </state>
           </provider>
@@ -480,6 +479,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jenkins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jenkins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1221,9 +1238,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/sales_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="42" selection-start="704" selection-end="704" vertical-scroll-proportion="0.2833828" vertical-offset="304" max-vertical-offset="1020">
+        <state line="38" column="28" selection-start="901" selection-end="901" vertical-scroll-proportion="0.35014838" vertical-offset="334" max-vertical-offset="1020">
           <folding>
-            <marker date="1419458747000" expanded="true" signature="254:299" placeholder="select * fro..salescontent..." />
+            <marker date="1419458891000" expanded="true" signature="254:299" placeholder="select * fro..salescontent..." />
           </folding>
         </state>
       </provider>

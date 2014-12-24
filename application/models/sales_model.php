@@ -36,7 +36,7 @@ class Sales_Model extends CI_Model
         $config['max_size'] = 1024 * 8;
         $config['encrypt_name'] = TRUE;
 
-        $this->load->helper('upload', $config);
+        $this->load->library('upload', $config);
 
         $file = $this->upload->data();
 
