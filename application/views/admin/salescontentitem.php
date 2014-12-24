@@ -32,7 +32,7 @@
                         <label class="col-sm-2 control-label">Image:</label>
                         <div class="col-sm-8">
 
-                            <input type="file" name="salesimage" id="salesimage" class="form-control" />&nbsp;<img src="<?php echo $salesitem[0]['salesimage'];?>" width="100" />
+                            <input type="file" name="userfile" id="userfile" class="form-control" />&nbsp;<img src="<?php echo $salesitem[0]['salesimage'];?>" width="100" />
                             <input type="hidden" name="salesid" id="salesid" value="<?php echo $salesitem[0]['salesid'];?>" />
                         </div>
                     </div>

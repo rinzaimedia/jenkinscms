@@ -27,7 +27,7 @@ class Sales_Model extends CI_Model
 
     public function addSalesContent($data)
     {
-        $file_element_name = 'salesimage';
+        $file_element_name = 'userfile';
 
         $this->load->model('upload_model');
 
