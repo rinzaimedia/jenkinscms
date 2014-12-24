@@ -58,8 +58,7 @@
             fileElementId   :'userfile',
             dataType: 'JSON',
             data    : {
-            'salestitle' : $('#salestitle').val(),
-             'salescontent' : $('#salescontent').val()
+            'salestitle' : $('#salestitle').val()
             },
             success : function (data)
             {
