@@ -65,6 +65,7 @@
             data: $("#loginform").serialize(), // serializes the form's elements.
             success: function(data)
             {
+                console.log(data.message);
 
 
                 if(data.message == 'Successfully Logged In')
