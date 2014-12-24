@@ -49,10 +49,8 @@ class Login_model extends CI_Model{
         $query = $this -> db -> query("select * from users where username = '".strtolower($data['username'])."' and password = '".self::Salted($data['password'], strtolower($data['username']))."' and status = '1'");
 
             $results = $query->result_array();
-            foreach($query->result_array() as $result){
+            foreach($query->result() as $result){
                 $this->session->set_userdata('username', $result);
-
-                $message = array();
 
                 if($result['username'] != '')
                 {
