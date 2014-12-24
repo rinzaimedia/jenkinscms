@@ -63,6 +63,7 @@
             type: "POST",
             url: url,
             data: $("#loginform").serialize(), // serializes the form's elements.
+            dataType: 'json',
             success: function(data)
             {
                 console.log(data.message);
