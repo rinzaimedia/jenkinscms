@@ -66,7 +66,7 @@
                 }
                 else
                 {
-                    $('#files').html('Some failure message');
+                    $('#files').html('Somethign went wrong... try again '+obj['msg']);
                 }
             }
         });
