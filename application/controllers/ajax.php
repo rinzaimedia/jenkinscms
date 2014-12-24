@@ -70,7 +70,7 @@ class Ajax extends CI_Controller
         $this->sales_model->deleteSalesContent($data);
     }
 
-    public function updatesettings($data)
+    public function updatesettings()
     {
 
         $data = $this->input->post();
@@ -83,12 +83,12 @@ class Ajax extends CI_Controller
 
     }
 
-    public function getmortgagerate($data)
+    public function getmortgagerate()
     {
         $data = $this->input->post();
     }
 
-    public function addToNewsletter($data)
+    public function addToNewsletter()
     {
         $data = $this->input->post();
 
