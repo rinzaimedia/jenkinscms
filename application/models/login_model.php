@@ -82,15 +82,17 @@ class Login_model extends CI_Model{
 
         //$results = $query->result_array();
 
+        $salt = '$2a$07$usesomadasdsadsadsadasdasdasdsadesillystringfors';
+
+        $hashed_password = crypt($password, $salt);
+
       foreach($query->result() as $result){
 
             $getpass = $result->password;
 
-            $hashed_password = crypt($password);
-
             if($getpass == '' || $getpass == NULL){
 
-                $pass = crypt($password);
+                $pass = crypt($password, $salt);
 
                 $this->db->query("update users set password = '".$pass."' where username = '".$username."'");
 
