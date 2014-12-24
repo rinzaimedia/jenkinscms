@@ -99,6 +99,8 @@ class Manage extends CI_Controller {
 
         $this->load->model('page_model');
 
+        $this->load->model('upload_model');
+
 
         if($id == false && $id != 'addpage')
         {
@@ -115,6 +117,7 @@ class Manage extends CI_Controller {
         else
         {
             $result['page'] = $this->page_model->getPage($id);
+
             $this->load->view('admin/page', $result);
         }
         $this->load->view('admin/footer');

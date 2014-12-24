@@ -27,7 +27,24 @@ class Sales_Model extends CI_Model
 
     public function addSalesContent($data)
     {
-        $this->db->simple_query("insert into salescontent (salestitle, salescontent) values('".$data['salestitle']."', '".$data['salescontent']."')");
+        $file_element_name = 'salesimage';
+
+        $this->load->model('upload_model');
+
+        $config['upload_path'] = './files/';
+        $config['allowed_types'] = 'gif|jpg|png';
+        $config['max_size'] = 1024 * 8;
+        $config['encrypt_name'] = TRUE;
+
+        $this->load->helper('upload', $config);
+
+        $file = $this->upload->data();
+
+
+        @unlink($_FILES[$file_element_name]);
+
+        $this->db->simple_query("insert into salescontent (salestitle, salescontent, salesimage)
+        values('".$data['salestitle']."', '".$data['salescontent']."', '".$file['file_name']."')");
     }
 
     public function deleteSalesContent($data)
