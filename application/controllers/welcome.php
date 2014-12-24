@@ -5,6 +5,7 @@ class Welcome extends CI_Controller {
 
     public function __construct()
     {
+        parent::__construct();
 
         $this->load->model('page_model');
         $this->load->model('sites_model');
@@ -12,7 +13,7 @@ class Welcome extends CI_Controller {
         $this->load->model('work_model');
 
         $this->load->helper('url');
-        
+
         date_default_timezone_set('America/Los_Angeles');
     }
 	public function index()

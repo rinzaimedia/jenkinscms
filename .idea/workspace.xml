@@ -132,7 +132,7 @@
       <file leaf-file-name="welcome.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="8" selection-start="372" selection-end="372" vertical-scroll-proportion="0.3115727" vertical-offset="0" max-vertical-offset="750">
+            <state line="7" column="30" selection-start="186" selection-end="186" vertical-scroll-proportion="0.15578635" vertical-offset="0" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
@@ -1195,7 +1195,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="8" selection-start="372" selection-end="372" vertical-scroll-proportion="0.3115727" vertical-offset="0" max-vertical-offset="750">
+        <state line="7" column="30" selection-start="186" selection-end="186" vertical-scroll-proportion="0.15578635" vertical-offset="0" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
