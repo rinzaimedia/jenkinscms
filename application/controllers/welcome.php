@@ -24,7 +24,10 @@ class Welcome extends CI_Controller {
     }
 	public function index()
 	{
-        $this->load->model(array('page_model','sites_model', 'sales_model', 'work_model'));
+        $this->load->model('page_model');
+        $this->load->model('sites_model');
+        $this->load->model('sales_model');
+        $this->load->model('work_model');
 
         $this->load->helper('url');
 
