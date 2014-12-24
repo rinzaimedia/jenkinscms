@@ -26,6 +26,7 @@
     <script src="/assets/bootstrapeditor/js/external/google-code-prettify/prettify.js"></script>
     <script src="/assets/bootstrapeditor/js/bootstrap-wysiwyg.js"></script>
     <script src="/assets/custom/js/countdown.js"></script>
+    <script src="/assets/custom/js/ajaxfileuploader.js"></script>
     <script src="/assets/custom/js/bootstrap-paginator.min.js"></script>
 
 </head>

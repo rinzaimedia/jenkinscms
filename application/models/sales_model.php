@@ -25,39 +25,56 @@ class Sales_Model extends CI_Model
 
     }
 
-    public function addSalesContent($data)
+    public function addSalesContent($salescontent)
     {
-        $file_element_name = 'userfile';
-
         $this->load->helper(array('form', 'url'));
 
         $this->load->model('upload_model');
 
-        $config['upload_path'] = base_url().'/assets/business-plate/img/sunny/';
-        $config['allowed_types'] = 'gif|jpg|png';
-        $config['max_size'] = 1024 * 8;
-        $config['encrypt_name'] = FALSE;
-
-        $this->load->library('upload', $config);
 
 
-        if ( ! $this->upload->do_upload()) {
-            $error = array('error' => $this->upload->display_errors());
-            //$this->load->view('upload', $error);
+        $status = "";
+        $msg = "";
+        $file_element_name = 'userfile';
 
-            //var_dump($error);
+        if ($status != "error")
+        {
+            $config['upload_path'] = base_url().'/assets/business-plate/img/sunny/';
+            $config['allowed_types'] = 'gif|jpg|png';
+            $config['max_size'] = 1024 * 8;
+            $config['encrypt_name'] = FALSE;
 
-        } else {
-            $file = $this->upload->data();
+            $this->load->library('upload', $config);
+            if (!$this->upload->do_upload($file_element_name))
+            {
+                $status = 'error';
+                $msg = $this->upload->display_errors('', '');
+            }
+            else
+            {
+                $data = $this->upload->data();
+                $image_path = $data['full_path'];
+                if(file_exists($image_path))
+                {
+                    $status = "success";
+                    $msg = "File successfully uploaded";
+                }
+                else
+                {
+                    $status = "error";
+                    $msg = "Something went wrong when saving the file, please try again.";
+                }
+            }
+
         }
-        //$file = $this->upload->data();
-
-        //@unlink($_FILES[$file_element_name]);
 
         $this->db->simple_query("insert into salescontent (salestitle, salescontent, salesimage)
-        values('".$data['salestitle']."', '".$data['salescontent']."', '".$_FILES[$file_element_name]."')");
+        values('".$salescontent['salestitle']."', '".$salescontent['salescontent']."', '".$_FILES[$file_element_name]."')");
 
-        return $error;
+        @unlink($_FILES[$file_element_name]);
+
+        echo json_encode(array('status' => $status, 'msg' => $msg));
+
     }
 
     public function deleteSalesContent($data)

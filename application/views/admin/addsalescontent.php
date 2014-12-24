@@ -44,12 +44,34 @@
 
 </div>
 
+
 <script type="text/javascript">
     $("#salesform").submit(function(e) {
 
         var url = "/ajax/addsalescontent"; // the script where you handle the form input.
 
-        $.ajax({
+        e.preventDefault();
+        $.ajaxFileUpload({
+            url             :url,
+            secureuri       :false,
+            fileElementId   :'userfile',
+            dataType: 'JSON',
+            data: $("#salesform").serialize(),
+            success : function (data)
+            {
+                var obj = jQuery.parseJSON(data);
+                if(obj['status'] == 'success')
+                {
+                    $('#files').html(obj['msg']);
+                }
+                else
+                {
+                    $('#files').html('Some failure message');
+                }
+            }
+        });
+        return false;
+       /* $.ajax({
             type: "POST",
             url: url,
             fileElementId: 'userfile',
@@ -69,6 +91,6 @@
         });
 
         return false;
-        e.preventDefault();
+        e.preventDefault();*/
     });
 </script>
