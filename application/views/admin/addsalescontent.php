@@ -14,6 +14,7 @@
         </div>
     <form method="post" id="salesform" class="form-horizontal" enctype="multipart/form-data">
         <div class="form-group">
+            <div id="files"></div>
             <div class="row">
                 <label class="col-sm-2 control-label">Title:</label>
                 <div class="col-sm-8">
@@ -41,8 +42,7 @@
         </div>
     </form>
     </div>
-    <h2>Files</h2>
-    <div id="files"></div>
+
 </div>
 
 
