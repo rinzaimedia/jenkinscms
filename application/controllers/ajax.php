@@ -39,7 +39,7 @@ class Ajax extends CI_Controller
 
         $time = time();
 
-        move_uploaded_file($_FILES['salesimage']['tmp_name'], APPPATH."/assets/uploads/".$time."".$_FILES['salesimage']['type']);
+        //move_uploaded_file($_FILES['salesimage']['tmp_name'], APPPATH."/assets/uploads/".$time."".$_FILES['salesimage']['type']);
 
         //$data['image'] = APPPATH."../assets/uploads/".$time.".".$data['salesimage']['type'];
 
