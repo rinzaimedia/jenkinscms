@@ -39,6 +39,7 @@
     <link rel="stylesheet" href="/assets/business-plate/css/flexslider.css" type="text/css" media="screen">
     <link rel="stylesheet" href="/assets/business-plate/css/parallax-slider.css" type="text/css">
     <link rel="stylesheet" href="/assets/font-awesome-4.0.3/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/assets/custom/css/lightboxstrap.css" type="text/css">
 
     <!-- Custom styles for this template -->
 

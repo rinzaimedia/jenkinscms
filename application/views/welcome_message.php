@@ -105,12 +105,6 @@
 </div>
 <hr>
 
-
-
-
-
-
-
 <div class="services">
     <div class="container">
         <div class="row">
@@ -118,8 +112,8 @@
         foreach($workitems as $workitem):?>
 
             <div class="col-md-3">
-                <img src="<?php echo $workitem['workimage'];?>" class="" title="project one">
-                <h3><a class="hover-effect" href="#"><?php echo $workitem['worktitle'];?></a></h3>
+                <a href="<?php echo $workitem['workimage'];?>"  data-toggle="lightbox"><img src="<?php echo $workitem['workimage'];?>" class="" title="project one" border="0"></a>
+                <h3><a class="hover-effect" href="<?php echo $workitem['workimage'];?>"  data-toggle="lightbox"><?php echo $workitem['worktitle'];?></a></h3>
                 <p><?php echo $workitem['workentry'];?></p>
             </div>
 

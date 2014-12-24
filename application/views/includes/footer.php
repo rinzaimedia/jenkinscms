@@ -267,6 +267,7 @@
 <!-- JS Page Level -->
 <script type="text/javascript" src="/assets/custom/js/app.js"></script>
 <script type="text/javascript" src="/assets/custom/js/index.js"></script>
+<script type="text/javascript" src="/assets/custom/js/lightboxstrap.js"></script>
 
 
 <script type="text/javascript">
@@ -278,6 +279,10 @@
     $('.carousel').carousel({
         interval: 2000
     })
+    $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+    });
 </script>
 
 
