@@ -57,9 +57,6 @@
             secureuri       :false,
             fileElementId   :'userfile',
             dataType: 'JSON',
-            data    : {
-            'salestitle' : $('#salestitle').val()
-            },
             success : function (data)
             {
                 var obj = jQuery.parseJSON(data);
