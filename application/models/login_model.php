@@ -79,15 +79,11 @@ class Login_model extends CI_Model{
 
         $query = $this->db->query("select password from users where username = '".$username."'");
 
-        $results = $query->result_array();
+        //$results = $query->result_array();
 
-        $this->session->set_userdata('userarray', $results);
-
-        foreach($query->result_array() as $result){
+      foreach($query->result() as $result){
 
             $getpass = $result->password;
-
-
 
             $hashed_password = crypt($password);
 
