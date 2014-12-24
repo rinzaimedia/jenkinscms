@@ -55,8 +55,8 @@ class Sites_model extends CI_Model {
         }
         else
         {
-            $zillow = "zillowapi = ''";
-            $twilio = "twilioapi = ''";
+            $zillow = "";
+            $twilio = "";
         }
         $this->db->simple_query("update settings
                         set
