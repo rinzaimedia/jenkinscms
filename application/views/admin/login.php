@@ -72,14 +72,20 @@
                 if(data.message == 'Successfully Logged In')
                 {
                     $('#result').html('<div class="alert alert-success alert-dismissable"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> <i class="fa fa-spinner fa-spin"></i> <a href="/manage/index">Click Here to Continue</a></div>');
+
+                    setTimeout("location.href = '/manage/';",1500);
                 }
                 else if(data.message == 'Login Failed ... Try Again')
                 {
                     $('#result').html('<div class="alert alert-error alert-dismissable"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> <i class="fa fa-spinner fa-spin"></i> <a href="/manage/login">Wrong Username/Password. Try Again?</a></div>');
+
+                    setTimeout("location.href = '/manage/login';",1500);
                 }
                 else
                 {
                     $('#result').html('<div class="alert alert-error alert-dismissable"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> <i class="fa fa-spinner fa-spin"></i> <a href="/manage/login">Oops Something Went Wrong. Try Again?</a></div>');
+
+                    setTimeout("location.href = '/manage/login';",1500);
                 }
 
             },
