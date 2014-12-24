@@ -82,7 +82,7 @@ class Sites_model extends CI_Model {
                         name = '".$data['name']."',
                         modaltext = '".$data['modaltext']."',
                         showscroller = '".$data['showscroller']."',
-                        timzone = '".$data['timezone']."' where id = 1");
+                        timezone = '".$data['timezone']."' where id = 1");
 
         return true;
 
