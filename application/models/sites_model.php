@@ -51,12 +51,10 @@ class Sites_model extends CI_Model {
         if($data['industry'] == 'real-estate')
         {
             $zillow = "zillowapi = '".$data['zillowapi']."',";
-            $twilio = "twilioapi = '".$data['twilioapi']."',";
         }
         else
         {
             $zillow = "";
-            $twilio = "";
         }
         $this->db->simple_query("update settings
                         set
@@ -78,10 +76,10 @@ class Sites_model extends CI_Model {
                         phone = '".$data['phone']."',
                         originalurl = '".$data['originalurl']."',
                         ".$zillow."
-                        ".$twilio."
                         name = '".$data['name']."',
                         modaltext = '".$data['modaltext']."',
                         showscroller = '".$data['showscroller']."',
+                        twilioapi = '".$data['twilioapi']."',
                         timezone = '".$data['timezone']."' where id = 1");
 
         return true;

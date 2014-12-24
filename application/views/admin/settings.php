@@ -291,13 +291,14 @@
                                 <input type="text" class="form-control" name="zillowapi" placeholder="Zillow API" id="zillowapi" value="<?php if($settings[0]['zillowapi'] != ''){ echo $settings[0]['zillowapi']; }?>" />
                             </div>
                         </div>
+                    <?php endif; ?>
                         <div class="form-group" style="padding-left: 13px;">
                             <label class="col-sm-2 control-label">Twilio API:</label>
                             <div class="col-sm-8">
                                 <input type="text" class="form-control" name="twilioapi" placeholder="Twilio API" id="twilioapi" value="<?php if($settings[0]['twilioapi'] != ''){ echo $settings[0]['twilioapi']; }?>" />
                             </div>
                         </div>
-                    <?php endif; ?>
+
                     <div class="form-group" style="padding-left: 13px;">
                         <label class="col-sm-2 control-label">Show Scroller:</label>
                         <div class="col-sm-8">
