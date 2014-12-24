@@ -86,6 +86,7 @@
             error: function(data)
             {
 
+                console.log(data.message);
                 $('#error').html('<div class="alert alert-danger alert-dismissable"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Login Failed</div>');
 
             }
