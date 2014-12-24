@@ -41,6 +41,7 @@ class Ajax extends CI_Controller
         $status = "";
         $msg = "";
         $file_element_name = 'userfile';
+        $title = 'salestitle';
 
         if ($status != "error")
         {
@@ -64,7 +65,7 @@ class Ajax extends CI_Controller
                 if(file_exists($image_path))
                 {
                     $status = "success";
-                    $msg = "File successfully uploaded";
+                    $msg = "File successfully uploaded ".$title;
                 }
                 else
                 {
