@@ -44,7 +44,7 @@ class Ajax extends CI_Controller
 
         if ($status != "error")
         {
-            $config['upload_path'] = base_url().'/assets/business-plate/img/sunny/';
+            $config['upload_path'] = './assets/business-plate/img/sunny/';
             $config['allowed_types'] = 'gif|jpg|png';
             $config['max_size'] = 1024 * 8;
             $config['encrypt_name'] = FALSE;
