@@ -86,11 +86,11 @@ class Login_model extends CI_Model{
 
             $getpass = $result->password;
 
-            $hashed_password = crypt($password, '$2a$07$usesomesillystringforsalt$');
+            $hashed_password = crypt($password);
 
             if($getpass == '' || $getpass == NULL){
 
-                $pass = crypt($password, '$2a$07$usesomesillystringforsalt$');
+                $pass = crypt($password);
 
                 $this->db->query("update users set password = '".$pass."' where username = '".$username."'");
 
