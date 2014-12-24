@@ -31,10 +31,10 @@ class Sales_Model extends CI_Model
 
         $this->load->model('upload_model');
 
-        $config['upload_path'] = APPPATH.'../assets/business-plate/img/sunny/';
+        $config['upload_path'] = './assets/business-plate/img/sunny/';
         $config['allowed_types'] = 'gif|jpg|png';
         $config['max_size'] = 1024 * 8;
-        $config['encrypt_name'] = TRUE;
+        $config['encrypt_name'] = FALSE;
 
         $this->load->library('upload', $config);
 

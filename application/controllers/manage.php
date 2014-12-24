@@ -99,8 +99,6 @@ class Manage extends CI_Controller {
 
         $this->load->model('page_model');
 
-        $this->load->model('upload_model');
-
 
         if($id == false && $id != 'addpage')
         {
