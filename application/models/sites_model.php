@@ -5,6 +5,8 @@ class Sites_model extends CI_Model {
     public function __construct()
     {
         parent::__construct();
+
+
     }
 
     public function getSettings()
@@ -20,33 +22,6 @@ class Sites_model extends CI_Model {
 
     public function updateSiteSettings($data)
     {
-
-       /* $values = array(
-                        'sitename' => $data['sitename'],
-                        'industry' => $data['industry'],
-                        'address1' => $data['address1'],
-                        'address2' => $data['address2'],
-                        'city' => $data['city'],
-                        'state-country' => $data['statecountry'],
-                        'zip' => $data['zip'],
-                        'email' => $data['email'],
-                        'description' => $data['description'],
-                        'facebook-personal' => $data['facebookpersonal'],
-                        'facebook-page' => $data['facebookpage'],
-                        'twitter' => $data['twitter'],
-                        'google-plus' => $data['googleplus'],
-                        'linkedin' => $data['linkedin'],
-                        'phone' => $data['phone'],
-                        'originalurl' => $data['originalurl'],
-                        'zillowapi' => $data['zillowapi'],
-                        'name' => $data['name'],
-                        'modaltext' => $data['modaltext'],
-                        'showscroller' => $data['showscroller']
-                        );*/
-
-        //$where = "id = 1"; //
-
-        //$this->db->where('id', '1');
 
         if($data['industry'] == 'real-estate')
         {
@@ -123,8 +98,9 @@ class Sites_model extends CI_Model {
         return $results;
     }
 
-    public function getUser()
+    public function getUser($data)
     {
+
         //$url = "http://wmsapi/user/1";
 
         //return file_get_contents($url);
