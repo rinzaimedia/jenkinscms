@@ -48,20 +48,19 @@ class Login_model extends CI_Model{
 
         $this->load->library('session');
 
-        $query = $this -> db -> query("select * from users where username = '".strtolower($data['username'])."' and password = '".$this->Salted($data['password'], strtolower($data['username']))."' and status = '1'");
+        $query = $this->db->query("select * from users where username = '".strtolower($data['username'])."' and password = '".$this->Salted($data['password'], strtolower($data['username']))."' and status = '1'");
 
-        $message = '';
+        //$message = '';
 
             foreach($query->result() as $result){
-                $this->session->set_userdata('username', $result);
 
-                if($result['username'] != '')
+                if($result->username != '')
                 {
 
                     $this->session->set_userdata('authorized', 'yes');
-                    $this->session->set_userdata('name', $result['firstname']. " " .$result['lastname']);
-                    $this->session->set_userdata('userlevel', $result['userlevel']);
-                    $this->session->set_userdata('user', $result['username']);
+                    $this->session->set_userdata('name', $result->firstname. " " .$result->lastname);
+                    $this->session->set_userdata('userlevel', $result->userlevel);
+                    $this->session->set_userdata('user', $result->username);
 
                     $message = array("message" => "Successfully Logged In");
                 }
