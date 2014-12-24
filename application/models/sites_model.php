@@ -81,7 +81,8 @@ class Sites_model extends CI_Model {
                         ".$twilio."
                         name = '".$data['name']."',
                         modaltext = '".$data['modaltext']."',
-                        showscroller = '".$data['showscroller']."' where id = 1");
+                        showscroller = '".$data['showscroller']."',
+                        timzone = '".$data['timezone']."' where id = 1");
 
         return true;
 
