@@ -52,6 +52,7 @@ class Login_model extends CI_Model{
             foreach($query->result_array() as $result){
                 $this->session->set_userdata('username', $result);
 
+                $message = array();
 
                 if($result['username'] != '')
                 {
@@ -85,11 +86,11 @@ class Login_model extends CI_Model{
 
             $getpass = $result->password;
 
-            $hashed_password = crypt($password);
+            $hashed_password = crypt($password, '$2a$07$usesomesillystringforsalt$');
 
             if($getpass == '' || $getpass == NULL){
 
-                $pass = crypt($password);
+                $pass = crypt($password, '$2a$07$usesomesillystringforsalt$');
 
                 $this->db->query("update users set password = '".$pass."' where username = '".$username."'");
 
