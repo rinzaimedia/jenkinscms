@@ -67,11 +67,11 @@
             {
 
 
-                if(data == 'Successfully Logged In')
+                if(data.message == 'Successfully Logged In')
                 {
                     $('#result').html('<div class="alert alert-success alert-dismissable"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> <i class="fa fa-spinner fa-spin"></i> <a href="/manage/index">Click Here to Continue</a></div>');
                 }
-                else if(data == 'Login Failed ... Try Again')
+                else if(data.message == 'Login Failed ... Try Again')
                 {
                     $('#result').html('<div class="alert alert-error alert-dismissable"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> <i class="fa fa-spinner fa-spin"></i> <a href="/manage/login">Wrong Username/Password. Try Again?</a></div>');
                 }

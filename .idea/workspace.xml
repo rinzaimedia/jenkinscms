@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aa9b466-073b-4346-a2c4-4a0812afda2c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/login.php" afterPath="$PROJECT_DIR$/application/views/admin/login.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/login_model.php" afterPath="$PROJECT_DIR$/application/models/login_model.php" />
     </list>
     <ignored path="jenkins.iws" />
@@ -54,19 +55,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login_model.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="login_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/login_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="29" selection-start="2041" selection-end="2041" vertical-scroll-proportion="0.33736762" vertical-offset="632" max-vertical-offset="2025">
+            <state line="71" column="35" selection-start="2569" selection-end="2569" vertical-scroll-proportion="-17.375" vertical-offset="648" max-vertical-offset="2070">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="login.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/admin/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="269" selection-start="3412" selection-end="3412" vertical-scroll-proportion="-17.541666" vertical-offset="704" max-vertical-offset="1530">
+            <state line="73" column="36" selection-start="3107" selection-end="3107" vertical-scroll-proportion="0.591528" vertical-offset="704" max-vertical-offset="1530">
               <folding />
             </state>
           </provider>
@@ -213,8 +214,8 @@
         <option value="$PROJECT_DIR$/application/models/settings.php" />
         <option value="$PROJECT_DIR$/application/views/admin/settings.php" />
         <option value="$PROJECT_DIR$/application/controllers/manage.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/login.php" />
         <option value="$PROJECT_DIR$/application/models/login_model.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/login.php" />
       </list>
     </option>
   </component>
@@ -1184,6 +1185,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/login_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="35" selection-start="2569" selection-end="2569" vertical-scroll-proportion="-17.375" vertical-offset="648" max-vertical-offset="2070">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/manage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="220" column="46" selection-start="5487" selection-end="5487" vertical-scroll-proportion="-14.958333" vertical-offset="2941" max-vertical-offset="3615">
@@ -1193,14 +1201,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="269" selection-start="3412" selection-end="3412" vertical-scroll-proportion="-17.541666" vertical-offset="704" max-vertical-offset="1530">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/login_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="29" selection-start="2041" selection-end="2041" vertical-scroll-proportion="0.33736762" vertical-offset="632" max-vertical-offset="2025">
+        <state line="73" column="36" selection-start="3107" selection-end="3107" vertical-scroll-proportion="0.591528" vertical-offset="704" max-vertical-offset="1530">
           <folding />
         </state>
       </provider>

@@ -51,6 +51,8 @@ class Login_model extends CI_Model{
             $results = $query->result_array();
             foreach($query->result_array() as $result){
                 $this->session->set_userdata('username', $result);
+
+                $message = array();
                 if($result['username'] != '')
                 {
 
@@ -59,14 +61,15 @@ class Login_model extends CI_Model{
                     $this->session->set_userdata('userlevel', $result['userlevel']);
                     $this->session->set_userdata('user', $result['username']);
 
-                    echo "Successfully Logged In";
+                    $message['message'] = "Successfully Logged In";
                 }
 
                 else{
-                    echo "Login Failed ... Try Again";
+                    $message['message'] = "Login Failed ... Try Again";
                 }
             }
 
+        echo json_encode($message);
 
     }
 
