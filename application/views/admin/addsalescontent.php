@@ -57,7 +57,10 @@
             secureuri       :false,
             fileElementId   :'userfile',
             dataType: 'JSON',
-            data: $("#salesform").serialize(), // serializes the form's elements.
+            data    : {
+            'salestitle' : $('#salestitle').val(),
+             'salescontent' : $('#salescontent').val()
+            },
             success : function (data)
             {
                 var obj = jQuery.parseJSON(data);
