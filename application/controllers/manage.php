@@ -231,8 +231,6 @@ class Manage extends CI_Controller {
 
         $this->load->model('users_model');
 
-
-
     }
 
 }
