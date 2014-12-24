@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aa9b466-073b-4346-a2c4-4a0812afda2c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/ajax.php" afterPath="$PROJECT_DIR$/application/controllers/ajax.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/sales_model.php" afterPath="$PROJECT_DIR$/application/models/sales_model.php" />
     </list>
     <ignored path="jenkins.iws" />
@@ -82,7 +83,7 @@
       <file leaf-file-name="ajax.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="35" selection-start="1011" selection-end="1026" vertical-scroll-proportion="-7.32" vertical-offset="339" max-vertical-offset="2250">
+            <state line="34" column="36" selection-start="634" selection-end="634" vertical-scroll-proportion="-3.42" vertical-offset="339" max-vertical-offset="2250">
               <folding />
             </state>
           </provider>
@@ -91,9 +92,9 @@
       <file leaf-file-name="sales_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/sales_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="91" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.5504451" vertical-offset="304" max-vertical-offset="1020">
+            <state line="45" column="79" selection-start="1171" selection-end="1176" vertical-scroll-proportion="0.5504451" vertical-offset="304" max-vertical-offset="1020">
               <folding>
-                <marker date="1419458635000" expanded="true" signature="254:299" placeholder="select * fro..salescontent..." />
+                <marker date="1419458691000" expanded="true" signature="254:299" placeholder="select * fro..salescontent..." />
               </folding>
             </state>
           </provider>
@@ -186,11 +187,11 @@
         <option value="$PROJECT_DIR$/application/views/includes/footer.php" />
         <option value="$PROJECT_DIR$/application/views/welcome_message.php" />
         <option value="$PROJECT_DIR$/application/views/admin/login.php" />
-        <option value="$PROJECT_DIR$/application/controllers/ajax.php" />
         <option value="$PROJECT_DIR$/application/views/admin/settings.php" />
         <option value="$PROJECT_DIR$/application/models/sites_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/manage.php" />
         <option value="$PROJECT_DIR$/application/views/admin/salescontentitem.php" />
+        <option value="$PROJECT_DIR$/application/controllers/ajax.php" />
         <option value="$PROJECT_DIR$/application/models/sales_model.php" />
       </list>
     </option>
@@ -1213,16 +1214,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="35" selection-start="1011" selection-end="1026" vertical-scroll-proportion="-7.32" vertical-offset="339" max-vertical-offset="2250">
+        <state line="34" column="36" selection-start="634" selection-end="634" vertical-scroll-proportion="-3.42" vertical-offset="339" max-vertical-offset="2250">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/sales_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="91" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.5504451" vertical-offset="304" max-vertical-offset="1020">
+        <state line="45" column="79" selection-start="1171" selection-end="1176" vertical-scroll-proportion="0.5504451" vertical-offset="304" max-vertical-offset="1020">
           <folding>
-            <marker date="1419458635000" expanded="true" signature="254:299" placeholder="select * fro..salescontent..." />
+            <marker date="1419458691000" expanded="true" signature="254:299" placeholder="select * fro..salescontent..." />
           </folding>
         </state>
       </provider>

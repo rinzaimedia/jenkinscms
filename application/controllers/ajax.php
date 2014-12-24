@@ -32,7 +32,7 @@ class Ajax extends CI_Controller
         $this->page_model->insertPage($data);
     }
 
-    public function addSalesContent($data)
+    public function addSalesContent()
     {
 
         $data = $this->input->post();
