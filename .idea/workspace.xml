@@ -91,9 +91,9 @@
       <file leaf-file-name="sales_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/sales_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="36" selection-start="698" selection-end="698" vertical-scroll-proportion="0.46142432" vertical-offset="184" max-vertical-offset="1035">
+            <state line="45" column="91" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.5504451" vertical-offset="304" max-vertical-offset="1020">
               <folding>
-                <marker date="1419458526000" expanded="true" signature="254:299" placeholder="select * fro..salescontent..." />
+                <marker date="1419458635000" expanded="true" signature="254:299" placeholder="select * fro..salescontent..." />
               </folding>
             </state>
           </provider>
@@ -1220,9 +1220,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/sales_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="36" selection-start="698" selection-end="698" vertical-scroll-proportion="0.46142432" vertical-offset="184" max-vertical-offset="1035">
+        <state line="45" column="91" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.5504451" vertical-offset="304" max-vertical-offset="1020">
           <folding>
-            <marker date="1419458526000" expanded="true" signature="254:299" placeholder="select * fro..salescontent..." />
+            <marker date="1419458635000" expanded="true" signature="254:299" placeholder="select * fro..salescontent..." />
           </folding>
         </state>
       </provider>

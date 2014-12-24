@@ -40,11 +40,10 @@ class Sales_Model extends CI_Model
 
         $file = $this->upload->data();
 
-
         @unlink($_FILES[$file_element_name]);
 
         $this->db->simple_query("insert into salescontent (salestitle, salescontent, salesimage)
-        values('".$data['salestitle']."', '".$data['salescontent']."', '".$file['file_name']."')");
+        values('".$data['salestitle']."', '".$data['salescontent']."', '".$data['salesimage']."')");
     }
 
     public function deleteSalesContent($data)
