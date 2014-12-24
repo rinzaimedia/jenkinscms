@@ -29,21 +29,33 @@ class Sales_Model extends CI_Model
     {
         $file_element_name = 'userfile';
 
+        $this->load->helper(array('form', 'url'));
+
         $this->load->model('upload_model');
 
-        $config['upload_path'] = './assets/business-plate/img/sunny/';
+        $config['upload_path'] = base_url().'/assets/business-plate/img/sunny/';
         $config['allowed_types'] = 'gif|jpg|png';
         $config['max_size'] = 1024 * 8;
         $config['encrypt_name'] = FALSE;
 
         $this->load->library('upload', $config);
 
-        $file = $this->upload->data();
 
-        @unlink($_FILES[$file_element_name]);
+        if ( ! $this->upload->do_upload()) {
+            $error = array('error' => $this->upload->display_errors());
+            //$this->load->view('upload', $error);
+
+            var_dump($error);
+
+        } else {
+            $file = $this->upload->data();
+        }
+        //$file = $this->upload->data();
+
+        //@unlink($_FILES[$file_element_name]);
 
         $this->db->simple_query("insert into salescontent (salestitle, salescontent, salesimage)
-        values('".$data['salestitle']."', '".$data['salescontent']."', '".$file['file_name']."')");
+        values('".$data['salestitle']."', '".$data['salescontent']."', '".$_FILES[$file_element_name]."')");
     }
 
     public function deleteSalesContent($data)

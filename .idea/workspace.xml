@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9aa9b466-073b-4346-a2c4-4a0812afda2c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/sales_model.php" afterPath="$PROJECT_DIR$/application/models/sales_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/salescontentitem.php" afterPath="$PROJECT_DIR$/application/views/admin/salescontentitem.php" />
     </list>
     <ignored path="jenkins.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="salescontentitem.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="salescontentitem.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/admin/salescontentitem.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="61" selection-start="2134" selection-end="2134" vertical-scroll-proportion="0.4488189" vertical-offset="225" max-vertical-offset="1245">
+            <state line="34" column="61" selection-start="2134" selection-end="2134" vertical-scroll-proportion="-5.7" vertical-offset="225" max-vertical-offset="1245">
               <folding />
             </state>
           </provider>
@@ -80,12 +79,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sales_model.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="sales_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/sales_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="614" selection-end="614" vertical-scroll-proportion="-4.3333335" vertical-offset="346" max-vertical-offset="1020">
+            <state line="47" column="29" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.53264093" vertical-offset="346" max-vertical-offset="1200">
               <folding>
-                <marker date="1419459814000" expanded="true" signature="254:299" placeholder="select * fro..salescontent..." />
+                <marker date="1419460273000" expanded="true" signature="254:299" placeholder="select * fro..salescontent..." />
               </folding>
             </state>
           </provider>
@@ -191,8 +190,8 @@
         <option value="$PROJECT_DIR$/application/models/sites_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/ajax.php" />
         <option value="$PROJECT_DIR$/application/controllers/manage.php" />
-        <option value="$PROJECT_DIR$/application/models/sales_model.php" />
         <option value="$PROJECT_DIR$/application/views/admin/salescontentitem.php" />
+        <option value="$PROJECT_DIR$/application/models/sales_model.php" />
       </list>
     </option>
   </component>
@@ -1252,12 +1251,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/sales_model.php">
+    <entry file="file://$PROJECT_DIR$/application/views/admin/salescontentitem.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="614" selection-end="614" vertical-scroll-proportion="-4.3333335" vertical-offset="346" max-vertical-offset="1020">
-          <folding>
-            <marker date="1419459814000" expanded="true" signature="254:299" placeholder="select * fro..salescontent..." />
-          </folding>
+        <state line="34" column="61" selection-start="2134" selection-end="2134" vertical-scroll-proportion="-5.7" vertical-offset="225" max-vertical-offset="1245">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1273,10 +1270,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/salescontentitem.php">
+    <entry file="file://$PROJECT_DIR$/application/models/sales_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="61" selection-start="2134" selection-end="2134" vertical-scroll-proportion="0.4488189" vertical-offset="225" max-vertical-offset="1245">
-          <folding />
+        <state line="47" column="29" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.53264093" vertical-offset="346" max-vertical-offset="1200">
+          <folding>
+            <marker date="1419460273000" expanded="true" signature="254:299" placeholder="select * fro..salescontent..." />
+          </folding>
         </state>
       </provider>
     </entry>
