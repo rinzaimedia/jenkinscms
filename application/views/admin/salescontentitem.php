@@ -55,6 +55,7 @@
         $.ajax({
             type: "POST",
             url: url,
+            fileElementId: 'salesimage',
             data: $("#salesform").serialize(), // serializes the form's elements.
             success: function(data)
             {
