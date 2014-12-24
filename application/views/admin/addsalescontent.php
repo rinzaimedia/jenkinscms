@@ -56,6 +56,7 @@
             secureuri       :false,
             fileElementId   :'userfile',
             dataType: 'JSON',
+            data: $("#salesform").serialize(),
             success : function (data)
             {
                 var obj = jQuery.parseJSON(data);
