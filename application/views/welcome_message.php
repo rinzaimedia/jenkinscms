@@ -1,4 +1,3 @@
-<?php var_dump($results);?>
 <?php if($results[0]['showscroller'] == 1):?>
 
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="min-height: 450px;">
