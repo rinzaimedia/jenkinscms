@@ -66,7 +66,7 @@
             dataType: 'json',
             success: function(data)
             {
-                console.log(data.message);
+                console.log(data);
 
 
                 if(data.message == 'Successfully Logged In')
