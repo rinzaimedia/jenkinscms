@@ -34,18 +34,58 @@ class Ajax extends CI_Controller
 
     public function addSalesContent()
     {
+        $this->load->helper(array('form', 'url'));
 
-        $data = $this->input->post();
+        $this->load->model('upload_model');
 
-        $time = time();
+        $status = "";
+        $msg = "";
+        $file_element_name = 'userfile';
 
-        //move_uploaded_file($_FILES['salesimage']['tmp_name'], APPPATH."/assets/uploads/".$time."".$_FILES['salesimage']['type']);
+        if ($status != "error")
+        {
+            $config['upload_path'] = base_url().'/assets/business-plate/img/sunny/';
+            $config['allowed_types'] = 'gif|jpg|png';
+            $config['max_size'] = 1024 * 8;
+            $config['encrypt_name'] = FALSE;
 
-        //$data['image'] = APPPATH."../assets/uploads/".$time.".".$data['salesimage']['type'];
+            $this->load->library('upload', $config);
+            if (!$this->upload->do_upload($file_element_name))
+            {
+                $status = 'error';
+                $msg = $this->upload->display_errors('', '');
+            }
+            else
+            {
+                $data = $this->upload->data();
+                $image_path = $data['full_path'];
+
+                $image = $data['file_name'];
+                if(file_exists($image_path))
+                {
+                    $status = "success";
+                    $msg = "File successfully uploaded";
+                }
+                else
+                {
+                    $status = "error";
+                    $msg = "Something went wrong when saving the file, please try again.";
+                }
+            }
+
+        }
+
+
+        $salesdata = $this->input->post();
 
         $this->load->model('sales_model');
 
-        $this->sales_model->addSalesContent($data);
+        $this->sales_model->addSalesContent($salesdata, $image = false);
+
+
+        @unlink($_FILES[$file_element_name]);
+
+        echo json_encode(array('status' => $status, 'msg' => $msg));
 
     }
 

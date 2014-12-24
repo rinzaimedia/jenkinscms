@@ -25,55 +25,19 @@ class Sales_Model extends CI_Model
 
     }
 
-    public function addSalesContent($salescontent)
+    public function addSalesContent($salescontent, $image = false)
     {
-        $this->load->helper(array('form', 'url'));
-
-        $this->load->model('upload_model');
 
 
-
-        $status = "";
-        $msg = "";
-        $file_element_name = 'userfile';
-
-        if ($status != "error")
-        {
-            $config['upload_path'] = base_url().'/assets/business-plate/img/sunny/';
-            $config['allowed_types'] = 'gif|jpg|png';
-            $config['max_size'] = 1024 * 8;
-            $config['encrypt_name'] = FALSE;
-
-            $this->load->library('upload', $config);
-            if (!$this->upload->do_upload($file_element_name))
-            {
-                $status = 'error';
-                $msg = $this->upload->display_errors('', '');
-            }
-            else
-            {
-                $data = $this->upload->data();
-                $image_path = $data['full_path'];
-                if(file_exists($image_path))
-                {
-                    $status = "success";
-                    $msg = "File successfully uploaded";
-                }
-                else
-                {
-                    $status = "error";
-                    $msg = "Something went wrong when saving the file, please try again.";
-                }
-            }
-
+        if($image != false){
+            $imagename = $image;
         }
-
+        else{
+            $imagename = '';
+        }
         $this->db->simple_query("insert into salescontent (salestitle, salescontent, salesimage)
-        values('".$salescontent['salestitle']."', '".$salescontent['salescontent']."', '".$_FILES[$file_element_name]."')");
+        values('".$salescontent['salestitle']."', '".$salescontent['salescontent']."' ".$imagename.")");
 
-        @unlink($_FILES[$file_element_name]);
-
-        echo json_encode(array('status' => $status, 'msg' => $msg));
 
     }
 
