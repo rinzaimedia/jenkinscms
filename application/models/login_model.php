@@ -59,11 +59,11 @@ class Login_model extends CI_Model{
                     $this->session->set_userdata('userlevel', $result['userlevel']);
                     $this->session->set_userdata('user', $result['username']);
 
-                    return "Successfully Logged In";
+                    echo "Successfully Logged In";
                 }
 
                 else{
-                    return "Login Failed ... Try Again";
+                    echo "Login Failed ... Try Again";
                 }
             }
 
