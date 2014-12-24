@@ -12,7 +12,7 @@
                 Welcome to JenkinsCMS Admin! This new layout will hopefully make site deployments that much faster. On a side note, Shu likes candy!
             </div>
         </div>
-    <form method="post" id="salesform" class="form-horizontal" enctype="multipart/form-data">
+    <form method="post" id="salesform" class="form-horizontal">
         <div class="form-group">
             <div class="row">
                 <label class="col-sm-2 control-label">Title:</label>
@@ -29,7 +29,7 @@
             <div class="row">
                 <label class="col-sm-2 control-label">Image:</label>
                 <div class="col-sm-8">
-                    <input type="file" name="salesimage" id="salesimage">
+                    <input type="file" name="userfile" id="userfile" class="form-control" />
                     <p class="help-block">Upload PNG, JPG or GIF.</p>
                 </div>
             </div>
@@ -47,17 +47,17 @@
 <script type="text/javascript">
     $("#salesform").submit(function(e) {
 
-        var url = "/ajax/addSalesContent"; // the script where you handle the form input.
-        var data = new FormData();
+        var url = "/ajax/addsalescontent"; // the script where you handle the form input.
 
         $.ajax({
             type: "POST",
             url: url,
+            fileElementId: 'salesimage',
             data: $("#salesform").serialize(), // serializes the form's elements.
             success: function(data)
             {
 
-                $('#result').html('<div class="alert alert-success alert-dismissable" id="message"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Sale content added. Shu nerdgasm!</div>');
+                $('#result').html('<div class="alert alert-success alert-dismissable" id="message"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Page updated. Everyone, Shu loves bacon!</div>');
 
             },
             error: function(data)
