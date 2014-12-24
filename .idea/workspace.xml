@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aa9b466-073b-4346-a2c4-4a0812afda2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/sites_model.php" afterPath="$PROJECT_DIR$/application/models/sites_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/settings.php" afterPath="$PROJECT_DIR$/application/views/admin/settings.php" />
     </list>
     <ignored path="jenkins.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -99,10 +99,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sites_model.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="sites_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/sites_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="23" selection-start="1903" selection-end="1903" vertical-scroll-proportion="0.13204747" vertical-offset="766" max-vertical-offset="2850">
+            <state line="57" column="23" selection-start="1903" selection-end="1903" vertical-scroll-proportion="-3.7083333" vertical-offset="766" max-vertical-offset="2850">
               <folding>
                 <marker date="1419407411000" expanded="true" signature="199:236" placeholder="select * fro..settings..." />
                 <marker date="1419407411000" expanded="true" signature="3524:3561" placeholder="select * fro..imagelist..." />
@@ -113,10 +113,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addsalescontent.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/addsalescontent.php">
+      <file leaf-file-name="settings.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/settings.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="40" selection-start="2358" selection-end="2373" vertical-scroll-proportion="-30.625" vertical-offset="0" max-vertical-offset="1200">
+            <state line="314" column="116" selection-start="30011" selection-end="30011" vertical-scroll-proportion="0.30711043" vertical-offset="4507" max-vertical-offset="6000">
               <folding />
             </state>
           </provider>
@@ -176,7 +176,6 @@
         <option value="$PROJECT_DIR$/assets/custom/css/business-plate.css" />
         <option value="$PROJECT_DIR$/assets/admin/css/sb-admin.css" />
         <option value="$PROJECT_DIR$/application/models/settings.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/settings.php" />
         <option value="$PROJECT_DIR$/application/controllers/manage.php" />
         <option value="$PROJECT_DIR$/application/views/admin/welcome.php" />
         <option value="$PROJECT_DIR$/application/models/login_model.php" />
@@ -192,6 +191,7 @@
         <option value="$PROJECT_DIR$/application/views/admin/login.php" />
         <option value="$PROJECT_DIR$/application/controllers/ajax.php" />
         <option value="$PROJECT_DIR$/application/models/sites_model.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/settings.php" />
       </list>
     </option>
   </component>
@@ -1044,45 +1044,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="314" column="69" selection-start="29964" selection-end="29964" vertical-scroll-proportion="-7.2083335" vertical-offset="4537" max-vertical-offset="6000">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#8;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#9;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#10;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#11;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#12;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#div#1;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#div#1;n#div#2;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#div#1;n#div#3;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#div#1;n#div#4;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#div#1;n#div#5;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#8;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#9;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#10;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#11;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#13;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#13;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="4" selection-start="537" selection-end="574" vertical-scroll-proportion="-8.75" vertical-offset="90" max-vertical-offset="3150">
@@ -1243,13 +1204,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/sites_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="23" selection-start="1903" selection-end="1903" vertical-scroll-proportion="0.13204747" vertical-offset="766" max-vertical-offset="2850">
+        <state line="57" column="23" selection-start="1903" selection-end="1903" vertical-scroll-proportion="-3.7083333" vertical-offset="766" max-vertical-offset="2850">
           <folding>
             <marker date="1419407411000" expanded="true" signature="199:236" placeholder="select * fro..settings..." />
             <marker date="1419407411000" expanded="true" signature="3524:3561" placeholder="select * fro..imagelist..." />
             <marker date="1419407411000" expanded="true" signature="3718:3760" placeholder="SELECT * FRO..links..." />
             <marker date="1419407411000" expanded="true" signature="4131:4176" placeholder="select * fro..pages..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="314" column="116" selection-start="30011" selection-end="30011" vertical-scroll-proportion="0.30711043" vertical-offset="4507" max-vertical-offset="6000">
+          <folding />
         </state>
       </provider>
     </entry>
