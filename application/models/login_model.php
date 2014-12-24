@@ -46,9 +46,12 @@ class Login_model extends CI_Model{
 
     public function login($data){
 
-        $query = $this -> db -> query("select * from users where username = '".strtolower($data['username'])."' and password = '".self::Salted($data['password'], strtolower($data['username']))."' and status = '1'");
+        $this->load->library('session');
 
-            $results = $query->result_array();
+        $query = $this -> db -> query("select * from users where username = '".strtolower($data['username'])."' and password = '".$this->Salted($data['password'], strtolower($data['username']))."' and status = '1'");
+
+        $message = '';
+
             foreach($query->result() as $result){
                 $this->session->set_userdata('username', $result);
 
@@ -73,8 +76,6 @@ class Login_model extends CI_Model{
     }
 
     private function Salted($password, $username){
-
-        $this->load->library('session');
 
         $query = $this->db->query("select password from users where username = '".$username."'");
 
