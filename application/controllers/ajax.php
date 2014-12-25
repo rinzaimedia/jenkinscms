@@ -66,7 +66,7 @@ class Ajax extends CI_Controller
                 if(file_exists($image_path))
                 {
                     $status = "success";
-                    $msg = "File successfully uploaded ".$salestitle." ".$image;
+                    $msg = "Entry successfully added";
                 }
                 else
                 {
