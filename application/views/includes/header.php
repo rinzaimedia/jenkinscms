@@ -84,7 +84,7 @@
                 <div class="container-fluid">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
-                        <div class="col-sm-3 col-xs-3 text-center vcenter"><a href="/"><i class="fa fa-home fa-2x"></i></a></div>
+                        <div class="col-sm-3 col-xs-3 text-center vcenter" style="top: 5px;"><a href="/"><i class="fa fa-home fa-2x"></i></a></div>
                         <div class="col-sm-3 col-xs-3 text-center vcenter">
                             <?php if($results[0]['phone'] != ''):?>
                                 <a href="tel:<?php echo $results[0]['phone'];?>"><i class="fa fa-phone fa-2x"></i></a>
