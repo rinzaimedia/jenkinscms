@@ -37,7 +37,7 @@
       <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/includes/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="52" selection-start="6375" selection-end="6375" vertical-scroll-proportion="0.68229955" vertical-offset="1289" max-vertical-offset="1980">
+            <state line="113" column="12" selection-start="5764" selection-end="5764" vertical-scroll-proportion="0.8184569" vertical-offset="1154" max-vertical-offset="1845">
               <folding />
             </state>
           </provider>
@@ -1297,7 +1297,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/includes/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="52" selection-start="6375" selection-end="6375" vertical-scroll-proportion="0.68229955" vertical-offset="1289" max-vertical-offset="1980">
+        <state line="113" column="12" selection-start="5764" selection-end="5764" vertical-scroll-proportion="0.8184569" vertical-offset="1154" max-vertical-offset="1845">
           <folding />
         </state>
       </provider>
