@@ -41,7 +41,8 @@ class Ajax extends CI_Controller
         $status = "";
         $msg = "";
         $file_element_name = 'userfile';
-        $salesdata = $this->input->post();
+        $salestitle = $this->input->get('salestitle');
+        $salescontent = $this->input->get('salescontent');
 
         if ($status != "error")
         {
@@ -65,7 +66,7 @@ class Ajax extends CI_Controller
                 if(file_exists($image_path))
                 {
                     $status = "success";
-                    $msg = "File successfully uploaded ".$salesdata;
+                    $msg = "File successfully uploaded ".$salestitle." ".$image;
                 }
                 else
                 {
@@ -78,6 +79,7 @@ class Ajax extends CI_Controller
 
 
 
+        $sales
 
         //$this->load->model('sales_model');
 
