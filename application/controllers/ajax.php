@@ -60,7 +60,7 @@ class Ajax extends CI_Controller
             else
             {
                 $data = $this->upload->data();
-                $image_path = '/assets/business-plate/img/sunny/'.$data['full_path'];
+                $image_path = $data['full_path'];
 
                 $image = $data['file_name'];
                 if(file_exists($image_path))

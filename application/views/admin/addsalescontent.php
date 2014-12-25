@@ -67,7 +67,7 @@
                 }
                 else
                 {
-                    $('#files').html('Somethign went wrong... try again '+obj['msg']);
+                    $('#files').html(obj['msg']);
                 }
             }
         });
