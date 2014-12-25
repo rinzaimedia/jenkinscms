@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aa9b466-073b-4346-a2c4-4a0812afda2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/ajax.php" afterPath="$PROJECT_DIR$/application/controllers/ajax.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/page_model.php" afterPath="$PROJECT_DIR$/application/models/page_model.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/pages.php" afterPath="$PROJECT_DIR$/application/views/admin/pages.php" />
     </list>
     <ignored path="jenkins.iws" />
@@ -27,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pages.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pages.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/admin/pages.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="19" selection-start="3309" selection-end="3309" vertical-scroll-proportion="-22.875" vertical-offset="516" max-vertical-offset="1215">
+            <state line="63" column="0" selection-start="2894" selection-end="2894" vertical-scroll-proportion="0.627193" vertical-offset="516" max-vertical-offset="1215">
               <folding />
             </state>
           </provider>
@@ -63,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajax.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ajax.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="247" column="41" selection-start="5876" selection-end="5876" vertical-scroll-proportion="0.76453054" vertical-offset="3192" max-vertical-offset="3900">
+            <state line="247" column="41" selection-start="5876" selection-end="5876" vertical-scroll-proportion="-10.26" vertical-offset="3192" max-vertical-offset="3900">
               <folding />
             </state>
           </provider>
@@ -163,8 +161,8 @@
         <option value="$PROJECT_DIR$/assets/custom/js/bootstrap.table.js" />
         <option value="$PROJECT_DIR$/application/views/admin/header.php" />
         <option value="$PROJECT_DIR$/application/models/page_model.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/pages.php" />
         <option value="$PROJECT_DIR$/application/controllers/ajax.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/pages.php" />
       </list>
     </option>
   </component>
@@ -1245,13 +1243,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/pages.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="19" selection-start="3309" selection-end="3309" vertical-scroll-proportion="-22.875" vertical-offset="516" max-vertical-offset="1215">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/page_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="76" selection-start="1813" selection-end="1813" vertical-scroll-proportion="-22.875" vertical-offset="336" max-vertical-offset="1020">
@@ -1264,7 +1255,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="247" column="41" selection-start="5876" selection-end="5876" vertical-scroll-proportion="0.76453054" vertical-offset="3192" max-vertical-offset="3900">
+        <state line="247" column="41" selection-start="5876" selection-end="5876" vertical-scroll-proportion="-10.26" vertical-offset="3192" max-vertical-offset="3900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/pages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="0" selection-start="2894" selection-end="2894" vertical-scroll-proportion="0.627193" vertical-offset="516" max-vertical-offset="1215">
           <folding />
         </state>
       </provider>

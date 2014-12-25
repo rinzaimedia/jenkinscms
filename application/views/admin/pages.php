@@ -55,7 +55,7 @@
             if (r == true) {
                 $.ajax({
                     type: "GET",
-                    url: '/ajax/deletepost?pageid='+row.pageid,
+                    url: '/ajax/deletepage?pageid='+row.pageid,
 
                     success: function(data)
                     {
