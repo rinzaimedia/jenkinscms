@@ -25,18 +25,6 @@
         </tr>
         </thead>
     </table>
-    <?php if(isset($workitems)): ?>
-
-    <?php foreach($workitems as $workitem):?>
-        <div class="row" style="padding: 3px;">
-            <div class="col-lg-12">
-                <div class="col-md-5"><a href="/manage/workitems/<?php echo $workitem['workid'];?>"><button class="btn btn-default"><li class="fa fa-pencil"></li> <?php echo $workitem['worktitle'];?></button></a> </div>
-                <div class="col-md-5"><form method="post" id="deleteform"><input type="hidden" id="salesid" value="<?php echo $workitem['workid'];?>"/><button class="btn btn-danger"><li class="fa fa-minus-square"> Delete</li></button></form></div>
-            </div>
-        </div>
-    <?php endforeach; ?>
-
-    <?php endif; ?>
 </div>
 <script type="text/javascript" src="/assets/custom/js/bootstrap.table.js"></script>
 <script>
