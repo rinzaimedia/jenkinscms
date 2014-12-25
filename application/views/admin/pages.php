@@ -54,8 +54,8 @@
     window.operateEvents = {
 
         'click .edit': function (e, value, row, index) {
-            window.location('/manage/pages/'+row.pageid);
-            
+            window.location.href ='/manage/pages/'+row.pageid;
+
         },
         'click .remove': function (e, value, row, index) {
             alert('You click remove icon, row: ' + JSON.stringify(row));
