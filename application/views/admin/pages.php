@@ -14,6 +14,7 @@
             <hr />
             <div id="pages">
 
+                <?php echo $json;?>
                 <?php foreach($pages as $page):?>
                 <div class="row">
                     <div class="col-md-10"><a href="/manage/pages/<?php echo $page['pageid'];?>"><li class="fa fa-pencil"> <?php echo $page['pagetitle'];?></li></a></div>
