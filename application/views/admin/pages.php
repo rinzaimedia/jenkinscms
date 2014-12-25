@@ -45,16 +45,16 @@
         return [
 
             '<a class="edit ml10" href="javascript:void(0)" title="Edit">',
-            '<i class="fa fa-edit"></i>',
-            '</a>',
+            '<i class="fa fa-edit fa-lg"></i>',
+            '</a>&nbsp;&nbsp;',
             '<a class="remove ml10" href="javascript:void(0)" title="Remove">',
-            '<i class="fa fa-times-circle-o"></i>',
+            '<i class="fa fa-times-circle-o fa-lg"></i>',
             '</a>'
         ].join('');
     }
 
     window.operateEvents = {
-        
+
         'click .edit': function (e, value, row, index) {
             alert('You click edit icon, row: ' + JSON.stringify(row));
             console.log(value, row, index);
