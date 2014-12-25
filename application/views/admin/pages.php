@@ -20,9 +20,7 @@
                     <div class="col-md-10"><a href="/manage/pages/<?php echo $page['pageid'];?>"><li class="fa fa-pencil"> <?php echo $page['pagetitle'];?></li></a></div>
                 </div>
                 <?php endforeach; ?>
-                <div class="alert alert-success" id="events-result" data-es="Aquí se muestra el resultado del evento">
-                    Here is the result of event.
-                </div>
+
                 <table id="events-table" data-toggle="table" data-url="/ajax/getpages" data-cache="false" data-height="299"
                        data-pagination="true" data-search="true" data-show-columns="true">
                     <thead>
@@ -56,8 +54,8 @@
     window.operateEvents = {
 
         'click .edit': function (e, value, row, index) {
-            alert('You click edit icon, row: ' + JSON.stringify(row));
-            console.log(value, row, index);
+            window.location('/manage/pages/'+row.pageid);
+            
         },
         'click .remove': function (e, value, row, index) {
             alert('You click remove icon, row: ' + JSON.stringify(row));
