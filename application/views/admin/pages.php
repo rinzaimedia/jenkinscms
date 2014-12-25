@@ -65,7 +65,7 @@
                     success: function(data)
                     {
 
-                        $('#results').html('<div class="alert alert-success alert-dismissable" id="message"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Page updated. Everyone, Shu loves bacon!</div>');
+                        $('#results').html('<div class="alert alert-success alert-dismissable" id="message"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Page Deleted!</div>');
 
 
                         $('#events-table').bootstrapTable({
@@ -77,7 +77,7 @@
                     error: function(data)
                     {
 
-                        $('#results').html('<div class="alert alert-danger alert-dismissable" id="message"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Settings failed to update. Try again. On a side note, Shu loves explosions!</div>');
+                        $('#results').html('<div class="alert alert-danger alert-dismissable" id="message"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Page failed to update! Try again!</div>');
 
                     }
                 });
