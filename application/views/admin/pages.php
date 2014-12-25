@@ -14,13 +14,6 @@
             <hr />
             <div id="pages">
 
-
-                <?php foreach($pages as $page):?>
-                <div class="row">
-                    <div class="col-md-10"><a href="/manage/pages/<?php echo $page['pageid'];?>"><li class="fa fa-pencil"> <?php echo $page['pagetitle'];?></li></a></div>
-                </div>
-                <?php endforeach; ?>
-
                 <table id="events-table" data-toggle="table" data-url="/ajax/getpages" data-cache="false" data-height="299"
                        data-pagination="true" data-search="true" data-show-columns="true">
                     <thead>
