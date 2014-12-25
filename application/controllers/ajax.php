@@ -212,7 +212,7 @@ class Ajax extends CI_Controller
 
     public function deleteWorkItem()
     {
-        $data = $this -> input ->post();
+        $data = $this -> input ->get('workid');
 
         $this -> load -> model('work_model');
 
@@ -252,4 +252,15 @@ class Ajax extends CI_Controller
         $this->page_model->deletePage($data);
 
     }
+
+    public function getWorkItems()
+    {
+        $this->load->model('work_model');
+
+        $results = $this->work_model->getWorkItem();
+
+        echo json_encode($results);
+    }
+
+
 }

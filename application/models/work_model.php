@@ -52,7 +52,7 @@ class Work_model extends CI_Model{
 
     public function deleteWorkItem($data)
     {
-        $this->db->simple_query("delete from ourwork where workid = '".$data['workid']."'");
+        $this->db->simple_query("delete from ourwork where workid = '".$data."'");
     }
 
 }

@@ -77,7 +77,7 @@
                     error: function(data)
                     {
 
-                        $('#results').html('<div class="alert alert-danger alert-dismissable" id="message"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Page failed to update! Try again!</div>');
+                        $('#results').html('<div class="alert alert-danger alert-dismissable" id="message"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Page failed to delete! Try again!</div>');
 
                     }
                 });
