@@ -80,10 +80,16 @@
             </ul>
         </div>
         <div class="row-fluid hidden-md hidden-lg">
-             <nav class="navbar navbar-default">
+           <nav class="navbar navbar-default">
                 <div class="container-fluid">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
                         <div class="col-sm-3 col-xs-3 text-center"><a href="/"><i class="fa fa-home fa-2x"></i></a></div>
                         <div class="col-sm-3 col-xs-3 text-center">
                             <?php if($results[0]['phone'] != ''):?>
@@ -91,7 +97,6 @@
                             <?php endif; ?>
                         </div>
                         <div class="col-sm-3 col-xs-3 text-center"><a href="mailto:<?php echo $results[0]['email'];?>"><i class="fa fa-envelope-o fa-2x"></i></a></div>
-
 
                     </div>
 
