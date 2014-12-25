@@ -36,7 +36,7 @@ class Sales_Model extends CI_Model
             $imagename = '';
         }
         $this->db->simple_query("insert into salescontent (salestitle, salescontent, salesimage)
-        values('".$salestitle."', '".$salescontent."' '".$imagename."')");
+        values('".$salestitle."', '".$salescontent."', '".$imagename."')");
 
 
     }
