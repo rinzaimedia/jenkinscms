@@ -85,13 +85,13 @@
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
                         <div class="col-sm-3 col-xs-3 text-center vcenter" style="top: 20px;"><a href="/"><i class="fa fa-home fa-2x"></i></a></div>
-                        <div class="col-sm-3 col-xs-3 text-center vcenter">
+                        <div class="col-sm-3 col-xs-3 text-center vcenter"  style="top: 20px;">
                             <?php if($results[0]['phone'] != ''):?>
                                 <a href="tel:<?php echo $results[0]['phone'];?>"><i class="fa fa-phone fa-2x"></i></a>
                             <?php endif; ?>
                         </div>
-                        <div class="col-sm-3 col-xs-3 text-center vcenter"><a href="mailto:<?php echo $results[0]['email'];?>"><i class="fa fa-envelope-o fa-2x"></i></a></div>
-                        <div class="col-sm-3 col-xs-3 text-center vcenter">
+                        <div class="col-sm-3 col-xs-3 text-center vcenter" style="top: 20px;"><a href="mailto:<?php echo $results[0]['email'];?>"><i class="fa fa-envelope-o fa-2x"></i></a></div>
+                        <div class="col-sm-3 col-xs-3 text-center vcenter" style="top: -10px;">
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                                 <span class="sr-only">Toggle navigation</span>
                                 <span class="icon-bar"></span>
