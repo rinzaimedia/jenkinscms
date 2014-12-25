@@ -7,8 +7,7 @@
                 <li class="inactive"><i class="fa fa-font"></i> <a href="/manage/salescontent">Sales Content</a></li>
                 <li class="active"><i class="fa fa-pencil"></i> <?php echo $salesitem[0]['salestitle'];?></li>
             </ol>
-            <div id="result"></div>
-            <div id="error"></div>
+            <div id="files"></div>
             <div class="alert alert-success alert-dismissable" id="message">
                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
                 Welcome to JenkinsCMS Admin! This new layout will hopefully make site deployments that much faster. On a side note, Shu likes candy!
@@ -50,29 +49,28 @@
 <script type="text/javascript">
     $("#salesform").submit(function(e) {
 
-        var url = "/ajax/updatesalescontent"; // the script where you handle the form input.
+        var url = "/ajax/updatesalescontent?salestitle="+$('#salestitle').val()+"&salescontent="+$('#salescontent').val()+"&salesid="+$('#salesid').val(); // the script where you handle the form input.
 
-        $.ajax({
-            type: "POST",
-            url: url,
-            fileElementId: 'salesimage',
-            data: $("#salesform").serialize(), // serializes the form's elements.
-            success: function(data)
+        e.preventDefault();
+        $.ajaxFileUpload({
+            url             :url,
+            secureuri       :false,
+            fileElementId   :'userfile',
+            dataType: 'JSON',
+            success : function (data)
             {
-
-                $('#result').html('<div class="alert alert-success alert-dismissable" id="message"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Page updated. Everyone, Shu loves bacon!</div>');
-
-            },
-            error: function(data)
-            {
-
-                $('#error').html('<div class="alert alert-danger alert-dismissable" id="message"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Settings failed to update. Try again. On a side note, Shu loves explosions!</div>');
-
+                var obj = jQuery.parseJSON(data);
+                if(obj['status'] == 'success')
+                {
+                    $('#files').html('<div class="alert alert-info alert-dismissable" id="message"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> '+obj['msg']+'</div>');
+                }
+                else
+                {
+                    $('#files').html('<div class="alert alert-danger alert-dismissable" id="message"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> '+obj['msg']+'</div>');
+                }
             }
         });
-
         return false;
-        e.preventDefault();
     });
 
 

@@ -90,13 +90,64 @@ class Ajax extends CI_Controller
     public function updateSalesContent()
     {
 
-        $data = $this->input->post();
+        $this->load->helper(array('form', 'url'));
 
-        //$time = time();
+        $this->load->model('upload_model');
+
+        $status = "";
+        $msg = "";
+        $file_element_name = 'userfile';
+        $salestitle = $this->input->get('salestitle');
+        $salescontent = $this->input->get('salescontent');
+        $salesid = $this->input->get('salesid');
+
+        if ($status != "error")
+        {
+            $config['upload_path'] = './assets/business-plate/img/sunny/';
+            $config['allowed_types'] = 'gif|jpg|png';
+            $config['max_size'] = 1024 * 8;
+            $config['encrypt_name'] = FALSE;
+
+            $this->load->library('upload', $config);
+            if (!$this->upload->do_upload($file_element_name))
+            {
+                $status = 'error';
+                $msg = $this->upload->display_errors('', '');
+            }
+            else
+            {
+                $data = $this->upload->data();
+                $image_path = $data['full_path'];
+
+                $image = $data['file_name'];
+                if(file_exists($image_path))
+                {
+                    $status = "success";
+                    $msg = "Entry successfully added";
+                }
+                else
+                {
+                    $status = "error";
+                    $msg = "Something went wrong when saving the file, please try again.";
+                }
+            }
+
+        }
+
+        if($file_element_name != ''){
+           $img_src = $config['upload_path'].''.$image;
+        }
+        else{
+            $img_src = '';
+        }
+
 
         $this->load->model('sales_model');
 
-        $this->sales_model->updateSalesContent($data);
+        $this->sales_model->updateSalesContent($salestitle, $salescontent, $saleid, $img_src);
+
+
+        echo json_encode(array('status' => $status, 'msg' => $msg));
     }
 
     public function deleteSalesContent()
