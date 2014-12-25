@@ -83,8 +83,6 @@ class Ajax extends CI_Controller
         $this->sales_model->addSalesContent($salestitle, $salescontent, $image = false);
 
 
-        @unlink($_FILES[$file_element_name]);
-
         echo json_encode(array('status' => $status, 'msg' => $msg));
 
     }
