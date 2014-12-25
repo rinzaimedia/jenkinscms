@@ -57,7 +57,7 @@ class Page_Model extends CI_Model
 
     public function deletePage($data)
     {
-        $this->db->simple_query("delete * from pages where pageid = '".$data."'");
+        $this->db->simple_query("delete from pages where pageid = '".$data."'");
     }
 
 }
