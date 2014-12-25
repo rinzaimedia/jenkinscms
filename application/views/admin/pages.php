@@ -71,6 +71,8 @@
                         $('#events-table').bootstrapTable({
                             url: '/ajax/getpages'
                         });
+
+                        location.reload();
                     },
                     error: function(data)
                     {
