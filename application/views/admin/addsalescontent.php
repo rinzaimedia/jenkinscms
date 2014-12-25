@@ -11,10 +11,11 @@
                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
                 Welcome to JenkinsCMS Admin! This new layout will hopefully make site deployments that much faster. On a side note, Shu likes candy!
             </div>
+            <div class="alert alert-info alert-dismissable" id="file"></div>
         </div>
     <form method="post" id="salesform" class="form-horizontal" enctype="multipart/form-data">
         <div class="form-group">
-            <div id="files"></div>
+
             <div class="row">
                 <label class="col-sm-2 control-label">Title:</label>
                 <div class="col-sm-8">
