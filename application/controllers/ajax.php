@@ -80,7 +80,7 @@ class Ajax extends CI_Controller
 
         $this->load->model('sales_model');
 
-        $this->sales_model->addSalesContent($salestitle, $salescontent, $image = false);
+        $this->sales_model->addSalesContent($salestitle, $salescontent, $image_path.''.$image);
 
 
         echo json_encode(array('status' => $status, 'msg' => $msg));
