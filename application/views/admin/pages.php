@@ -20,7 +20,7 @@
                     <div class="col-md-10"><a href="/manage/pages/<?php echo $page['pageid'];?>"><li class="fa fa-pencil"> <?php echo $page['pagetitle'];?></li></a></div>
                 </div>
                 <?php endforeach; ?>
-                <table data-toggle="table" data-cache="false" data-height="299">
+                <table data-toggle="table" data-url="/ajax/getpages" data-cache="false" data-height="299">
                     <thead>
                     <tr>
                         <th data-field="pagetitle">Title</th>
@@ -34,8 +34,3 @@
     </div>
 </div>
 <script type="text/javascript" src="/assets/custom/js/bootstrap.table.js"></script>
-<script type="text/javascript">
-    $('#table').bootstrapTable({
-        url: '/ajax/getpages'
-    });
-</script>

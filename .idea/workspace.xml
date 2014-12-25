@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aa9b466-073b-4346-a2c4-4a0812afda2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/ajax.php" afterPath="$PROJECT_DIR$/application/controllers/ajax.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/pages.php" afterPath="$PROJECT_DIR$/application/views/admin/pages.php" />
     </list>
     <ignored path="jenkins.iws" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="pages.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/admin/pages.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="28" selection-start="1767" selection-end="1767" vertical-scroll-proportion="0.8184569" vertical-offset="29" max-vertical-offset="690">
+            <state line="36" column="0" selection-start="1700" selection-end="1700" vertical-scroll-proportion="0.816944" vertical-offset="0" max-vertical-offset="661">
               <folding />
             </state>
           </provider>
@@ -1284,7 +1283,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/pages.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="28" selection-start="1767" selection-end="1767" vertical-scroll-proportion="0.8184569" vertical-offset="29" max-vertical-offset="690">
+        <state line="36" column="0" selection-start="1700" selection-end="1700" vertical-scroll-proportion="0.816944" vertical-offset="0" max-vertical-offset="661">
           <folding />
         </state>
       </provider>
