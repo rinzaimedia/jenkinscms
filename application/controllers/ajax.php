@@ -78,9 +78,6 @@ class Ajax extends CI_Controller
         }
 
 
-
-        $sales
-
         //$this->load->model('sales_model');
 
         //$this->sales_model->addSalesContent($salesdata, $image = false);
