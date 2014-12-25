@@ -23,7 +23,7 @@
                 <div class="alert alert-success" id="events-result" data-es="Aquí se muestra el resultado del evento">
                     Here is the result of event.
                 </div>
-                <table id="events-table" data-toggle="table" data-url="/ajax/getpages" data-cache="false" data-height="299"
+                <table id="events-table"  data-url="/ajax/getpages" data-cache="false" data-height="299"
                        data-pagination="true" data-search="true" data-show-columns="true">
                     <thead>
                     <tr>
