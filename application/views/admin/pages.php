@@ -62,6 +62,7 @@
 
                         $('#result').html('<div class="alert alert-success alert-dismissable" id="message"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Page updated. Everyone, Shu loves bacon!</div>');
 
+                        parent.document.getElementById("events-table").reload();
                     },
                     error: function(data)
                     {
