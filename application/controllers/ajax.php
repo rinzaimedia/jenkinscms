@@ -60,7 +60,7 @@ class Ajax extends CI_Controller
             else
             {
                 $data = $this->upload->data();
-                $image_path = $data['full_path'];
+                $image_path = '/assets/business-plate/img/sunny/'.$data['full_path'];
 
                 $image = $data['file_name'];
                 if(file_exists($image_path))
@@ -78,9 +78,9 @@ class Ajax extends CI_Controller
         }
 
 
-        //$this->load->model('sales_model');
+        $this->load->model('sales_model');
 
-        //$this->sales_model->addSalesContent($salesdata, $image = false);
+        $this->sales_model->addSalesContent($salestitle, $salescontent, $image = false);
 
 
         @unlink($_FILES[$file_element_name]);

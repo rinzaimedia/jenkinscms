@@ -25,7 +25,7 @@ class Sales_Model extends CI_Model
 
     }
 
-    public function addSalesContent($salescontent, $image = false)
+    public function addSalesContent($salestitle, $salescontent, $image = false)
     {
 
 
@@ -36,7 +36,7 @@ class Sales_Model extends CI_Model
             $imagename = '';
         }
         $this->db->simple_query("insert into salescontent (salestitle, salescontent, salesimage)
-        values('".$salescontent['salestitle']."', '".$salescontent['salescontent']."' ".$imagename.")");
+        values('".$salestitle."', '".$salescontent."' '".$imagename."')");
 
 
     }
