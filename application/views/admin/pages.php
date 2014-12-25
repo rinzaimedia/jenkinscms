@@ -23,12 +23,14 @@
                 <div class="alert alert-success" id="events-result" data-es="Aquí se muestra el resultado del evento">
                     Here is the result of event.
                 </div>
-                <table id="events-table" data-toggle="table" data-url="/ajax/getpages" data-cache="false" data-height="299" data-pagination="true" data-search="true">
+                <table id="events-table" data-toggle="table" data-url="/ajax/getpages" data-cache="false" data-height="299"
+                       data-pagination="true" data-search="true" data-show-columns="true">
                     <thead>
                     <tr>
-                        <th data-field="pageid" data-checkbox="true">Page ID</th>
-                        <th data-field="pageurl" data-checkbox="true">URL</th>
-                        <th data-field="pagetitle" data-checkbox="true">Title</th>
+                        <th data-field="state" data-checkbox="true"></th>
+                        <th data-field="pageid" data-sortable="true">Page ID</th>
+                        <th data-field="pageurl" data-sortable="true">URL</th>
+                        <th data-field="pagetitle" data-sortable="true">Title</th>
 
                     </tr>
                     </thead>
