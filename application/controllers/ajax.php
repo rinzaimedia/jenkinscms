@@ -241,4 +241,15 @@ class Ajax extends CI_Controller
 
         echo json_encode($result['pages']);
     }
+
+    public function deletePage()
+    {
+
+        $data = $this->input->get("pageid");
+
+        $this->load->model('page_model');
+
+        $this->page_model->deletePage($data);
+
+    }
 }

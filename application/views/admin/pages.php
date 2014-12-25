@@ -51,8 +51,26 @@
 
         },
         'click .remove': function (e, value, row, index) {
-            alert('You click remove icon, row: ' + JSON.stringify(row));
-            console.log(value, row, index);
+            var r = confirm("Delete Page?");
+            if (r == true) {
+                $.ajax({
+                    type: "GET",
+                    url: '/ajax/deletepost?pageid='+row.pageid,
+
+                    success: function(data)
+                    {
+
+                        $('#result').html('<div class="alert alert-success alert-dismissable" id="message"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Page updated. Everyone, Shu loves bacon!</div>');
+
+                    },
+                    error: function(data)
+                    {
+
+                        $('#error').html('<div class="alert alert-danger alert-dismissable" id="message"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Settings failed to update. Try again. On a side note, Shu loves explosions!</div>');
+
+                    }
+                });
+            }
         }
     };
 </script>

@@ -55,4 +55,9 @@ class Page_Model extends CI_Model
         $this->db->simple_query("insert into pages (pageurl, pagetitle, pagecontent, visible) values('".str_replace(" ", "-",$data['pageurl'])."', '".$data['pagetitle']."', '".$data['editor']."', '".$data['visible']."')");
     }
 
+    public function deletePage($data)
+    {
+        $this->db->simple_query("delete * from pages where pageid = '".$data."'");
+    }
+
 }
