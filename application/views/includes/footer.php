@@ -277,7 +277,7 @@
         Index.initParallaxSlider();
     });
     $('.carousel').carousel({
-        interval: 2000
+        interval: 5000
     })
     $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
         event.preventDefault();

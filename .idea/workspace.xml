@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aa9b466-073b-4346-a2c4-4a0812afda2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/ajax.php" afterPath="$PROJECT_DIR$/application/controllers/ajax.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/includes/footer.php" afterPath="$PROJECT_DIR$/application/views/includes/footer.php" />
     </list>
     <ignored path="jenkins.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,19 +25,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="welcome_message.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/welcome_message.php">
+      <file leaf-file-name="welcome.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="179" selection-start="5651" selection-end="5651" vertical-scroll-proportion="-71.25" vertical-offset="0" max-vertical-offset="2700">
+            <state line="14" column="35" selection-start="394" selection-end="394" vertical-scroll-proportion="-4.9583335" vertical-offset="91" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
+      <file leaf-file-name="footer.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/includes/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="35" selection-start="394" selection-end="394" vertical-scroll-proportion="-4.9583335" vertical-offset="91" max-vertical-offset="765">
+            <state line="279" column="19" selection-start="11509" selection-end="11509" vertical-scroll-proportion="0.6505295" vertical-offset="3755" max-vertical-offset="4440">
               <folding />
             </state>
           </provider>
@@ -91,10 +91,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajax.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ajax.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="72" selection-start="2119" selection-end="2119" vertical-scroll-proportion="0.8148148" vertical-offset="702" max-vertical-offset="3585">
+            <state line="82" column="72" selection-start="2119" selection-end="2119" vertical-scroll-proportion="-10.56" vertical-offset="702" max-vertical-offset="3585">
               <folding />
             </state>
           </provider>
@@ -177,7 +177,6 @@
         <option value="$PROJECT_DIR$/assets/custom/js/lightboxstrap.js" />
         <option value="$PROJECT_DIR$/assets/custom/css/lightboxstrap.css" />
         <option value="$PROJECT_DIR$/application/views/includes/header.php" />
-        <option value="$PROJECT_DIR$/application/views/includes/footer.php" />
         <option value="$PROJECT_DIR$/application/views/welcome_message.php" />
         <option value="$PROJECT_DIR$/application/views/admin/login.php" />
         <option value="$PROJECT_DIR$/application/views/admin/settings.php" />
@@ -190,6 +189,7 @@
         <option value="$PROJECT_DIR$/application/views/admin/salescontentitem.php" />
         <option value="$PROJECT_DIR$/application/models/sales_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/ajax.php" />
+        <option value="$PROJECT_DIR$/application/views/includes/footer.php" />
       </list>
     </option>
   </component>
@@ -1143,13 +1143,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/includes/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="283" column="31" selection-start="11664" selection-end="11664" vertical-scroll-proportion="-19.416666" vertical-offset="3779" max-vertical-offset="4440">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="5" selection-start="445" selection-end="445" vertical-scroll-proportion="0.46735904" vertical-offset="0" max-vertical-offset="674">
@@ -1278,7 +1271,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="72" selection-start="2119" selection-end="2119" vertical-scroll-proportion="0.8148148" vertical-offset="702" max-vertical-offset="3585">
+        <state line="82" column="72" selection-start="2119" selection-end="2119" vertical-scroll-proportion="-10.56" vertical-offset="702" max-vertical-offset="3585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/includes/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="279" column="19" selection-start="11509" selection-end="11509" vertical-scroll-proportion="0.6505295" vertical-offset="3755" max-vertical-offset="4440">
           <folding />
         </state>
       </provider>
