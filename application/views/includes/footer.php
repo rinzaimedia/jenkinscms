@@ -262,8 +262,6 @@
     });
 </script>
 
-
-
 <!-- JS Page Level -->
 <script type="text/javascript" src="/assets/custom/js/app.js"></script>
 <script type="text/javascript" src="/assets/custom/js/index.js"></script>
@@ -284,8 +282,6 @@
         $(this).ekkoLightbox();
     });
 </script>
-
-
 
 </body>
 </html>
