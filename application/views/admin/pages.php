@@ -23,8 +23,10 @@
                 <table data-toggle="table" data-url="/ajax/getpages" data-cache="false" data-height="299">
                     <thead>
                     <tr>
+                        <th data-field="pageid">Page ID</th>
+                        <th data-field="pageurl">URL</th>
                         <th data-field="pagetitle">Title</th>
-                        <th data-field="pageid">Edit</th>
+
                     </tr>
                     </thead>
                 </table>
