@@ -14,6 +14,7 @@
     <link href="/assets/bootstrapeditor/css/index.css" rel="stylesheet">
     <link href="/assets/bootstrapeditor/js/external/google-code-prettify/prettify.css" rel="stylesheet">
 
+    <link href="/assets/custom/css/bootstrap.table.css" rel="stylesheet">
     <!-- Add custom CSS here -->
     <link href="/assets/admin/css/sb-admin.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
