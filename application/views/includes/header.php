@@ -91,7 +91,7 @@
                             <?php endif; ?>
                         </div>
                         <div class="col-sm-3 col-xs-3 text-center vcenter" style="top: 20px;"><a href="mailto:<?php echo $results[0]['email'];?>"><i class="fa fa-envelope-o fa-2x"></i></a></div>
-                        <div class="col-sm-3 col-xs-3 text-center vcenter" style="top: -10px;">
+                        <div class="col-sm-3 col-xs-3 text-center vcenter" style="top: -6px;">
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                                 <span class="sr-only">Toggle navigation</span>
                                 <span class="icon-bar"></span>
