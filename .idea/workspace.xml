@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9aa9b466-073b-4346-a2c4-4a0812afda2c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/ajax.php" afterPath="$PROJECT_DIR$/application/controllers/ajax.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/sales_model.php" afterPath="$PROJECT_DIR$/application/models/sales_model.php" />
     </list>
     <ignored path="jenkins.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -95,7 +94,7 @@
       <file leaf-file-name="ajax.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="133" column="0" selection-start="3678" selection-end="3678" vertical-scroll-proportion="0.3287037" vertical-offset="1782" max-vertical-offset="3585">
+            <state line="82" column="72" selection-start="2119" selection-end="2119" vertical-scroll-proportion="0.8148148" vertical-offset="702" max-vertical-offset="3585">
               <folding />
             </state>
           </provider>
@@ -1279,7 +1278,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="0" selection-start="3678" selection-end="3678" vertical-scroll-proportion="0.3287037" vertical-offset="1782" max-vertical-offset="3585">
+        <state line="82" column="72" selection-start="2119" selection-end="2119" vertical-scroll-proportion="0.8148148" vertical-offset="702" max-vertical-offset="3585">
           <folding />
         </state>
       </provider>

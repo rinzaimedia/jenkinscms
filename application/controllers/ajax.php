@@ -80,7 +80,7 @@ class Ajax extends CI_Controller
 
         $this->load->model('sales_model');
 
-        $this->sales_model->addSalesContent($salestitle, $salescontent, $config['upload_path'].''.$image);
+        $this->sales_model->addSalesContent($salestitle, $salescontent, '/assets/business-plate/img/sunny/'.$image);
 
 
         echo json_encode(array('status' => $status, 'msg' => $msg));
@@ -135,7 +135,7 @@ class Ajax extends CI_Controller
         }
 
         if($file_element_name != ''){
-           $img_src = $config['upload_path'].''.$image;
+           $img_src = '/assets/business-plate/img/sunny/'.$image;
         }
         else{
             $img_src = '';
