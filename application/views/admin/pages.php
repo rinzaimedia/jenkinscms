@@ -62,8 +62,10 @@
 
                         $('#result').html('<div class="alert alert-success alert-dismissable" id="message"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Page updated. Everyone, Shu loves bacon!</div>');
 
-                        
-                        $("#events-table").toggle().toggle();
+
+                        $('#events-table').bootstrapTable({
+                            url: '/ajax/getpages'
+                        });
                     },
                     error: function(data)
                     {

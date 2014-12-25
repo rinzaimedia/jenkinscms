@@ -28,7 +28,7 @@
       <file leaf-file-name="pages.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/admin/pages.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="24" selection-start="2919" selection-end="2919" vertical-scroll-proportion="0.6052632" vertical-offset="546" max-vertical-offset="1245">
+            <state line="66" column="48" selection-start="3004" selection-end="3004" vertical-scroll-proportion="0.59210527" vertical-offset="585" max-vertical-offset="1275">
               <folding />
             </state>
           </provider>
@@ -1262,7 +1262,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/pages.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="24" selection-start="2919" selection-end="2919" vertical-scroll-proportion="0.6052632" vertical-offset="546" max-vertical-offset="1230">
+        <state line="66" column="48" selection-start="3004" selection-end="3004" vertical-scroll-proportion="0.59210527" vertical-offset="585" max-vertical-offset="1275">
           <folding />
         </state>
       </provider>
