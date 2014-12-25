@@ -50,7 +50,7 @@
 <script type="text/javascript">
     $("#salesform").submit(function(e) {
 
-        var url = "/ajax/addsalescontent?salestitle="+('#salestitle').val()+"&salescontent="+('#salescontent').val(); // the script where you handle the form input.
+        var url = "/ajax/addsalescontent?salestitle="+$('#salestitle').val()+"&salescontent="+$('#salescontent').val(); // the script where you handle the form input.
 
         e.preventDefault();
         $.ajaxFileUpload({
