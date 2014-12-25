@@ -55,7 +55,7 @@
       <file leaf-file-name="addsalescontent.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/admin/addsalescontent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="70" selection-start="934" selection-end="934" vertical-scroll-proportion="0.29500756" vertical-offset="0" max-vertical-offset="1545">
+            <state line="52" column="116" selection-start="2548" selection-end="2548" vertical-scroll-proportion="0.204236" vertical-offset="645" max-vertical-offset="1545">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -1275,7 +1275,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/addsalescontent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="70" selection-start="934" selection-end="934" vertical-scroll-proportion="0.29500756" vertical-offset="0" max-vertical-offset="1545">
+        <state line="52" column="116" selection-start="2548" selection-end="2548" vertical-scroll-proportion="0.204236" vertical-offset="645" max-vertical-offset="1545">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />

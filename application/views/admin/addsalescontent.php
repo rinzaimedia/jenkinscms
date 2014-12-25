@@ -11,7 +11,7 @@
                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
                 Welcome to JenkinsCMS Admin! This new layout will hopefully make site deployments that much faster. On a side note, Shu likes candy!
             </div>
-            <div class="alert alert-info alert-dismissable" id="file"></div>
+            <div class="alert alert-info alert-dismissable" id="files"></div>
         </div>
     <form method="post" id="salesform" class="form-horizontal" enctype="multipart/form-data">
         <div class="form-group">
@@ -50,7 +50,7 @@
 <script type="text/javascript">
     $("#salesform").submit(function(e) {
 
-        var url = "/ajax/addsalescontent"; // the script where you handle the form input.
+        var url = "/ajax/addsalescontent?salestitle="+('#salestitle').val()+"&salescontent="+('#salescontent').val(); // the script where you handle the form input.
 
         e.preventDefault();
         $.ajaxFileUpload({
