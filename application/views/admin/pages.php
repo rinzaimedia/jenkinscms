@@ -26,9 +26,9 @@
                 <table id="events-table" data-toggle="table" data-url="/ajax/getpages" data-cache="false" data-height="299" data-pagination="true" data-search="true">
                     <thead>
                     <tr>
-                        <th data-field="pageid">Page ID</th>
-                        <th data-field="pageurl">URL</th>
-                        <th data-field="pagetitle">Title</th>
+                        <th data-field="pageid" data-checkbox="true">Page ID</th>
+                        <th data-field="pageurl" data-checkbox="true">URL</th>
+                        <th data-field="pagetitle" data-checkbox="true">Title</th>
 
                     </tr>
                     </thead>
