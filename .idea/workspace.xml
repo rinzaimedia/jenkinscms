@@ -37,7 +37,7 @@
       <file leaf-file-name="workitems.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/admin/workitems.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="12" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.23245615" vertical-offset="231" max-vertical-offset="1305">
+            <state line="49" column="52" selection-start="2116" selection-end="2116" vertical-scroll-proportion="0.3640351" vertical-offset="486" max-vertical-offset="1305">
               <folding />
             </state>
           </provider>
@@ -1288,7 +1288,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/workitems.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="12" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.23245615" vertical-offset="231" max-vertical-offset="1305">
+        <state line="49" column="52" selection-start="2116" selection-end="2116" vertical-scroll-proportion="0.3640351" vertical-offset="486" max-vertical-offset="1305">
           <folding />
         </state>
       </provider>

@@ -47,7 +47,7 @@
     window.operateEvents = {
 
         'click .edit': function (e, value, row, index) {
-            window.location.href ='/manage/workitem/'+row.workid;
+            window.location.href ='/manage/workitems/'+row.workid;
 
         },
         'click .remove': function (e, value, row, index) {
