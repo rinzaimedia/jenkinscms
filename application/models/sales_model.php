@@ -46,11 +46,11 @@ class Sales_Model extends CI_Model
         $this->db->simple_query("delete from salescontent where salesid = '".$data['salesid']."'");
     }
 
-    public function updateSalesContent($salestitle, $salescontent,$salesid,  $image = false)
+    public function updateSalesContent($salestitle, $salescontent, $salesid,  $image = false)
     {
         if($image != '')
         {
-            $img = "salesimage = '".$image."'";
+            $img = ", salesimage = '".$image."'";
         }
         else
         {
