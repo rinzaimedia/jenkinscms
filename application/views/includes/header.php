@@ -80,38 +80,39 @@
             </ul>
         </div>
         <div class="row-fluid hidden-md hidden-lg">
-            <div class="col-sm-3 col-xs-3 text-center"><a href="/"><i class="fa fa-home fa-2x"></i></a></div>
-            <div class="col-sm-3 col-xs-3 text-center">
-                <?php if($results[0]['phone'] != ''):?>
-                    <a href="tel:<?php echo $results[0]['phone'];?>"><i class="fa fa-phone fa-2x"></i></a>
-                <?php endif; ?>
-            </div>
-            <div class="col-sm-3 col-xs-3 text-center"><a href="mailto:<?php echo $results[0]['email'];?>"><i class="fa fa-envelope-o fa-2x"></i></a></div>
+             <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <div class="col-sm-3 col-xs-3 text-center"><a href="/"><i class="fa fa-home fa-2x"></i></a></div>
+                        <div class="col-sm-3 col-xs-3 text-center">
+                            <?php if($results[0]['phone'] != ''):?>
+                                <a href="tel:<?php echo $results[0]['phone'];?>"><i class="fa fa-phone fa-2x"></i></a>
+                            <?php endif; ?>
+                        </div>
+                        <div class="col-sm-3 col-xs-3 text-center"><a href="mailto:<?php echo $results[0]['email'];?>"><i class="fa fa-envelope-o fa-2x"></i></a></div>
 
-                <nav class="navbar navbar-default">
-                    <div class="container-fluid">
-                        <!-- Brand and toggle get grouped for better mobile display -->
 
+                    </div>
 
-                        <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-                            <ul class="nav navbar-nav navbar-right">
+                        <ul class="nav navbar-nav navbar-right">
 
-                                        <?php for($x = 0; $x < count($pages); $x++):?>
+                                    <?php for($x = 0; $x < count($pages); $x++):?>
 
-                                            <?php if($pages[$x]['visible'] == '1'):?>
-                                                <li><a href="/static/<?php echo $pages[$x]['pageurl'];?>"><?php echo $pages[$x]['pagetitle'];?></a></li>
-                                            <?php endif; ?>
+                                        <?php if($pages[$x]['visible'] == '1'):?>
+                                            <li><a href="/static/<?php echo $pages[$x]['pageurl'];?>"><?php echo $pages[$x]['pagetitle'];?></a></li>
+                                        <?php endif; ?>
 
-                                        <?php endfor; ?>
+                                    <?php endfor; ?>
 
-                                </li>
-                            </ul>
-                        </div><!-- /.navbar-collapse -->
-                    </div><!-- /.container-fluid -->
-                </nav>
-
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
         </div>
     </div>
 </div>
