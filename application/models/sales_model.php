@@ -48,7 +48,7 @@ class Sales_Model extends CI_Model
 
     public function updateSalesContent($salestitle, $salescontent, $salesid,  $image = false)
     {
-        if($image != '')
+        if($image != '' && $image != false)
         {
             $img = ", salesimage = '".$image."'";
         }

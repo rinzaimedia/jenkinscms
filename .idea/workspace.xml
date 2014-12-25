@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aa9b466-073b-4346-a2c4-4a0812afda2c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/ajax.php" afterPath="$PROJECT_DIR$/application/controllers/ajax.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/sales_model.php" afterPath="$PROJECT_DIR$/application/models/sales_model.php" />
     </list>
     <ignored path="jenkins.iws" />
@@ -91,21 +92,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajax.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ajax.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="48" selection-start="2622" selection-end="2622" vertical-scroll-proportion="-3.36" vertical-offset="1347" max-vertical-offset="3585">
+            <state line="133" column="0" selection-start="3678" selection-end="3678" vertical-scroll-proportion="0.3287037" vertical-offset="1782" max-vertical-offset="3585">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sales_model.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="sales_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/sales_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="22" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.57715136" vertical-offset="391" max-vertical-offset="1065">
+            <state line="52" column="49" selection-start="1281" selection-end="1281" vertical-scroll-proportion="-16.208334" vertical-offset="391" max-vertical-offset="1065">
               <folding>
-                <marker date="1419475739000" expanded="true" signature="254:299" placeholder="select * fro..salescontent..." />
+                <marker date="1419475834000" expanded="true" signature="254:299" placeholder="select * fro..salescontent..." />
               </folding>
             </state>
           </provider>
@@ -185,11 +186,11 @@
         <option value="$PROJECT_DIR$/application/controllers/manage.php" />
         <option value="$PROJECT_DIR$/assets/custom/js/ajaxfileuploader.js" />
         <option value="$PROJECT_DIR$/application/views/admin/header.php" />
-        <option value="$PROJECT_DIR$/application/controllers/ajax.php" />
         <option value="$PROJECT_DIR$/application/views/admin/addsalescontent.php" />
         <option value="$PROJECT_DIR$/application/views/admin/page.php" />
         <option value="$PROJECT_DIR$/application/views/admin/salescontentitem.php" />
         <option value="$PROJECT_DIR$/application/models/sales_model.php" />
+        <option value="$PROJECT_DIR$/application/controllers/ajax.php" />
       </list>
     </option>
   </component>
@@ -1243,13 +1244,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="48" selection-start="2622" selection-end="2622" vertical-scroll-proportion="-3.36" vertical-offset="1347" max-vertical-offset="3585">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="128" column="206" selection-start="8983" selection-end="8983" vertical-scroll-proportion="-8.166667" vertical-offset="1724" max-vertical-offset="2820">
@@ -1276,10 +1270,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/sales_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="22" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.57715136" vertical-offset="391" max-vertical-offset="1065">
+        <state line="52" column="49" selection-start="1281" selection-end="1281" vertical-scroll-proportion="-16.208334" vertical-offset="391" max-vertical-offset="1065">
           <folding>
-            <marker date="1419475739000" expanded="true" signature="254:299" placeholder="select * fro..salescontent..." />
+            <marker date="1419475834000" expanded="true" signature="254:299" placeholder="select * fro..salescontent..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="0" selection-start="3678" selection-end="3678" vertical-scroll-proportion="0.3287037" vertical-offset="1782" max-vertical-offset="3585">
+          <folding />
         </state>
       </provider>
     </entry>

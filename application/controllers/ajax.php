@@ -144,7 +144,7 @@ class Ajax extends CI_Controller
 
         $this->load->model('sales_model');
 
-        $this->sales_model->updateSalesContent($salestitle, $salescontent, $saleid, $img_src);
+        $this->sales_model->updateSalesContent($salestitle, $salescontent, $salesid, $img_src);
 
 
         echo json_encode(array('status' => $status, 'msg' => $msg));
