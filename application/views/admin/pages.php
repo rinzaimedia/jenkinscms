@@ -10,6 +10,7 @@
                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
                 Welcome to JenkinsCMS Admin! This new layout will hopefully make site deployments that much faster. On a side note, Shu likes candy!
             </div>
+            <div id="results"></div>
             <a href="/manage/pages/addpage"><button class="btn btn-primary">Add New Page</button></a>
             <hr />
             <div id="pages">
@@ -35,7 +36,7 @@
     $('#events-table').bootstrapTable({
         url: '/ajax/getpages'
     });
-    
+
     function operateFormatter(value, row, index) {
         return [
 
@@ -64,7 +65,7 @@
                     success: function(data)
                     {
 
-                        $('#result').html('<div class="alert alert-success alert-dismissable" id="message"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Page updated. Everyone, Shu loves bacon!</div>');
+                        $('#results').html('<div class="alert alert-success alert-dismissable" id="message"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Page updated. Everyone, Shu loves bacon!</div>');
 
 
                         $('#events-table').bootstrapTable({
@@ -74,7 +75,7 @@
                     error: function(data)
                     {
 
-                        $('#error').html('<div class="alert alert-danger alert-dismissable" id="message"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Settings failed to update. Try again. On a side note, Shu loves explosions!</div>');
+                        $('#results').html('<div class="alert alert-danger alert-dismissable" id="message"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Settings failed to update. Try again. On a side note, Shu loves explosions!</div>');
 
                     }
                 });
