@@ -14,7 +14,7 @@
             <hr />
             <div id="pages">
 
-                <table id="events-table" data-toggle="table" data-url="/ajax/getpages" data-cache="false" data-height="299"
+                <table id="events-table" data-toggle="table" data-cache="false" data-height="299"
                        data-pagination="true" data-search="true" data-show-columns="true">
                     <thead>
                     <tr>
@@ -32,6 +32,10 @@
 </div>
 <script type="text/javascript" src="/assets/custom/js/bootstrap.table.js"></script>
 <script>
+    $('#events-table').bootstrapTable({
+        url: '/ajax/getpages'
+    });
+    
     function operateFormatter(value, row, index) {
         return [
 
