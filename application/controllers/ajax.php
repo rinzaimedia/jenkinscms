@@ -231,4 +231,14 @@ class Ajax extends CI_Controller
 
 
     }
+
+    public function getPages()
+    {
+
+        $this->load->model('page_model');
+
+        $result['pages'] = $this->page_model->getPages();
+
+        echo json_encode($result['pages']);
+    }
 }

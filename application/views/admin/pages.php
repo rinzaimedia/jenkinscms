@@ -36,6 +36,6 @@
 <script type="text/javascript" src="/assets/custom/js/bootstrap.table.js"></script>
 <script type="text/javascript">
     $('#table').bootstrapTable({
-        url: '<?php echo $json; ?>'
+        url: '/ajax/getpages'
     });
 </script>
