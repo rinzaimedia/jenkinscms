@@ -81,7 +81,7 @@
       <file leaf-file-name="ajax.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="239" column="8" selection-start="5750" selection-end="5750" vertical-scroll-proportion="0.23887241" vertical-offset="3424" max-vertical-offset="4200">
+            <state line="240" column="19" selection-start="5762" selection-end="5762" vertical-scroll-proportion="0.2611276" vertical-offset="3424" max-vertical-offset="4200">
               <folding />
             </state>
           </provider>
@@ -1244,7 +1244,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="239" column="8" selection-start="5750" selection-end="5750" vertical-scroll-proportion="0.23887241" vertical-offset="3424" max-vertical-offset="4200">
+        <state line="240" column="19" selection-start="5762" selection-end="5762" vertical-scroll-proportion="0.2611276" vertical-offset="3424" max-vertical-offset="4200">
           <folding />
         </state>
       </provider>
