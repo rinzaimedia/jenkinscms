@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aa9b466-073b-4346-a2c4-4a0812afda2c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/admin/links.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/ajax.php" afterPath="$PROJECT_DIR$/application/controllers/ajax.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/links_model.php" afterPath="$PROJECT_DIR$/application/models/links_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/links.php" afterPath="$PROJECT_DIR$/application/views/admin/links.php" />
     </list>
     <ignored path="jenkins.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -93,7 +90,7 @@
       <file leaf-file-name="links.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/admin/links.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="52" selection-start="2123" selection-end="2132" vertical-scroll-proportion="1.0907716" vertical-offset="29" max-vertical-offset="1320">
+            <state line="81" column="8" selection-start="3323" selection-end="3323" vertical-scroll-proportion="1.5900152" vertical-offset="164" max-vertical-offset="1320">
               <folding />
             </state>
           </provider>
@@ -196,8 +193,8 @@
         <option value="$PROJECT_DIR$/application/views/admin/header.php" />
         <option value="$PROJECT_DIR$/application/controllers/manage.php" />
         <option value="$PROJECT_DIR$/application/models/links_model.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/links.php" />
         <option value="$PROJECT_DIR$/application/controllers/ajax.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/links.php" />
       </list>
     </option>
   </component>
@@ -1247,7 +1244,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/links.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="52" selection-start="2123" selection-end="2132" vertical-scroll-proportion="1.0907716" vertical-offset="29" max-vertical-offset="1320">
+        <state line="81" column="8" selection-start="3323" selection-end="3323" vertical-scroll-proportion="1.5900152" vertical-offset="164" max-vertical-offset="1320">
           <folding />
         </state>
       </provider>
