@@ -42,7 +42,7 @@ class Links_model extends CI_Model{
 
     public function updateOrder($data)
     {
-        
+
     }
 
 }

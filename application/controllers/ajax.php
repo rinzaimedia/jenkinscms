@@ -232,6 +232,12 @@ class Ajax extends CI_Controller
 
     }
 
+    public function getlinks()
+    {
+       $this->load->model('links_model');
+       echo json_ecode($this->links_model->getLinks());
+    }
+
     public function getPages()
     {
 
