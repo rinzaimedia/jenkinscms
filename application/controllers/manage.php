@@ -225,6 +225,32 @@ class Manage extends CI_Controller {
         }
     }
 
+    public function links($id = false)
+    {
+        self::checkSession();
+
+        $this->load->view('admin/header');
+
+        $this->load->model('links_model');
+
+        if($id != false && $id != 'addlink')
+        {
+            $results['links'] = $this->links_model->getLinks($id);
+            $this->load->view('admin/editlink', $results);
+        }
+        elseif($id == 'addlink')
+        {
+            $this->load->view('admin/addlink');
+        }
+        else
+        {
+            $results['links'] = $this->links_model->getLinks();
+            $this->load->view('admin/links', $results);
+        }
+
+        $this->load->view('admin/footer');
+    }
+
     public function profile()
     {
 
