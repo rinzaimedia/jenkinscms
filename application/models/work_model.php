@@ -31,20 +31,20 @@ class Work_model extends CI_Model{
 
     }
 
-    public function updateWorkItem($data){
+    public function updateWorkItem($worktitle, $workentry, $workid = false, $workimage = false){
 
-        if(isset($data['workid'])){
+        if(workid != ''){
 
         $this->db->simple_query("update ourwork
                                     set
-                                    worktitle = '".$data['worktitle']."',
-                                    workimage = '".$data['workimage']."',
-                                    workentry = '".$data['workentry']."'
-                                    where workid = ".$data['workid']);
+                                    worktitle = '".$worktitle."',
+                                    workimage = '".$workimage."',
+                                    workentry = '".$workentry."'
+                                    where workid = ".$workid);
 
         }
         else{
-            $this->db->simple_query("insert into ourwork (worktitle, workimage, workentry) values('".$data['worktitle']."', '".$data['workimage']."', '".$data['workentry']."')");
+            $this->db->simple_query("insert into ourwork (worktitle, workimage, workentry) values('".$worktitle."', '".$workimage."', '".$workentry."')");
 
         }
 

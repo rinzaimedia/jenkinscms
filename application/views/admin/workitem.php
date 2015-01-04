@@ -92,7 +92,8 @@
                         <label class="col-sm-2 control-label">Image:</label>
                         <div class="col-sm-8">
 
-                            <input type="text" class="form-control" id="workimage" name="workimage" placeholder="Content" value="<?php if(isset($workitem)): echo $workitem[0]['workimage']; endif;?>" />&nbsp;<img src="<?php if(isset($workitem)): echo $workitem[0]['workimage']; endif;?>" width="100" />
+                            <input type="file" name="workimage" id="workimage" class="form-control" />
+                            <br /><img src="<?php if(isset($workitem)): echo $workitem[0]['workimage']; endif;?>" width="100" />
                             <?php if(isset($workitem)):?><input type="hidden" name="workid" id="workid" value="<?php echo $workitem[0]['workid'];?>" /><?php endif;?>
                         </div>
                     </div>
@@ -108,31 +109,33 @@
     </div>
 </div>
 <script type="text/javascript">
-    $("#workform").submit(function(e) {
 
-        var url = "/ajax/updateworkitem"; // the script where you handle the form input.
 
-        $.ajax({
-            type: "POST",
-            url: url,
-            data: $("#workform").serialize(), // serializes the form's elements.
-            success: function(data)
-            {
+        $("#workform").submit(function(e) {
 
-                $('#result').html('<div class="alert alert-success alert-dismissable" id="message"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Page updated. Everyone, Shu loves bacon!</div>');
+            var url = "/ajax/updateworkitem?worktitle="+$('#worktitle').val()+"&workentry="+$('#workentry').val()+"&workid="+$('#workid').val(); // the script where you handle the form input.
 
-            },
-            error: function(data)
-            {
-
-                $('#error').html('<div class="alert alert-danger alert-dismissable" id="message"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Settings failed to update. Try again. On a side note, Shu loves explosions!</div>');
-
-            }
+            e.preventDefault();
+            $.ajaxFileUpload({
+                url             :url,
+                secureuri       :false,
+                fileElementId   :'workimage',
+                dataType: 'JSON',
+                success : function (data)
+                {
+                    var obj = jQuery.parseJSON(data);
+                    if(obj['status'] == 'success')
+                    {
+                        $('#result').html('<div class="alert alert-info alert-dismissable" id="message"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> '+obj['msg']+'</div>');
+                    }
+                    else
+                    {
+                        $('#error').html('<div class="alert alert-danger alert-dismissable" id="message"> <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> '+obj['msg']+'</div>');
+                    }
+                }
+            });
+            return false;
         });
-
-        return false;
-        e.preventDefault();
-    });
 
 
     $(function(){

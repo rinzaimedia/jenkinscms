@@ -19,6 +19,7 @@
            data-pagination="true" data-search="true" data-show-columns="true">
         <thead>
         <tr>
+            <th data-field="linkid" data-sortable="true">Link ID</th>
             <th data-field="url" data-sortable="true">Url</th>
             <th data-field="linkname" data-sortable="true">Link Name</th>
             <th data-field="linkorder" data-sortable="true">Link Order</th>
@@ -48,15 +49,15 @@
     /*window.operateEvents = {
 
         'click .edit': function (e, value, row, index) {
-            window.location.href ='/manage/workitems/'+row.workid;
+            window.location.href ='/manage/links/'+row.workid;
 
         },
         'click .remove': function (e, value, row, index) {
-            var r = confirm("Delete Work Item?");
+            var r = confirm("Delete Link?");
             if (r == true) {
                 $.ajax({
                     type: "GET",
-                    url: '/ajax/deleteworkitem?workid='+row.workid,
+                    url: '/ajax/deletelink?workid='+row.linkid,
 
                     success: function(data)
                     {
@@ -65,7 +66,7 @@
 
 
                         $('#events-table').bootstrapTable({
-                            url: '/ajax/getworkitems'
+                            url: '/ajax/getlinks'
                         });
 
                         location.reload();

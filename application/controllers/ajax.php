@@ -201,11 +201,64 @@ class Ajax extends CI_Controller
 
     public function updateWorkItem()
     {
-        $data = $this -> input ->post();
+        $this->load->helper(array('form', 'url'));
 
-        $this -> load -> model('work_model');
+        $this->load->model('upload_model');
 
-        $this -> work_model -> updateWorkItem($data);
+        $status = "";
+        $msg = "";
+        $file_element_name = 'workimage';
+        $worktitle = $this->input->get('worktitle');
+        $workentry = $this->input->get('workentry');
+        $workid = $this->input->get('workid');
+
+        if ($status != "error")
+        {
+            $config['upload_path'] = './assets/business-plate/img/sunny/';
+            $config['allowed_types'] = 'gif|jpg|png';
+            $config['max_size'] = 1024 * 8;
+            $config['encrypt_name'] = FALSE;
+
+            $this->load->library('upload', $config);
+            if (!$this->upload->do_upload($file_element_name))
+            {
+                $status = 'error';
+                $msg = $this->upload->display_errors('', '');
+            }
+            else
+            {
+                $data = $this->upload->data();
+                $image_path = $data['full_path'];
+
+                $image = $data['file_name'];
+                if(file_exists($image_path))
+                {
+                    $status = "success";
+                    $msg = "Entry successfully added";
+                }
+                else
+                {
+                    $status = "error";
+                    $msg = "Something went wrong when saving the file, please try again.";
+                }
+            }
+
+        }
+
+        if($file_element_name != ''){
+            $img_src = '/assets/business-plate/img/sunny/'.$image;
+        }
+        else{
+            $img_src = '';
+        }
+
+
+        $this->load->model('work_model');
+
+        $this->sales_model->updateWorkItem($worktitle, $workentry, $workid, $img_src);
+
+
+        echo json_encode(array('status' => $status, 'msg' => $msg));
 
         return true;
     }
