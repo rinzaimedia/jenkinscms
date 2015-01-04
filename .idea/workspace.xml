@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aa9b466-073b-4346-a2c4-4a0812afda2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/work_model.php" afterPath="$PROJECT_DIR$/application/models/work_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/ajax.php" afterPath="$PROJECT_DIR$/application/controllers/ajax.php" />
     </list>
     <ignored path="jenkins.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,10 +72,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajax.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ajax.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="28" selection-start="2263" selection-end="2271" vertical-scroll-proportion="2.2058823" vertical-offset="1485" max-vertical-offset="4995">
+            <state line="252" column="9" selection-start="6606" selection-end="6606" vertical-scroll-proportion="0.6019608" vertical-offset="3473" max-vertical-offset="4995">
               <folding />
             </state>
           </provider>
@@ -90,10 +90,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="work_model.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="work_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/work_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="5" selection-start="688" selection-end="688" vertical-scroll-proportion="0.31133428" vertical-offset="248" max-vertical-offset="945">
+            <state line="31" column="5" selection-start="688" selection-end="688" vertical-scroll-proportion="-9.041667" vertical-offset="248" max-vertical-offset="945">
               <folding>
                 <marker date="1420403235000" expanded="true" signature="246:285" placeholder="select * fro..ourwork..." />
               </folding>
@@ -180,8 +180,8 @@
         <option value="$PROJECT_DIR$/application/models/links_model.php" />
         <option value="$PROJECT_DIR$/application/views/admin/links.php" />
         <option value="$PROJECT_DIR$/application/views/admin/workitem.php" />
-        <option value="$PROJECT_DIR$/application/controllers/ajax.php" />
         <option value="$PROJECT_DIR$/application/models/work_model.php" />
+        <option value="$PROJECT_DIR$/application/controllers/ajax.php" />
       </list>
     </option>
   </component>
@@ -896,7 +896,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17430556" sideWeight="0.6824645" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19092123" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19092123" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977304" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18110237" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
@@ -1228,13 +1228,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="28" selection-start="2263" selection-end="2271" vertical-scroll-proportion="2.2058823" vertical-offset="1485" max-vertical-offset="4995">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/sales_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="63" column="5" selection-start="1186" selection-end="1648" vertical-scroll-proportion="-24.041666" vertical-offset="368" max-vertical-offset="1065">
@@ -1246,10 +1239,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/work_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="5" selection-start="688" selection-end="688" vertical-scroll-proportion="0.31133428" vertical-offset="248" max-vertical-offset="945">
+        <state line="31" column="5" selection-start="688" selection-end="688" vertical-scroll-proportion="-9.041667" vertical-offset="248" max-vertical-offset="945">
           <folding>
             <marker date="1420403235000" expanded="true" signature="246:285" placeholder="select * fro..ourwork..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="252" column="9" selection-start="6606" selection-end="6606" vertical-scroll-proportion="0.6019608" vertical-offset="3473" max-vertical-offset="4995">
+          <folding />
         </state>
       </provider>
     </entry>

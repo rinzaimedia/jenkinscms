@@ -255,7 +255,7 @@ class Ajax extends CI_Controller
 
         $this->load->model('work_model');
 
-        $this->sales_model->updateWorkItem($worktitle, $workentry, $workid, $img_src);
+        $this->work_model->updateWorkItem($worktitle, $workentry, $workid, $img_src);
 
 
         echo json_encode(array('status' => $status, 'msg' => $msg));
