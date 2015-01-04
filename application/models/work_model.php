@@ -33,7 +33,7 @@ class Work_model extends CI_Model{
 
     public function updateWorkItem($worktitle, $workentry, $workid = false, $workimage = false){
 
-        if(workid != ''){
+        if(workid != 'undefined'){
 
         $this->db->simple_query("update ourwork
                                     set

@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aa9b466-073b-4346-a2c4-4a0812afda2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/ajax.php" afterPath="$PROJECT_DIR$/application/controllers/ajax.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/links.php" afterPath="$PROJECT_DIR$/application/views/admin/links.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/work_model.php" afterPath="$PROJECT_DIR$/application/models/work_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/workitem.php" afterPath="$PROJECT_DIR$/application/views/admin/workitem.php" />
     </list>
     <ignored path="jenkins.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,9 +93,9 @@
       <file leaf-file-name="work_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/work_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="23" selection-start="811" selection-end="811" vertical-scroll-proportion="0.39741752" vertical-offset="248" max-vertical-offset="945">
+            <state line="35" column="31" selection-start="819" selection-end="819" vertical-scroll-proportion="0.39741752" vertical-offset="248" max-vertical-offset="945">
               <folding>
-                <marker date="1420401899000" expanded="true" signature="246:285" placeholder="select * fro..ourwork..." />
+                <marker date="1420402383000" expanded="true" signature="246:285" placeholder="select * fro..ourwork..." />
               </folding>
             </state>
           </provider>
@@ -1249,9 +1246,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/work_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="23" selection-start="811" selection-end="811" vertical-scroll-proportion="0.39741752" vertical-offset="248" max-vertical-offset="945">
+        <state line="35" column="31" selection-start="819" selection-end="819" vertical-scroll-proportion="0.39741752" vertical-offset="248" max-vertical-offset="945">
           <folding>
-            <marker date="1420401899000" expanded="true" signature="246:285" placeholder="select * fro..ourwork..." />
+            <marker date="1420402383000" expanded="true" signature="246:285" placeholder="select * fro..ourwork..." />
           </folding>
         </state>
       </provider>
